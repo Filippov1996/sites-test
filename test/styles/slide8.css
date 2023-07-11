@@ -1,0 +1,125 @@
+#slide8{
+	width: 960px;
+	height: 540px;
+    
+}
+
+#slide8 .header{
+	width: 691px;
+    height: 77px;
+	background: url(../images/slide8/header.png) no-repeat;
+	background-size:691px  77px;
+	left: 88px;
+    top: 48px;
+}
+
+
+#slide8 .item{
+    width: 350px;
+    height: 29px;
+    left: 101px;
+    
+}
+#slide8 .item1{
+    top: 164px;
+}
+#slide8 .item2{
+    top: 190px;
+}
+#slide8 .item3{
+    top: 220px;
+}
+#slide8 .item4{
+    top: 250px;
+}
+#slide8 .item5{
+    top: 294px;
+}
+#slide8 .item6{
+    top: 324px;
+}
+
+
+#slide8 .item1 .text{
+     width: 229px;
+     height: 16px;
+	background: url(../images/slide8/text1.png) no-repeat;
+	background-size:229px 16px;
+	left: 29px;
+    top: 2px;
+}
+
+
+#slide8 .item2 .text{
+    width: 197px;
+    height: 16px;
+	background: url(../images/slide8/text2.png) no-repeat;
+	background-size:197px 16px;
+	left: 29px;
+    top: 2px;
+}
+
+
+
+#slide8 .item3 .text{
+    width: 42px;
+    height: 12px;
+	background: url(../images/slide8/text3.png) no-repeat;
+	background-size:42px 12px;
+	left: 29px;
+    top: 2px;
+}
+
+
+
+#slide8 .item4 .text{
+     width: 485px;
+    height: 36px;
+	background: url(../images/slide8/text4.png) no-repeat;
+	background-size: 485px  36px;
+	left: 29px;
+    top: 2px;
+}
+
+#slide8 .item5 .text{
+    width: 114px;
+    height: 14px;
+	background: url(../images/slide8/text5.png) no-repeat;
+	background-size:114px 14px;
+	left: 29px;
+    top: 2px;
+}
+
+#slide8 .item6 .text{
+   width: 200px;
+    height: 13px;
+	background: url(../images/slide8/text6.png) no-repeat;
+	background-size:200px  13px;
+	left: 29px;
+    top: 2px;
+}
+
+
+#slide8 .btn-reply{
+
+    left: 108px;
+    top: 389px;
+}
+
+
+
+#slide8 .modal-answer{
+     width: 511px;
+     height: 472px;
+     background: url(../images/slide8/maodal-answer.png) no-repeat;
+	 background-size:511px 472px;
+     left: 443px;
+     top: 264px;
+     
+}
+
+
+
+
+
+

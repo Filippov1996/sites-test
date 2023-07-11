@@ -1,0 +1,22 @@
+#slide20{
+	width: 960px;
+	height: 540px;
+}
+
+#slide20 .header{
+    width: 650px;
+    height: 35px;
+    background: url(../images/slide20/header.png) no-repeat;
+    background-size:650px  35px;
+    left: 176px;
+     top: 195px;
+}
+#slide20 .btn{
+    width: 429px;
+    height: 58px;
+    background: url(../images/slide20/btn.png) no-repeat;
+    background-size: 429px 58px;
+    left: 266px;
+    top: 350px;
+}
+

@@ -1,0 +1,140 @@
+#slide2{
+	width: 960px;
+	height: 540px;
+    
+}
+#slide2 .bg{
+    width: 960px;
+	height:  540px;
+    background: url(../images/slide2/bg.png) no-repeat;
+    background-size: 960px  540px;
+}
+#slide2 .header{
+    width: 595px;
+    height: 35px;
+    background: url(../images/slide3/header.png) no-repeat;
+    background-size:595px 35px;
+    left: 89px;
+    top: 46px;
+}
+#slide2 .image{
+    width: 203px;
+    height: 354px;
+    background: url(../images/slide2/woman.png) no-repeat;
+    background-size:203px  354px;
+    left: 76px;
+    top:103px;
+}
+#slide2 .icon1{
+    width: 29px;
+    height: 30px;
+    background: url(../images/slide2/icon1.png) no-repeat;
+    background-size: 29px  30px;
+    left:  296px;
+    top:140px;
+    
+}
+#slide2 .text1{
+      width: 310px;
+     height: 16px;
+    background: url(../images/slide2/text1.png) no-repeat;
+    background-size:310px 16px;
+    left: 343px;
+     top: 147px;
+}
+#slide2 .icon2{
+    width: 34px;
+    height: 34px;
+    background: url(../images/slide2/icon2.png) no-repeat;
+    background-size:34px  34px;
+    left: 296px;
+     top: 188px;
+    
+}
+
+#slide2 .text2{
+    width: 320px;
+    height: 116px;
+    background: url(../images/slide2/text2.png) no-repeat;
+    background-size:320px  116px;
+    left: 344px;
+    top: 188px;
+}
+
+
+#slide2 .icon3{
+    width: 20px;
+    height: 38px;
+    background: url(../images/slide2/icon3.png) no-repeat;
+    background-size:20px 38px;
+    left: 296px;
+     top: 331px;
+    
+}
+
+#slide2 .text3{
+    width: 324px;
+    height: 116px;
+     background: url(../images/slide2/text3.png) no-repeat;
+     background-size:324px  116px;
+     left: 344px;
+     top: 331px;
+}
+
+#slide2 .icon4{
+    width: 31px;
+    height: 35px;
+    background: url(../images/slide2/icon4.png) no-repeat;
+    background-size:31px 35px;
+    left:697px;
+     top: 147px;
+    
+}
+
+#slide2 .text4{
+     width: 149px;
+    height: 75px;
+     background: url(../images/slide2/text4.png) no-repeat;
+     background-size:149px 75px;
+     left: 740px;
+     top: 147px;
+}
+
+#slide2 .icon5{
+    width: 32px;
+    height: 34px;
+    background: url(../images/slide2/icon5.png) no-repeat;
+    background-size:32px  34px;
+    left:697px;
+    top: 256px;
+    
+}
+
+#slide2 .text5{
+      width: 141px;
+      height: 94px;
+     background: url(../images/slide2/text5.png) no-repeat;
+     background-size:141px 94px;
+     left: 740px;
+     top: 256px;
+}
+
+
+
+
+#slide2 .disc{
+     width: 580px;
+     height: 12px;
+     background: url(../images/slide2/disc.png) no-repeat;
+     background-size:580px  12px;
+     left: 66px;
+     top: 506px;
+}
+
+
+
+
+
+
+
+

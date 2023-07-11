@@ -1,0 +1,25 @@
+#slide1{
+	width: 960px;
+	height: 540px;
+}
+#slide1 .bg{
+    width: 960px;
+	height:  540px;
+    background: url(../images/shared/bg.png) no-repeat;
+    background-size: 960px  540px;
+}
+
+#slide1  .header{
+    width: 789px;
+    height: 141px;
+    background: url(../images/slide1/header.png) no-repeat;
+    background-size:789px 141px;
+    left: 87px;
+    top: 171px;
+}   
+#slide1  .logo{
+  
+    left: 35px;
+    top: 488px;
+}
+

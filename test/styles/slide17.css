@@ -1,0 +1,40 @@
+#slide17{
+	width: 960px;
+	height: 540px;
+
+}
+#slide17 .bg{
+	width: 960px;
+	height: 540px;
+    background: url(../images/slide17/bg.png) no-repeat;
+    background-size:960px   540px;
+}
+#slide17 .logo-big{
+    width: 210px;
+    height: 40px;
+    background: url(../images/slide17/logo-bg.png) no-repeat;
+    background-size:210px  40px;
+    left: 80px;
+    top: 28px;
+}
+#slide17 .table{
+    width: 773px;
+    height: 325px;
+    background: url(../images/slide17/table.png) no-repeat;
+    background-size:773px  325px;
+    left: 84px;
+    top: 96px;
+    
+}
+
+#slide17  .disc-border{
+    top: 450px;
+}
+#slide17 .disc{
+    width: 786px;
+    height: 78px;
+    background: url(../images/slide17/disc.png) no-repeat;
+    background-size:786px  78px;
+    left: 91px;
+    top: 451px;
+}
