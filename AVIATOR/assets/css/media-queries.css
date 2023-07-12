@@ -1,0 +1,51 @@
+@media screen and (max-width:1250px){
+	
+    .wrapper{
+        width: 1000px;
+    }
+}
+@media screen and (max-width:1037px){
+	
+    .wrapper{
+        width: 900px;
+    }
+}
+@media screen and (max-width:966px){
+	
+    .wrapper{
+        width:90%;
+    }
+    
+        header .content{
+           margin-top:0px;
+        }
+    header .content p{
+        width: 100%;
+    }
+    header  .logo{
+        margin: 0px  auto 70px auto;
+        display: block;
+        
+    }
+}
+@media screen and (max-width:442px){
+	.wrapper>img{
+        width:90%;
+    }
+}
+@media screen and (max-width:403px){
+	#info .label{
+        width:90%;
+    }
+    #info .code{
+        width: 240px;
+    }
+    #info .num{
+        background-size: 240px 70px  !important;
+    }
+    #info .num p{
+        font-size: 41px;
+        
+    }
+    
+}

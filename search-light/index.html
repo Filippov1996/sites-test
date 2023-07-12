@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Поиск света</title>
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="assets/img/favicon/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/custom-animate.css">
+        <link rel="stylesheet" href="assets/css/media-queries.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <script src="https://use.fontawesome.com/89b9f4b175.js"></script>
+        <style>
+                [class*="ymaps-2"][class*="-ground-pane"] {
+                            filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+                            -webkit-filter: grayscale(100%);
+                }
+                .zoom {
+                        display:inline-block;
+                        position: relative;
+                        width: 100%;
+		        } 
+		
+                /* magnifying glass icon */
+                .zoom:after {
+                    content:'';
+                    display:block; 
+                    width:33px; 
+                    height:33px; 
+                    position:absolute; 
+                    top:0;
+                    right:0;
+                    background:url(assets/img/zoom/icon.png);
+                }
+
+                .zoom img {
+                    display: block;
+                }
+
+		        .zoom img::selection { background-color: transparent; }
+
+                #ex2 img:hover { cursor: url(grab.cur), default; }
+                #ex2 img:active { cursor: url(grabbed.cur), default; }
+        </style>
+        
+        
+		<script src="https://api-maps.yandex.ru/2.1/?apikey=8a6e250d-ca15-4640-9ecb-c5e50714aa40&lang=ru_RU" type="text/javascript"></script>
+   		<script src="assets/js/icon_customImage.js">
+        </script>
+    </head>
+    <body>
+    
+     
+     <header>
+         <div class="wrapper">
+             <img src="assets/img/logo.svg" alt="" class="logo center_marrgin">
+         </div>
+         <nav class="desc-menu">
+            <div class="wrapper center">
+                 <ul class="menu-list between-flex vert-center-flex">
+                     <li><a href="#dystrophy" class="normal">НДС</a></li>
+                     <li><a href="#suspect" class="normal">Симптомы</a></li>
+                     <li><a href="#test" class="normal">Диагностика</a></li>
+                     <li><a href="#molecular-genetic" class="normal">Генетическое тестирование </a></li>
+                     <li><a href="#contact" class="btn">Карта клиник</a></li>
+                 </ul>
+            </div>
+         </nav>
+         <nav class="menu-mob">
+             <div class="wrapper">
+                 <div class="btn-hamburger flex vert-center-flex center-flex">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                 </div>
+                 <a href="#contact" class="btn">Карта клиник</a>
+             </div>
+             
+              <ul class="list-menu-mob">
+                     <li><a href="#dystrophy">НДС</a></li>
+                     <li class="border"><a href="#suspect">Симптомы</a></li>
+                     <li class="border"><a href="#test">Диагностика</a></li>
+                     <li class="border"><a href="#molecular-genetic" class="normal">Генетическое тестирование </a></li>
+                     <li><a href="#contact">Карта клиник</a></li>
+                </ul>
+         </nav>
+         
+         <div class="banner">
+             
+         </div>
+     </header>
+     <div id="app">
+     <section id="dystrophy">
+         <div class="wrapper">
+             <h2>Что такое наследственные дистрофии сетчатки?</h2>
+             <div class="info between-flex">
+                 <div class="item item-col48 wow  animate__fadeInLeft" data-wow-delay = "0.400s" data-wow-offset="200">
+                     <img src="assets/img/block1/icon1.svg">
+                     <div class="text">
+                         <h3>Наследственные дистрофии сетчатки (НДС) </h3>
+                         <p>включают широкий спектр фенотипически и генетически гетерогенных заболеваний, которые приводят к прогрессирующей потере функции фоторецепторов, сопровождающейся потерей зрения. Они различаются по времени начала, степени тяжести и скорости прогрессирования<sup>1-3</sup>.</p>
+                     </div>
+                 </div>
+                 <div class="item item-col48 wow animate__fadeInRight" data-wow-delay = "0.400s" data-wow-offset="200">
+                     <img src="assets/img/block1/icon2.svg" >
+                     <div class="text">
+                    
+                         <p>Постановка окончательного диагноза в реальной клинической практике может занимать <span>несколько лет</span>, в течение которых происходит <span>безвозвратная потеря клеток сетчатки.</span></p>
+                         <p>Раннее распознавание клинических признаков наследственной патологии, проведение инструментального и молекулярно-генетического обследования позволяют сократить время до установления правильного диагноза<sup>4</sup>.</p>
+                     </div>
+                 </div>
+             </div>
+             
+             <button class="btn">Читать подробнее</button>
+         </div>
+     </section>
+     <div class="hide">
+     <section id="retina">
+         <div class="wrapper">
+             <h2><span>Наследственные дистрофии сетчатки</span>	&#8212; клинически геторогенная группа заболеваний</h2>
+             <div class="info between-flex">
+                 <div class="item1 item-col49">
+                     <div class="block1 around-flex vert-top-flex">
+                         <img src="assets/img/block2/icon1.svg">
+                         <div class="text">
+                             <p>НДС могут поражать все отделы сетчатки или ограничиваться только макулярной областью, а также носить сочетанный характер: витреоретинальные и хориоретинальные НДС. </p>
+                         </div>
+                     </div>
+                     <div class="block2 around-flex vert-top-flex">
+                         <img src="assets/img/block2/icon2.svg">
+                         <div class="list">
+                            <h3>В зависимости от поражения других органов и систем выделяют*:</h3>
+                            <ul>
+                                <li class="wow  animate__zoomIn" data-wow-delay = "0.200s" data-wow-offset="200">несиндромальные (изолированные);</li>
+                                <li class="wow  animate__zoomIn" data-wow-delay = "0.300s" data-wow-offset="200">синдромальные (с поражением других систем, например слуха);</li>
+                                <li class="wow  animate__zoomIn" data-wow-delay = "0.400s" data-wow-offset="200">системные.</li>
+                            </ul>
+                         </div>
+                         
+                     </div>
+                 </div>
+                 <div class="item2 item-col49">
+                     <h3>Существует много разновидностей НДС*:</h3>
+                     <ul class="list">
+                         <li class="wow  animate__zoomIn" data-wow-delay = "0.200s" data-wow-offset="200">пигментный ретинит; </li>
+                         <li class="wow  animate__zoomIn" data-wow-delay = "0.300s" data-wow-offset="200">врожденный амавроз Лебера; </li>
+                         <li class="wow  animate__zoomIn" data-wow-delay = "0.400s" data-wow-offset="200">колбочко-палочковые дистрофии; </li>
+                         <li class="wow  animate__zoomIn" data-wow-delay = "0.500s" data-wow-offset="200">врожденная стационарная ночная слепота; </li>
+                         <li class="wow  animate__zoomIn" data-wow-delay = "0.600s" data-wow-offset="200">болезнь Штаргардта;</li>
+                         <li class="wow  animate__zoomIn" data-wow-delay = "0.700s" data-wow-offset="200">болезнь Беста;</li>
+                         <li class="wow  animate__zoomIn" data-wow-delay = "0.800s" data-wow-offset="200">ювенильный ретиношизис;</li>
+                         <li class="wow  animate__zoomIn" data-wow-delay = "0.900s" data-wow-offset="200">синдром Ушера;</li>
+                         <li class="wow  animate__zoomIn" data-wow-delay = "0.900s" data-wow-offset="200">синдром Барде–Бидля и др. </li>
+                        
+                     </ul>
+                 </div>                
+             </div>
+         </div>         
+     </section>
+     <section id="nds">
+         <div class="wrapper">
+             <h2><span>НДС</span> — генетически гетерогенная группа заболеваний. НДС вызываются мутациями более 300 генов<sup>3</sup></h2>
+              <img src="assets/img/block3/shema.svg" class="img-desc">
+             
+                <span class='zoom ex1 img-mob'>
+		                   <img src="assets/img/block3/shema-mob.png" >
+	            </span>
+             <p>* Berger W. et al. Prog Retin Eye Res. 2010; 29; 335-75.</p>
+         </div>         
+     </section>
+    </div>
+     <section id="effects">
+         <div class="wrapper">
+             <h2>
+                 К чему приводят <span>НДС</span>?
+             </h2>
+             
+             <div class="info-desc between-flex">
+                 <div class="item item-col18 wow  animate__zoomIn" data-wow-delay = "0.200s" data-wow-offset="200">
+                     <img src="assets/img/nds/post1.png" alt="">
+                     <p>До ухудшения состояния</p>
+                 </div>
+                 <div class="item item-col18 wow  animate__zoomIn" data-wow-delay = "0.300s" data-wow-offset="200">
+                     <img src="assets/img/nds/post2.png" alt="">
+                     <p>Ночная слепота<sup>5,6</sup></p>
+                 </div>
+                 <div class="item item-col18 wow  animate__zoomIn" data-wow-delay = "0.400s" data-wow-offset="200">
+                     <img src="assets/img/nds/post3.png" alt="">
+                     <p>Ограничение полей зрения (туннельное зрение)<sup>5,6</sup></p>
+                         <p>Ухудшение ночной слепоты<sup>5,6</sup></p>
+                 </div>
+                 <div class="item item-col18 wow  animate__zoomIn" data-wow-delay = "0.500s" data-wow-offset="200">
+                     <img src="assets/img/nds/post4.png" alt="">
+                     <p>Практическая слепота из-за сужения полей зрения и потери остроты зрения<sup>6,8</sup></p>
+                         <p>Часто развивается к середине четвертого десятка лет<sup>5,9</sup></p>
+                 </div>
+                 <div class="item item-col18 wow  animate__zoomIn" data-wow-delay = "0.600s" data-wow-offset="200">
+                     <img src="assets/img/nds/post5.png" alt="">
+                     <p>Полная слепота<sup>9</sup></p>
+                 </div>
+                 
+             </div>
+             <div class="info-mob">
+                   <div class="item">
+                     <img src="assets/img/nds/post1.png" alt="">
+                     <p>До ухудшения состояния</p>
+                   </div>
+                   <div class="item">
+                     <img src="assets/img/nds/post2.png" alt="">
+                     <p>Ночная слепота<sup>5,6</sup></p>
+                   </div>
+                   <div class="item">
+                     <img src="assets/img/nds/post3.png" alt="">
+                     <p>Ограничение полей зрения (туннельное зрение)<sup>5,6</sup></p>
+                    <p>Ухудшение ночной слепоты<sup>5-7</sup></p>
+                   </div>
+                   <div class="item">
+                     <img src="assets/img/nds/post4.png" alt="">
+                      <p>Практическая слепота из-за сужения полей зрения и потери остроты зрения<sup>6,8</sup></p>
+                     <p>Часто развивается к середине четвертого десятка лет <sup>5,9</sup></p>
+                   </div>
+                   <div class="item">
+                     <img src="assets/img/nds/post5.png" alt="">
+                    <p>Полная слепота<sup>9</sup></p>
+                   </div>
+                 
+             </div>
+         </div>
+         
+     </section>
+     <section id="suspect">
+         <div class="wrapper">
+             <h2>Как заподозрить <span>НДС</span>? </h2>
+             <div class="note flex vert-center-flex">
+                 
+                 <img src="assets/img/all/note-icon.svg" alt="" class="wow  animate__zoomIn" data-wow-delay = "0.100s" data-wow-offset="200">
+                 
+                 <h3>Задумайтесь о направлении пациента к специалисту по НДС, если у него есть:</h3>
+             </div>
+             
+             <p class="flex num-icon center-flex vert-center-flex" style="background-color:#007BA6;">
+                 1
+             </p>
+             
+             <div class="block1">
+                 <h3>Палочко-колбочковая дистрофия сетчатки, включая:</h3>
+                 
+                 <div class="icons around-flex">
+                     <div class="item">
+                         <img src="assets/img/block4/icon-ok.svg" alt="" class="wow  animate__zoomIn" data-wow-delay = "0.200s" data-wow-offset="200">
+                         <p>Врожденный амавроз Лебера</p>
+                     </div>
+                     <div class="item">
+                            <img src="assets/img/block4/icon-ok.svg" alt="" class="wow  animate__zoomIn" data-wow-delay = "0.400s" data-wow-offset="200">
+                         <p>Пигментный ретинит</p>
+                     </div>
+                     
+                 </div>
+                 
+             </div>
+              <p class="flex num-icon center-flex vert-center-flex" style="background-color:#69229A;">
+                2
+             </p>
+             <p class="or">или</p>
+             
+             <div class="block2 wow  animate__zoomIn" data-wow-delay = "0.400s" data-wow-offset="200">
+                 <h3>УХУДШЕНИЕ ЗРЕНИЯ</h3>
+                 <div class="row  between-flex">
+                     <div class="item between-flex vert-top-flex">
+                         <img src="assets/img/block4/icon1.svg" alt="">
+                         <div class="text">
+                             <p>Трудности с адаптацией к темноте<sup>5,6,8</sup></p>
+                         </div>
+                         
+                     </div>
+                     <div class="item between-flex vert-top-flex">
+                         <img src="assets/img/block4/icon2.svg" alt="">
+                         <div class="text">
+                                 <p>Ухудшение функционального зрения<sup>5,10-12</sup></p> 
+                         </div>
+                     </div>
+                     <div class="item between-flex vert-top-flex">
+                         <img src="assets/img/block4/icon3.svg" alt="">
+                         <div class="text">
+                               <p>Ухудшение цветового зрения<sup>5,6,11</sup></p>
+                         </div>
+                     </div>
+                     
+                 </div>
+                 <div class="row between-flex ">
+                     
+                      <div class="item between-flex vert-top-flex">
+                         <img src="assets/img/block4/icon4.svg" alt="">
+                         <div class="text">
+                         <p>Сужение сумеречного зрения<sup>5-7</sup></p>
+                         <p>Никталопия &#8212; поведение, для которого характерны поиск света, неспособность видеть при слабом освещении</p>
+                          </div>
+                     </div>
+                     <div class="item between-flex vert-top-flex">
+                         <img src="assets/img/block4/icon5.svg" alt="">
+                         <div class="text">
+                               <p>Сужение поля зрения<sup>5,6,10,11</sup></p>
+                                 <p>«Туннельное зрение», по сообщениям пациентов. Столкновение маленьких детей с предметами при слабом освещении, по сообщениям родителей</p>
+                         </div>
+                    
+                     </div>
+                     <div class="item between-flex vert-top-flex">
+                         <img src="assets/img/block4/icon6.svg" alt="">
+                    
+                         <div class="text">
+                             <p>Снижение светочувствительности<sup>6,8</sup></p>
+                         </div>
+                     </div>
+                     
+                 </div>
+                 
+             </div>
+             <div class="block3 between-flex">
+                 <div class="item item-col48 wow  fadeInLeft" data-wow-delay = "0.400s" data-wow-offset="200">
+                     <h3>Изменения глазного дна</h3>
+                     <div class="info flex">
+                         <img src="assets/img/block4/icon7.svg" alt="">
+                         <p>Пигментные изменения, атрофия сетчатки, сужение сосудов, вторичные изменения зрительного нерва  </p>
+                     </div>
+                     <div class="info  flex">
+                         <img src="assets/img/block4/icon8.svg" alt="">
+                         <p>Гипоаутофлуоресценция<sup>5,6,10</sup></p>
+                     </div>
+                 </div>
+                 <div class="item item-col48 wow  fadeInRight" data-wow-delay = "0.400s" data-wow-offset="200">
+                      <h3>Изменения при физикальном обследовании</h3>
+                      <div class="info flex">
+                         <img src="assets/img/block4/icon9.svg" alt="">
+                         <p>Нистагм — неконтролируемые повторяющиеся движения глаз<sup>5,6,8</sup>
+                     </div>
+                     <div class="info  flex">
+                         <img src="assets/img/block4/icon10.svg" alt="">
+                         <p>Отсутствие фиксации взгляда на объекте (у младенцев)<sup>11</sup></p>
+                     </div>
+                 </div>
+             </div>
+             <div class="block4 between-flex">
+                 <div class="item item-col48  wow fadeInLeft" data-wow-delay = "0.400s" data-wow-offset="200">
+                      <h3>Электрофизиология</h3>
+                      <div class="info flex">
+                         <img src="assets/img/block4/icon11.svg" alt="">
+                          <p>Субнормальная или отсутствующая общая электроретинография (ЭРГ)<sup>5,10-12</sup></p>
+                     </div>
+                 </div>
+                 <div class="item item-col48 wow  fadeInRight" data-wow-delay = "0.400s" data-wow-offset="200">
+                     <h3>Вовлечение других органов<sup>6</sup></h3>
+                      <div class="info flex">
+                         <img src="assets/img/block4/icon12.svg" alt="">
+                         <p>Исключение неофтальмологических признаков возможной синдромальной патологии (например, потеря слуха может указывать на синдром Ашера)
+
+                     </div>
+                 </div>
+             </div>
+             
+             <button class="btn">Читать подробнее</button >
+         </div>
+     </section>
+      <div class="hide">
+     <section id="amaurosis">     
+         <div class="wrapper">
+             <h2>Врожденный амавроз Лебера (2 тип), пигментный ретинит (20 тип) – <span>несиндромальные аутосомно-рецессивные НДС*</span></h2>
+             <div class="desc-disease between-flex">
+                 <div class="item item-col48">
+                     <div class="info around-flex vert-top-flex">
+                         <img src="assets/img/block5/icon1.svg" alt="">
+                         <div class="text">
+                             <p><span>Родители</span> пациента клинически <span>здоровы,</span> при этом полнокровные <span>братья/сестры</span> пациента <span>могут иметь схожую клиническую картину</span></p>
+                         </div>
+                     </div>
+                       <div class="info around-flex vert-top-flex">
+                         <img src="assets/img/block5/icon2.svg" alt="">
+                         <div class="text">
+                            <p>Мутации имеются в обоих аллелях</p>
+                            <p>Мутации вызывают потерю функции</p>
+                         </div>
+                     </div>
+                       <div class="info around-flex vert-top-flex">
+                         <img src="assets/img/block5/icon3.svg" alt="">
+                         <div class="text">
+                            <p><span>Для RPE65-НДС нехарактерно наличие признаков поражения других органов и систем</span> (снижение слуха, полидактилия, нарушение обмена веществ, задержка умственного развития, нефропатия)</p>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="item item-col48">
+                       <img src="assets/img/block5/shema.png" alt="">
+                 </div>            
+             </div>
+             <p>* Адаптировано из Univ of Leicester. Virtual Genetics Education Center. Patterns of inheritance. http://www2.le.ac.uk/projects/vgec/highereducation/topics/inheritancepatterns. [Электронный ресурс]. Дата доступа 05.03.2022.</p>
+         </div>
+    
+     </section>
+    </div>
+     <section id="prevalence">
+         <div class="wrapper">
+             <h2>Какая распространенность <span>НДС?</span></h2>
+             
+             <div class="scheme around-flex">
+                 <img src="assets/img/block6/shema1.svg" alt="">
+                 <img src="assets/img/block6/shema2.svg" alt="">
+                 
+             </div>
+             <div class="block1 between-flex">
+                 <div class="item item-col48 flex vert-top-flex wow animate__zoomIn" data-wow-delay = "0.400s" data-wow-offset="200">
+                     <img src="assets/img/block6/icon1.svg" alt="">
+                     <div class="text">
+                         <p>Среди удмуртов, чувашей и марийцев, населения Карачаево-Черкессии встречаемость амавроза Лебера выше, чем в среднем по России. <sup>15-17</sup></p>
+                     </div>
+                 </div>
+                 <div class="item item-col48 flex vert-top-flex  wow animate__zoomIn" data-wow-delay = "0.400s" data-wow-offset="200">
+                    <img src="assets/img/block6/icon2.svg" alt="">
+                     <div class="text">
+                         <p>В интернатах для детей с нарушением зрения у 10-18% детей диагностирован амавроз Лебера. <sup>17</sup></p>
+                     </div>
+                 </div>
+             </div>
+             
+         </div>
+     </section>
+     <section id="possibility">
+         <div class="wrapper">
+             <h2>Откройте возможности для пациентов с <span>наследственными заболеваниями сетчатки<sup>13</sup></span></h2>
+             <p>Потеря зрения, обусловленная наследственными заболеваниями сетчатки, значительно влияет <span>на качество жизни пациентов.</span> Почти у <span>92%</span> больных НДС встречаются<sup>18</sup>:</p>
+             
+    
+             
+             <div class="diograms  between-flex">
+                            <div class="diaogram-item diaogram1">
+                                <h3>чувство одиночества</h3>
+                                 <div class="pie">
+                                      <div class="graf">
+                                            <div class="graf--chart">
+                                    
+                                            </div>
+                                      </div>
+                                 </div>
+                                 <div class="num-val flex vert-center-flex center-flex">0%</div>
+                            </div>
+                            <div class="diaogram-item diaogram2">
+                                <h3>депрессия</h3>
+                                 <div class="pie">
+                                      <div class="graf">
+                                            <div class="graf--chart"></div>
+                                      </div>
+                                 </div>
+                                 <div class="num-val flex vert-center-flex center-flex">0%</div>
+                            </div>
+                            <div class="diaogram-item diaogram3">
+                                <h3>тревожность</h3>
+                                 <div class="pie">
+                                      <div class="graf">
+                                            <div class="graf--chart"></div>
+                                      </div>
+                                 </div>
+                                 <div class="num-val flex vert-center-flex center-flex">0%</div>
+                            </div>
+                             <div class="diaogram-item diaogram4">
+                                <h3>стресс</h3>
+                                 <div class="pie">
+                                      <div class="graf">
+                                            <div class="graf--chart"></div>
+                                      </div>
+                                 </div>
+                                 <div class="num-val flex vert-center-flex center-flex">0%</div>
+                            </div>
+             </div>
+             <div class="block-label flex vert-center-flex wow animate__zoomIn" data-wow-delay = "0.400s" data-wow-offset="200">
+                 <img src="assets/img/block7/icon1.svg" alt="">
+                 <h3>Ранняя диагностика способствует уменьшению бремени заболевания в жизни пациентов и их семей<sup>18</sup>.</h3>
+             </div>
+             <button class="btn">Читать подробнее</button >
+         </div>
+     </section>
+     <div class="hide">
+     <section id="levels">
+         
+         <div class="wrapper">
+             <h2><span>НДС, связанные с биаллельными мутациями в гене RPE65:</span> пожизненное бремя для пациентов и их семей<sup>9,12,18,19</sup></h2>
+             <div class="levels-items">
+                     <div class="item flex vert-center-flex col1 wow animate__zoomIn" data-wow-delay = "0.400s" data-wow-offset="200">
+                         <img src="assets/img/block8/imge-level1.svg" alt="">
+                         <div class="text">
+                             <h3>БОЛЬШИНСТВО пациентов страдают от ухудшения зрения в раннем детстве<sup>5</sup></h3>
+                             <p>Манифестация в раннем детстве</p>
+                             <ul class="list1">
+                                 <li>Ночная слепота<sup>5,6,11</sup></li>
+                                 <li>Нистагм<sup>5</sup></li>
+                                 <li>Фотофобия<sup>7,20</sup></li>
+                                 <li>Сниженные/неопределяемые показатели ЭРГ<sup>6,20,21</sup></li>
+                                 <li>Почти полное отсутствие зрачковых реакций<sup>5</sup></li>
+                             </ul>
+                         </div>
+                     </div>
+                     <div class="sep wow animate__zoomIn" data-wow-delay = "0.400s" data-wow-offset="200">
+                         <img src="assets/img/block8/arrow.svg" alt="">
+                     </div>
+                      <div class="item flex vert-center-flex col2 wow animate__zoomIn" data-wow-delay = "0.400s" data-wow-offset="200">
+                             <img src="assets/img/block8/imge-level2.svg" alt="">
+                             <div class="text">
+                                 <h3>НАРУШЕНИЕ УЧЕБНОГО ПРОЦЕССА у детей из-за потери зрения<sup>5</sup></h3>
+                                 <p>Школьные годы</p>
+                                 <ul class="list2">
+                                     <li>Ночная слепота<sup>5,6,11</sup></li>
+                                     <li>Нистагм<sup>5</sup></li>
+                                     <li>Фотофобия<sup>7,20</sup></li>
+                                     <li>Сниженные/неопределяемые показатели ЭРГ<sup>6,20,21</sup></li>
+                                     <li>Почти полное отсутствие зрачковых реакций<sup>5</sup></li>
+                                 </ul>
+                             </div>
+                         </div>
+                        
+                             <div class="sep wow animate__zoomIn" data-wow-delay = "0.400s" data-wow-offset="200">
+                                 <img src="assets/img/block8/arrow.svg" alt="">
+                             </div>
+                             
+                          <div class="item flex vert-center-flex col3 wow animate__zoomIn" data-wow-delay = "0.400s" data-wow-offset="200">
+                             <img src="assets/img/block8/imge-level3.svg" alt="">
+                             <div class="text">
+                                 <h3>Диагноз ПРАКТИЧЕСКАЯ СЛЕПОТА обуславливает потерю независимости и значительные изменения в образе жизни</h3>
+                                 <p>Молодость</p>
+                                 <ul class="list3">
+                                     <li>Ночная слепота<sup>5,6,11</sup></li>
+                                     <li>Нистагм<sup>5</sup> </li>
+                                     <li>Фотофобия<sup>7,20</sup></li>
+                                     <li>Сниженные/неопределяемые показатели ЭРГ <sup>6,20,21</sup></li>
+                                     <li>Почти полное отсутствие зрачковых реакций<sup>5</sup></li>
+                                 </ul>
+                             </div>
+                         </div>
+                         <div class="sep wow animate__zoomIn" data-wow-delay = "0.400s" data-wow-offset="200">
+                                <img src="assets/img/block8/arrow.svg" alt="">
+                          </div>
+                          
+                          
+                          <p class="final wow animate__zoomIn" data-wow-delay = "0.400s" data-wow-offset="200">Полная слепота<sup>5,9</sup></p>  
+                     </div>    
+                     
+                    <div class="note flex vert-center-flex wow animate__zoomIn" data-wow-delay = "0.400s" data-wow-offset="500">
+                        
+                        <img src="assets/img/all/note-icon.svg" alt="">
+                        <h3>Использование клинических критериев способствует более точному отбору пациентов-кандидатов для генетического тестирования.</h3>
+                    </div>  
+                       
+                         
+             </div>
+     
+     </section>
+     <section id="progressive-diseases">
+         <div class="wrapper">
+             <h2><span>НДС, связанные с биаллельными мутациями в гене  RPE65</span>, представляют собой прогрессирующие заболевания, начинающиеся сразу после рождения</h2>
+             <img src="assets/img/block9/shema.png" class="img-desc">
+             <span class='zoom ex1 img-mob'>
+		         <img src='assets/img/block9/shema-mob.png' />
+		    
+	       </span>
+         </div>
+     </section>
+      </div>
+     <section id="test">
+         <div class="wrapper">
+             <h2>Как определить пациентов, подходящих для <span>генетического тестирования?</span></h2>
+             <p>Подумайте о направлении пациента к специалисту по НДС, чтобы помочь пройти раннее и полное генетическое тестирование, если у него имеются:</p>
+             <div class="test-block block-q1">
+                 <div class="item  between-flex vert-center-flex">
+                    <div class="text-img flex vert-center-flex">
+                         <img src="assets/img/block10/icon1.svg" alt="">
+                         <h3>Трудности с адаптацией в темноте</h3>
+                    </div>
+                    <div class="answer border-first-color">
+                         <p>Да</p>
+                    </div>
+                 </div>
+             </div>
+             <p>В сочетании с такими симптомами, как:</p>
+              <div class="test-block block-q2">
+                 <div class="item  between-flex vert-center-flex">
+                    <div class="text-img flex vert-center-flex">
+                         <img src="assets/img/block10/icon2.svg" alt="">
+                         <h3>Снижение сумеречного зрения</h3>
+                    </div>
+                    <div class="answer border-color">
+                        <p>Да</p>
+                    </div>
+                 </div>
+                 <div class="item  between-flex vert-center-flex">
+                    <div class="text-img flex vert-center-flex">
+                         <img src="assets/img/block10/icon3.svg" alt="">
+                         <h3>Сужение поля зрения</h3>
+                    </div>
+                    <div class="answer border-color">
+                         <p>Да</p>
+                    </div>
+                 </div>
+                 <div class="item  between-flex vert-center-flex">
+                    <div class="text-img flex vert-center-flex">
+                         <img src="assets/img/block10/icon4.svg" alt="">
+                         <h3>Нистагм</h3>
+                    </div>
+                    <div class="answer border-color">
+                         <p>Да</p>
+                    </div>
+                 </div>
+                  <div class="item  between-flex vert-center-flex">
+                    <div class="text-img flex vert-center-flex">
+                         <img src="assets/img/block10/icon5.svg" alt="">
+                         <h3>Субнормальная/отсутствующая общая ЭРГ</h3>
+                    </div>
+                    <div class="answer border-color">
+                         <p>Да</p>
+                    </div>
+                 </div>
+             </div>
+             
+             <a href="#" class="btn">Показать результат</a>
+             <div class="answers">
+                     <div class="note true-ans">
+                        <div class="wrapp  flex vert-center-flex">
+                            <img src="assets/img/all/note-icon.svg">
+                            <div class="text">
+                                 <h3>Данные признаки могут соответствовать НДС. Направьте пациента на клинико-генетическую диагностику.</h3>
+                                <h3 class="mar">Не является постановкой диагноза.</h3>
+                             </div>
+                        </div>
+                     </div>  
+
+                    <div class="note false-ans1">
+                            <div class="wrapp  flex vert-center-flex">
+                                <img src="assets/img/all/note-icon.svg" alt="">
+                                 <div class="text">
+                                    <h3>Данные признаки не соответствуют критериям НДС.</h3>
+                                    <h3 class="mar">Не является постановкой диагноза. </h3>
+                                </div>
+                            </div>
+                    </div>  
+            
+                     <div class="note  false-ans2">
+                            <div class="wrapp  flex vert-center-flex">
+                                <img src="assets/img/all/note-icon.svg" alt="">
+                                <div class="text">
+                                <h3>Данные признаки не соответствуют критериям НДС.</h3>
+                                <h3 class="mar">Не является постановкой диагноза.</h3>
+                               </div>
+                         </div>
+                    </div>  
+              
+                 
+             </div>
+             
+         </div>
+     </section>
+     <section id="clinic">
+         <div class="wrapper">
+             <h2><span>Клинико-генетическая диагностика</span>
+              включает<sup>24,25</sup></h2>
+             <div class="block">
+                 <div class="item flex wow animate__zoomIn" data-wow-delay = "0.200s" data-wow-offset="200">
+                     <div class="num flex vert-center-flex center-flex">
+                         1
+                     </div>
+                     <div class="text">
+                         
+                         <h3>Тщательный сбор анамнеза</h3>
+                         <p>Выясните наличие схожих симптомов у других членов семьи.</p>
+                     </div>
+                 </div>
+                  <div class="item flex wow animate__zoomIn" data-wow-delay = "0.500s" data-wow-offset="200">
+                     <div class="num flex vert-center-flex center-flex">
+                       2
+                     </div>
+                     <div class="text">
+                         
+                         <h3>Оценка жалоб и клинических признаков</h3>
+                         <p>Проведите скрининг наличия никталопии, нистагма, нарушений световой адаптации.</p>
+                     </div>
+                 </div>
+                 
+                  <div class="item flex wow animate__zoomIn" data-wow-delay = "0.600s" data-wow-offset="200">
+                     <div class="num flex vert-center-flex center-flex">
+                         3
+                     </div>
+                     <div class="text">
+                         <h3>Острота зрения, поле зрения</h3>
+                         <p>Учтите, что молодые пациенты могут иметь почти нормальную остроту зрения. </p>
+                     </div>
+                 </div>
+                  <div class="item flex wow animate__zoomIn" data-wow-delay = "0.700s" data-wow-offset="200">
+                     <div class="num flex vert-center-flex center-flex">
+                       4
+                     </div>
+                     <div class="text">
+                         <h3>Офтальмоскопия, электрофизиологическое исследование (ЭФИ), оптическая когерентная томография (ОКТ) и ОКТ-ангио, аутофлуоресценция</h3>
+                         <p>Используйте комплексный подход к диагностике.</p>
+                     </div>
+                 </div>
+                  <div class="item flex wow animate__zoomIn" data-wow-delay = "0.800s" data-wow-offset="200">
+                     <div class="num flex vert-center-flex center-flex">
+                        5
+                     </div>
+                     <div class="text">
+                         
+                         <h3>Молекулярно-генетическое тестирование</h3>
+                         <p>Подтвердите или исключите диагноз с помощью генетического тестирования.</p>
+                     </div>
+                 </div>
+             </div>
+             <a href="#" class="btn">Подробнее об алгоритме диагностики</a>
+         </div>
+          <div class="shema">
+           <div class="wrapper">
+                <img src="assets/img/block11/shema.svg" alt="" class="desc-shema">
+                
+                  <span class='zoom ex2 img-mob'>
+		          <img src="assets/img/block11/shema-mob1.png" alt="" class="mob-shema">
+	             </span>
+                 <p class="remark">Данные предоставлены Кадышевым В.В., руководителем научно-клинического центра генетики глазных болезней ФГБНУ &#171;МГНЦ&#187;, согласовано с Кадышевым В.В.</p>  
+           </div>
+          </div>
+     </section>
+     <section id="molecular-genetic">
+         <div class="wrapper">
+             <h2>Почему <span>молекулярно-генетическое тестирование</span> имеет ключевое значение?</h2>
+             <p>Генетическое тестирование является единственным способом подтверждения наследственной природы НДС, в частности — связанных с биаллельными мутациями в гене RPE65<sup>4,5</sup>.</p>
+             <div class="info-desc between-flex">
+                 <div class="item item-col48 wow animate__fadeInLeft" data-wow-delay = "0.200s" data-wow-offset="200">
+                     <img src="assets/img/block12/icon1.svg" alt="">
+                     <div class="text">
+                         <p>В настоящее время идентифицировано более 270 генов, ассоциированных с НДС, включая варианты с синдромными Х-сцепленными или аутосомно-доминантными заболеваниями. Многие НДС имеют схожие клинические проявления<sup>26,27</sup>.</p>
+                     </div>
+                 </div>
+                 <div class="item item-col48 wow animate__fadeInRight" data-wow-delay = "0.200s" data-wow-offset="200">
+                     <img src="assets/img/block12/icon2.svg" alt="">
+                     <div class="text">
+                    
+                         <p>Поэтому генетическое тестирование и консультация квалифицированного и опытного специалиста по НДС имеют ключевое значение в установлении точного диагноза и определении прогноза у конкретного пациента<sup>26,27</sup>.</p>
+                     </div>
+                 </div>
+             </div>
+             <div class="res-block wow animate__zoomIn" data-wow-delay = "0.200s" data-wow-offset="200">
+                 <h3>Результаты генотипирования</h3>
+                 <div class="row flex">
+                     <div class="item flex right">
+                         <img src="assets/img/block12/icon3.svg" alt="">
+                         <h4>Позволяют подтвердить клинический диагноз</h4>
+                     </div>
+                     <div class="item flex">
+                         <img src="assets/img/block12/icon4.svg" alt="">
+                         <h4>Могут открыть возможности к новым методам лечения</h4>
+                     </div>
+                 </div>
+                 <div class="row flex">
+                     <div class="item flex right">
+                         <img src="assets/img/block12/icon5.svg" alt="">
+                         <h4>Позволяют подтвердить клинический диагноз.</h4>
+                     </div>
+                     <div class="item flex">
+                         <img src="assets/img/block12/icon6.svg" alt="">
+                         <h4>Уменьшают проявления тревоги и стресса</h4>
+                     </div>
+                 </div>
+             </div>
+             
+             
+         </div>
+         
+     </section>
+     
+    <section id="contact">
+             <div class="wrapper">
+                <h2>Куда направить <span>пациента?</span></h2>
+                <p>Выберите на карте ближайшую клинику, в которой можно провести детальное обследование при подозрении на НДС.</p>
+                
+                <div class="list-clinic list1">
+                    
+                    <div class="name">
+                      <h3>Список клиник, где можно пройти клиническую диагностику</h3>
+                      <div class="btn-arrow btn-list1">
+                          <img src="assets/img/block13/arrow.svg" alt="">
+                      </div>
+                    </div>
+                    <ul>
+                        <li>БУЗ УР «Республиканская офтальмологическая клиническая больница МЗ УР», Ижевск. <span class="dop-info"><span class="phones">+7 (3412) 685-454</span></span> <span class="btn-info">Подробнее</span></li>  
+                        
+                        <li>БУЗОО «Клиническая офтальмологическая больница им. В.П. Выходцева», Омск. <span class="dop-info"><span class="phones">+7 (3812) 790-300</span></span>  <span class="btn-info">Подробнее</span></li>
+                        
+                        <li>ГАУЗ «РКОБ МЗ РТ им. проф. Е.В. Адамюка», Казань. <span class="dop-info"><span class="phones">+7 (3812) 790-300Б</span></span> <span class="btn-info">Подробнее</span></li>
+            
+                        <li>ГАУЗ «Детская республиканская клиническая больница Министерства здравоохранения Республики Татарстан», Казань. <span class="dop-info"><span class="phones">+7 (843) 269-89-00</span></span> <span class="btn-info">Подробнее</span></li>  
+                        
+                        <li>ГАУЗ СО «Свердловская областная клиническая больница № 1», Екатеринбург.  <span class="dop-info"><span class="phones">+7 (343) 363-03-03</span></span> <span class="btn-info">Подробнее</span></li>
+                      
+                         <li>ГАУЗ ТО «Областной офтальмологический диспансер», Тюмень. <span class="dop-info"><span class="phones">+7 (3452) 50-37-44</span></span> <span class="btn-info">Подробнее</span></li> 
+                     
+                        <li>ГАУЗСО «Многопрофильный клинический медицинский центр "БОНУМ"», Екатеринбург. <span class="dop-info"> <span class="phones">+7 (343) 287-77-70</span></span> <span class="btn-info">Подробнее</span></li>
+                        <li>ГБУ РО «Областная детская клиническая больница», Ростов-на-Дону. <span class="dop-info"><span class="phones">+7 (863) 298-33-08</span></span> <span class="btn-info">Подробнее</span></li>
+          
+                         <li>ГБУЗ «Детская краевая клиническая больница» министерства здравоохранения Краснодарского края, Краснодар. <span class="dop-info"><span class="phones">+7 (861) 290-00-95</span></span> <span class="btn-info">Подробнее</span></li>  
+                         
+                        <li>ГБУЗ «Краевая клиническая больница №2», Владивосток. <span class="dop-info"><span class="phones">+7 (423) 227-74-24</span></span> <span class="btn-info">Подробнее</span></li>
+                        <li>ГБУЗ «Детская городская клиническая больница имени З.А. Башляевой Департамента здравоохранения города Москвы», Москва. <span class="dop-info"><span class="phones">+7 (495) 539-24-73</span></span> <span class="btn-info">Подробнее</span></li>
+                        
+                        
+                        <li>ГБУЗ «Морозовская ДГКБ ДЗМ», Москва. <span class="dop-info"><span class="phones">+7 (495) 959-88-00, +7 (495) 959-88-03</span></span> <span class="btn-info">Подробнее</span></li>
+                        <li>ГБУЗ «Самарская областная клиническая офтальмологическая больница им. Т.И. Ерошевского», Самара. <span class="dop-info"><span class="phones">+7 (846) 323-00-00</span></span> <span class="btn-info">Подробнее</span></li>  
+                         <li>ГБУЗ АО «Областная детская клиническая больница им. Н.Н. Силищевой», Астрахань. <span class="dop-info"><span class="phones">+7 (8512) 61-02-73</span></span> <span class="btn-info">Подробнее</span></li>  
+                        
+                        <li>ГБУЗ НО «Нижегородская областная детская клиническая больница», Нижний Новгород. <span class="dop-info"><span class="phones">+7 (831) 467-12-60</span></span> <span class="btn-info">Подробнее</span></li> 
+                        
+                        
+                        <li>ГБУЗ НСО «Государственная Новосибирская областная клиническая больница», Новосибирск. <span class="dop-info"><span class="phones">+7 (383) 315-97-97</span></span> <span class="btn-info">Подробнее</span></li>
+                        
+                        
+                        <li>ГБУЗ «Республиканский медико-генетический центр», Уфа. <span class="dop-info"> <span class="phones">+7 (347) 246-8322</span></span> <span class="btn-info">Подробнее</span></li>
+                        
+                        <li>ГБУЗ СК «Краевая детская клиническая больница», Ставрополь. <span class="dop-info"><span class="phones">+7 (8652) 25-72-33, +7 (8652) 71-62-07, +7 (8652) 71-62-10, +7 (8652) 71-62-18</span></span> <span class="btn-info">Подробнее</span></li>
+                        <li>Глазная клиника «Высокие технологии», Махачкала. <span class="dop-info"><span class="phones">+7 (988) 201-70-78</span></span> <span class="btn-info">Подробнее</span></li>
+                        
+                        <li>Иркутский филиал ФГАУ «НМИЦ «МНТК «Микрохирургия глаза» им. акад. С.Н. Федорова» Минздрава России, Иркутск. <span class="dop-info"><span class="phones">+7 (3952) 564-119</span></span> <span class="btn-info">Подробнее</span></li>
+                        <li>Клиника ФГБОУ ВО «Читинская государственная медицинская академия» МЗ РФ, Чита.
+                         <span class="dop-info"><span class="phones">+7 (3022) 73-70-73</span></span> <span class="btn-info">Подробнее</span></li>  
+                        <li>Краснодарский филиал ФГАУ «НМИЦ «МНТК «Микрохирургия глаза» им. акад. С.Н. Федорова» Минздрава России, Краснодар. <span class="dop-info"><span class="phones">+7 (800) 200-81-40</span></span> <span class="btn-info">Подробнее</span></li>
+                        <li>ЛОГБУЗ «Детская клиническая больница», Санкт-Петербург.
+                         <span class="dop-info"><span class="phones">+7 (812) 542-69-42</span></span> <span class="btn-info">Подробнее</span></li>  
+                        <li>Новосибирский филиал ФГАУ «НМИЦ «МНТК «Микрохирургия глаза» им. акад. С.Н. Федорова» Минздрава России, Новосибирск. <span class="dop-info"><span class="phones">+7 (383) 209-00-44</span></span> <span class="btn-info">Подробнее</span></li>
+                         
+                        <li>Оренбургский филиал ФГАУ «НМИЦ «МНТК «Микрохирургия глаза» им. акад. С.Н. Федорова» Минздрава России, Оренбург. <span class="dop-info"><span class="phones">+7 (3532) 38-80-30</span></span> <span class="btn-info">Подробнее</span></li>
+                          
+                        <li>Санкт-Петербургский филиал ФГАУ «НМИЦ «МНТК «Микрохирургия глаза» им. акад. С.Н. Федорова» Минздрава России, Санкт-Петербург. <span class="dop-info"><span class="phones">+7 (812) 324-66-66</span></span> <span class="btn-info">Подробнее</span></li> 
+                        
+                        <li>СПб ГБУЗ «Диагностический центр № 7», Санкт-Петербург. <span class="dop-info"><span class="phones">Запись для взрослого населения: +7 (812) 458-70-51, запись для детского населения: +7 (812) 458-70-52 С-З ФО</span></span> <span class="btn-info">Подробнее</span></li> 
+                         
+                        <li>ФГАУ «НМИЦ «МНТК «Микрохирургия глаза» им. акад. С.Н. Федорова» Минздрава России, Москва. <span class="dop-info"><span class="phones">+7 (499) 906-50-01</span></span> <span class="btn-info">Подробнее</span></li> 
+                          
+                        <li>ФГБНУ «НИИ глазных болезней им. М.М. Краснова», Москва. <span class="dop-info"><span class="phones">+7 (499) 110-45-45</span></span> <span class="btn-info">Подробнее</span></li> 
+                         
+                        <li>ФГБОУ ВО «ПСПбГМУ им. И.П. Павлова» Минздрава России, Санкт-Петербург. <span class="dop-info"><span class="phones">+7 (812) 338-78-92</span></span> <span class="btn-info">Подробнее</span></li> 
+                        
+                        <li>ФГБУ «Всероссийский центр глазной и пластической хирургии» Минздрава России, Уфа. <span class="dop-info"><span class="phones">+7 (347) 293-42-07, +7 (347) 293-42-12</span></span> <span class="btn-info">Подробнее</span></li> 
+                       
+                        <li>ФГБУ «ФНКЦСМ ФМБА России», Москва. <span class="dop-info"><span class="phones">+7 (499) 795 68 54</span> </span> <span class="btn-info">Подробнее</span></li> 
+                       
+                        <li>ФГБУН «Институт мозга человека им. Н.П. Бехтеревой» Российской академии наук, Санкт-Петербург. <span class="dop-info"><span class="phones">+7 (812) 670-76-75</span></span> <span class="btn-info">Подробнее</span></li> 
+
+                        <li>ФГБНУ «Медико-генетический научный центр им. акад. Н.П. Бочкова», Москва. <span class="dop-info"><span class="phones">+7 (495) 111-03-03</span></span> <span class="btn-info">Подробнее</span></li>  
+
+                        <li>Чебоксарский филиал ФГАУ «НМИЦ «МНТК «Микрохирургия глаза» им. акад. С.Н. Федорова» Минздрава России, Чебоксары. <span class="dop-info"><span class="phones">+7 (800) 700-07-88</span></span> <span class="btn-info">Подробнее</span></li>                          
+                         
+                    </ul>
+                </div>
+                
+                <div class="list-clinic list2">
+                    
+                    <div class="name">
+                      <h3>Список клиник, где можно пройти генетическую диагностику</h3>
+                      <div class="btn-arrow btn-list2">
+                          <img src="assets/img/block13/arrow.svg" alt="">
+                      </div>
+                    </div>
+                    <ul>
+                        <li>Медико-генетический центр «Геномед» — лаборатория молекулярной патологии, Москва. <span class="dop-info"><span class="phones">+7 (800) 333-45-38</span></span> <span class="btn-info">Подробнее</span></li>   
+
+                       
+                        <li>ФГБНУ «Медико-генетический научный центр им. акад. Н.П. Бочкова», Москва. <span class="dop-info"><span class="phones">+7 (495) 111-03-03</span></span> <span class="btn-info">Подробнее</span></li>   
+                        
+                        <li>Центр генетики и репродуктивной медицины «ГЕНЕТИКО», Москва. <span class="dop-info"><span class="phones">+7 (495) 185-99-61</span></span> <span class="btn-info">Подробнее</span></li> 
+                        
+                    </ul>
+                </div>
+                
+                
+                <div id="map"></div>
+                <p>Дополнительную информацию о НДС можно найти на сайте Межрегиональной общественной организации поддержки семей с НДС «Чтобы видеть!».</p>
+                <p>Текущий список клиник может быть дополнен, если в Вашей клинике есть специалисты в области НДС и она обладает оборудованием для клинической диагностики, просим вас написать нам на почту: <a href="mailto:Oleg.Bufetchikov@novartis.com" class="email">Oleg.Bufetchikov@novartis.com</a></p>
+                <a href="#" class="btn">Подробнее о пациентской организации</a>    
+                
+             </div> 
+             <div class="note-block">
+                <div class="wrapper">
+                 <div class="note flex  vert-top-flex">
+                    <img src="assets/img/block13/icon1.svg" alt="">
+                    <div class="text">
+                        <h3>Межрегиональная общественная организация
+                            поддержки семей с наследственными
+                            дистрофиями сетчатки <a href="#">«Чтобы видеть!».</a>
+                            существует с 2016 года.</h3>
+                             <h3>На ее сайте (looktosee.ru) и на страницах
+                            в социальных сетях еженедельно публикуются
+                            истории из жизни людей, добившихся успеха,
+                            несмотря на болезнь, есть информация
+                            о правильной адаптации к жизни со слабовидением и о технических средствах
+                                                    реабилитации.</h3>
+                           <h3>Для вступления в ряды моо «Чтобы видеть!»
+                                необходимо заполнить анкету на сайте
+                            <a href="https://looktosee.ru/">https://looktosee.ru/</a></h3>
+
+                        
+                        
+                    </div>
+                    
+                </div>
+                 
+             </div>
+             </div>
+     </section>
+     <section id="links">
+         <div class="wrapper">
+            <h3>Список источников:</h3>
+             <ul class="list">
+                 <li>RANZCO - Royal Australian and New Zealand College of Ophthalmologists RANZCO. Guidelines for the assessment and management of patients with inherited retinal degenerations (IRD) https://ranzco.edu/wp-content/uploads/2020/05/RANZCO-Guidelines-for-the-assessment-and-management-of-patients-with-inherited-retinal-degenertions-060520.pdf [Электронный источник]. Дата доступа: 25.08.2022.
+                 </li>
+                 <li>Клинические рекомендации «Наследственные дистрофии сетчатки», Перед представлением в НПС МЗ РФ Клинические рекомендации, www.avo-portal.ru. Дата доступа: 25.08.2022.</li>
+                 <li>Berger W. et al. Prog Retin Eye Res. 2010;29;335-75.</li>
+                 <li>Резолюция Совета экспертов от 11.03.2021г. http://avo-portal.ru/events/information-avo/item/399-informatsionnoe-pismo-o-rezultatah-soveta-ekspertov-vrachey-oftalmologov-11-marta-2021. Дата доступа: 25.08.2022.</li>
+                 <li>Chung D. et al. American Journal of Ophthalmology. 2019; 199: 58-70.</li>
+                 <li>Sahel J.A. et al. Cold Spring Harbor Perspectives in Medicine. 2015; 5(2): a017111.</li>
+                 <li>Nash, Benjamin M. et. al. Translational Pediatrics. 2015; 4,2: 139-63.</li>
+                 <li>Fahim A.T. et al. https://www.ncbi.nlm.nih.gov/books/NBK1417/. Дата доступа: 15.08.2022.</li>
+                 <li>Russell S. et al. Lancet. 2017; 390(10097): 849-860.</li>
+                 <li>Di Ioro, V. et al. Genes. 2017; 8:280-297.</li>
+                 <li>Ciderciyan A.V. Prog Retin Eye Res. 2010;29:398-427.</li>
+                 <li>Hamblion E. et al. Investigative Ophthalmology and Visual Science. 2011; 52(11): 7981-7986.</li>
+                 <li>Зинченко Р.А. и др. с соавт. Генетика. 2007. 43 (9): 1246-1254.</li>
+                 <li>Гринберг Э.Р. Молекулярно-генетический анализ тапеторетинальной абиотрофии в Республике Башкортостан. Дис. ... канд. мед. наук. М.; 2007.</li>
+                 <li>Зинченко Р.А. и др. с соавт. Вестник Удмуртского университета. Серия «Биология. Науки о Земле». 2009, 1.</li>
+                 <li>Кадышев В.В. и др. с соавт. РМЖ. Клиническая офтальмология. 2019; 1: 7-12.</li>
+                 <li>Рыков Е.М., Савина С.А. Таврический медико-биологический вестник. 2013: 177-186</li>
+                 <li>Orphanet. www.orpha.net. Homepage>Rare Disease>Genes “RPE65”. Дата доступа: 25.08.2022</li>
+                 <li>Liebermann L. et al. Journal of American Association for Pediatric Ophthalmology and Strabismus. 2017; 21(3): 183-e1.</li>
+                 <li>Thompson D. et al. Investigative Ophthalmology & Visual Science. 2000; 41(13): 4293-4299.</li>
+                 <li>Felius J. et al. Archives of Ophthalmology. 2002;120(1):55-61. doi:10.1001/archopht.120.1.55.</li>
+                 <li>Kumaran N. et al. British Journal of Ophthalmology. 2017; 101(9): 1147-1154.</li>
+                 <li>Simonelli F. et al. Investigative Ophthalmology and Visual Science. 2007; 48(9): 4284-4290.</li>
+                 <li>American Academy of Ophthalmology®, IRD Clinical Statement. 2016. https://www.aao.org/clinical-statement/recommendationson-clinical-assessment-ofpatients. Дата доступа: 25.08.2022</li>
+                 <li>Moosajee M. et al. Eur J Hum Genet. 2014; 22(4): 572.</li>
+                 <li>Willis T.A. et al. British Journal of Ophthalmology. 2013; 97(9): 1148-1154.</li>
+                 <li>Lee K. and Garg S. Genetics in Medicine. 2015; 17(4): 245.</li>
+             </ul>
+             
+         </div>
+     </section>
+     </div>
+     <footer>
+         <div class="wrapper">
+             <p>© <span class="year"></span> Novartis</p>
+             <p>Информация на сайте предназначена для медицинских работников. Материал является научно-образовательным и направлен на повышение профессионального уровня специалистов здравоохранения.</p>
+    
+         </div>
+         
+     </footer>
+     <script src="assets/js/wow.min.js"></script>
+     <script src="assets/js/jquery-3.2.0.min.js"></script>
+    <script src="assets/js/jquery.zoom.min.js"></script>
+     <script src="assets/js/jquery.validate.min.js"></script>
+     <script src="assets/js/main.js"></script>
+     
+     <script>
+		$(document).ready(function(){
+				$('.ex1').zoom();
+			$('.ex2').zoom();
+		});
+		
+		let year_span = document.querySelectorAll("footer span.year")[0];
+		let today = new Date();
+		let year = today.getFullYear();
+		
+		year_span.textContent=year;
+		
+	</script>
+    </body>
+</html>

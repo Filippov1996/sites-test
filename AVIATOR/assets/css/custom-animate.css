@@ -1,0 +1,61 @@
+/*map-animate*/
+
+.show-map{
+    animation: show_map 2s forwards;
+}
+
+@keyframes show_map{
+    
+    0%{
+        
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+/*animate-sheme*/
+
+.width-img{
+    animation:show_img 2s forwards;
+}
+
+@keyframes show_img{
+    
+    0%{
+        
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+
+
+
+/*btn*/
+.btn{
+   border:  2px solid #43354B !important;
+   transition: border 0.3s ease,background 0.3s ease, color 0.2s linear !important;
+}
+ a.btn:hover{
+    border:  2px solid #43354B !important;
+    background-color: #ffffff !important;
+    color: #43354B !important;
+}
+
+
+
+
+/*diogram*/
+
+
+
+
+
+
+
+
+

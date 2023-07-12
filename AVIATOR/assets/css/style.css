@@ -1,0 +1,153 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q,samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, {
+	display: block;
+}
+h1,h2,h3,h4,h5,h6,p,a,li,button{
+   font-family: 'Quantico', sans-serif;
+}
+
+
+
+
+
+html{
+
+}
+body {
+	margin: 0px;
+	padding: 0px;
+     background: #f5f4f4;
+}
+.wrapper{
+	width: 1200px;
+	margin: auto;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background : linear-gradient(251.97deg, #E6312D 0%, #000221 89.16%);
+
+}
+.main .bg{
+    background: url(../img/circle.png) 100% 0px no-repeat,url(../img/circle2.png) 0% 100% no-repeat;
+    padding-top: 40px;
+}
+
+
+
+header .logo-wrapp{
+   
+}
+
+header .content{
+   margin-top: -90px;
+}
+header .content  h1{
+    color: #ffffff;
+    line-height: 40px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+header .content  p{
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    width:60%;
+    margin: auto;
+}
+
+header .logo2{
+    display: block;
+    margin: 50px  auto 50px auto;
+}
+#info{
+    padding: 40px 0px 94px 0px;
+}
+#info img{
+    display: block;
+    margin: 0px auto 50px auto;
+}
+#info .code{
+    width: 297.81px;
+    text-align: center;
+    margin: auto;
+    
+}
+#info .code h2{
+    font-size: 20px;
+    line-height: 59px;
+    text-align: center;
+    color: #ffffff;
+     position: relative;
+    transform: rotate(-2deg)
+    
+}
+#info .code .num{
+    background: url(../img/border.png) no-repeat;
+}
+#info .code p{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 59px;
+    padding:6px 0px 8px 0px;
+    color:#ffffff;
+    position: relative;
+    transform: rotate(-2deg)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#info .label{
+    width: 323px;
+    margin:89px auto 0px auto;
+    padding: 43px 0px 0px 0px;
+    background-color: #ffffff;
+    border: 2px solid  #FF0600;
+    border-radius: 20px;
+}
+
+#info .label p{
+    font-size: 32px;
+    text-align: center;
+}
+#info .label a{
+    display: block;
+    width: 185.94px;
+    background: #FF0600;
+    box-shadow: 0px 4px 10px #E6312D;
+    border-radius: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 32px;
+    color: #ffffff;
+    margin:51px auto 10px auto;
+}
+
+
+

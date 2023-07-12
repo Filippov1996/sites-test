@@ -1,0 +1,53 @@
+.hide{
+    
+    
+    animation: hide 1s forwards !important;
+}
+
+@keyframes hide{
+    
+    0%{
+        
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}
+.show{
+    
+    
+    animation: show 1s forwards !important;
+}
+
+@keyframes show{
+    
+    0%{
+        
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+#main-wrapper nav .menu-headrs ul .li-item-parent>a{
+	transition: 1s border;
+}
+#main-wrapper nav .menu-headrs ul .li-item-parent>a:hover{
+	border: 1px solid #00ACC2;
+}
+
+.animButton{
+	border: 1px solid #00ACC2 !important;
+	transition: 1s border,1s color,1s background-color;
+}
+
+ .animButton:hover{
+	border: 1px solid #00ACC2 !important;
+	color: #00ACC2 !important; 
+	background-color: #ffffff !important;
+}
+
+
+
+

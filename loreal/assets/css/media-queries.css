@@ -1,0 +1,247 @@
+@media screen and (max-width:1300px){
+	#main-wrapper{
+		width: 1000px;
+		margin: auto
+	}
+    .wrapper{
+        width:900px;
+    }
+    #calendar-callback .calendar .counter-wrapp .desc{
+		width: 400px;
+	}
+	
+}
+@media screen and (max-width:1231px){
+	
+	.line-contact .wrapper-instruction{
+		width:900px;
+	}
+	
+}
+@media screen and (max-width:1010px){
+	#main-wrapper .banner{
+		display: none;
+	}
+	#main-wrapper .banner-mob{
+		display: block;
+	}
+	#main-wrapper{
+		width: 900px;
+		margin: auto
+	}
+    .wrapper{
+        width:800px;
+    }
+	#calendar-callback .calendar .counter-wrapp{
+		flex-direction: column;
+		width: 
+	}
+	#calendar-callback .calendar .counter-wrapp .desc{
+		width: 100%;
+		text-align: center;
+	}
+	#calendar-callback .calendar .counter-wrapp .counter{
+		width: 60%;
+		margin-top: 20px;
+	}
+	.line-contact .wrapper-instruction{
+		flex-direction: column;
+		width: 100%;
+	}
+	.line-contact .wrapper-instruction .item{
+		width: 100%;
+	}
+	.line-contact .wrapper-instruction .item p{
+		text-align: center;
+	}
+	.line-contact .wrapper-instruction .sep{
+		padding: 20px;
+		margin: auto;
+		transform: rotate(90deg)
+	}
+	 footer .wrapper .info{
+    width:50%;
+	}
+
+	footer .wrapper .logos{
+		width: 50%;
+
+	}
+	
+}
+@media screen and (max-width:908px){
+	#main-wrapper{
+		width: 90%;
+		margin: auto
+	}
+    .wrapper{
+        width:90%;
+    }
+    #main-wrapper .banner-mob{
+		height: 550px;
+	}
+	#main-wrapper .banner-mob .wrapper{
+		width: 85%;
+	}
+	#main-wrapper .banner-mob .slide{
+		height: 550px;
+		padding-top: 50px;
+	}
+   
+}
+@media screen and (max-width:891px){
+	.training .tabs-items .item .wrapp{
+		flex-direction: column;
+	}
+	.training .tabs-items .item .image{
+		width: 100%;
+	}
+	.training .tabs-items .item .desc{
+    	width:100%;
+		padding-top: 20px;
+	}
+	.training .tabs-items .item .desc .btn-link{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:742px){
+	#main-wrapper nav .menu-headrs ul{
+		flex-direction: column;
+	}
+	#main-wrapper nav .menu-headrs ul .li-item-parent{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	#main-wrapper nav .menu-headrs ul li a{
+		width: 100%;
+		}
+	#main-wrapper .banner .slide .wrapper .desc{
+		width: 100%;
+	}
+	#calendar-callback .calendar .counter-wrapp .desc{
+		width: 100%;
+		text-align: center;
+	}
+	#calendar-callback .calendar .counter-wrapp .counter{
+		width: 100%;
+		margin-top: 20px;
+	}
+	#calendar-callback .calendar-win{
+		width: 100%;
+	}
+	.ui-widget-content{
+		width: 97% !important;
+	}
+	#calendar-callback .time{
+		width: 100%;
+	}
+	
+	
+	
+	
+	
+	
+	
+	.line-contact .wrapper{
+		flex-direction: column;
+	}
+	.line-contact .wrapper p{
+		width: 100%;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	footer .wrapper{
+		flex-direction: column
+	}
+	footer .wrapper div{
+		width: 100% !important;
+		margin-bottom: 40px;
+	}
+	footer .wrapper .logos{
+		flex-direction: column;
+		 align-items:center;
+	}
+	footer .wrapper .logos img{
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width:649px){
+	#calendar-callback .callback .wrapp-fields {
+		flex-direction: column;
+	}
+	#calendar-callback .callback .wrapp-fields .wrapp-input{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	#calendar-callback .callback form .politic-wrapp button{
+		width: 100%;
+	}
+}
+
+
+@media screen and (max-width:520px){
+	#main-wrapper .banner-mob{
+		height: 650px;
+	}
+	#main-wrapper .banner-mob .slide{
+		height: 650px;
+	}
+	.training .tabs-control{
+		width: 90%
+	}
+	#main-wrapper .banner-mob .wrapper{
+		width: 80%;
+	}
+	#main-wrapper .banner-mob .slide .wrapper .desc{
+		width: 100%;
+	}
+	#main-wrapper .banner-mob .slide .wrapper .desc h1{
+		font-size: 23px;
+		text-align: center;
+		width: 100%;
+	}
+	#main-wrapper .banner-mob .slide .wrapper .desc p{
+		font-size: 15px;
+		text-align: center;
+	}
+}
+@media screen and (max-width:490px){
+	#calendar-callback .time table td{
+    		width: 100%;
+			display: block;
+		  
+	}
+}
+
+@media screen and (max-width:416px){
+	#calendar-callback .calendar .counter-wrapp .counter{
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width:362px){
+	#main-wrapper .banner-mob{
+		height:750px;
+	}
+	#main-wrapper .banner-mob .slide{
+		height: 750px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
