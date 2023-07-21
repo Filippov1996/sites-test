@@ -31,8 +31,19 @@ let btn_menu = document.querySelectorAll(".header__btn-menu")[0];
 let close_menu = document.querySelectorAll(".header__mob-menu .close")[0];
 
 btn_menu.addEventListener("click",()=>{
-          mob_menu.classList.add('show-menu');
+          mob_menu.style.display="block";  
+          
+          setTimeout(()=>{
+               mob_menu.classList.add('show-menu');
+              
+          },200);          
 });
 close_menu.addEventListener("click",()=>{
           mob_menu.classList.remove('show-menu');
+          
+    
+          setTimeout(()=>{
+                mob_menu.style.display="none";  
+              
+          },700); 
 });
