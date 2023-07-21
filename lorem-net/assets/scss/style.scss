@@ -774,6 +774,7 @@ body{
             align-items: center;
             gap:20px;
         }
+        
      }
 }
 .footer{ 
@@ -795,7 +796,12 @@ body{
         font-size: 13px;
         color: #ffffff;
         display: block;
-    
+        @media screen and (max-width:990px) {
+            text-align: center;
+        }
+        @media screen and (max-width:780px) {
+            text-align: left;
+        }
      }
 }
 .footer{ 
@@ -839,7 +845,7 @@ body{
 }
 .footer{ 
     &__wallet-list li{
-       padding: 2px 0px 2px 40px;
+       padding: 2px 0px 2px 30px;
         color: #C3C3C3;
          @media screen and (max-width:780px) {
     
@@ -849,13 +855,13 @@ body{
 }
 .footer{ 
     &__item-qi{
-      background: url(../img/form/qiwi-icon.svg) no-repeat left center;
+      background: url(../img/footer/qiwi-icon.svg) no-repeat left center;
      }
     &__item-ya{
-      background: url(../img/form/yandex-icon.svg) no-repeat left center;
+      background: url(../img/footer/yandex-icon.svg) no-repeat left center;
      }
     &__item-wm{
-      background: url(../img/form/webmany-icon.svg) no-repeat left center;
+      background: url(../img/footer/webmany-icon.svg) no-repeat left center;
      }
 }
 
@@ -911,10 +917,10 @@ body{
 }
 .footer{ 
     &__icon-email{
-       background: url(../img/form/email-icon.svg) no-repeat left center;
+       background: url(../img/footer/email-icon.svg) no-repeat left center;
      }
     &__icon-vk{
-       background: url(../img/form/vk-icon.svg) no-repeat left center;
+       background: url(../img/footer/vk-icon.svg) no-repeat left center;
      }
 }
 
