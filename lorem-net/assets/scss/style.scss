@@ -129,13 +129,15 @@ body{
         top: 0;
         background-color: #10101d;      
         padding-top: 30px;
+        display: none
         opacity: 0;
         visibility: hidden;
         transition: visibility 0.5s, opacity 0.5s linear;
         
     }
     .show-menu{
-         visibility: visible;
+        display: block;
+        visibility: visible;
         opacity:1; 
     }
     &__mob-menu .wrapp-menu{
