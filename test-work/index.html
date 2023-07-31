@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer="defer"></script>
+     <script src="assets/js/sliders.js" defer="defer"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>'t Zeezotje</title>
+  </head>
+  <body>
+    <div class="menu">
+      <div class="menu__block">
+        <div class="menu__close">
+          <img src="assets/image/mob-menu/menu-close.svg" alt="close">
+        </div>
+        <nav>
+          <a href="#schedule" class="menu__item">À la carte</a> <a href="#reviews" class="menu__item">Wijnkaart</a> <a href="#dishes" class="menu__item">Lunchmenu</a> <a href="#contacts" class="menu__item">Contact</a>
+        </nav><a href="tel:+32 9 282 57 25" class="menu__phone"><img src="assets/image/mob-menu/icon-phone.svg" alt="icon-phone" class="menu__phone-icon"> +32 9 282 57 25</a>
+      </div>
+      <div class="menu__overlay"></div>
+    </div>
+    <div class="form__modal">
+        <div class="form__wrapper">
+          <form class="form" id="formModal">
+            <div class="form__close">
+              <img src="assets/image/mob-menu/menu-close.svg" alt="Close">
+            </div>
+            <div class="form__inputs">
+                <label for="name-modal" class="form__text">Name</label> 
+                <input  name="name" type="text" class="form__input form__name" id="name-modal"> 
+                <label for="email-modal" class="form__text">Email</label> 
+                <input name="email" type="text" class="form__input form__email" id="email-modal"> 
+                <button type="submit" class="form__button">Confirm</button>
+            </div>
+          </form>
+        </div>
+    </div>
+    <header class="banner">
+      <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+      <div class="container">
+        <nav class="banner__nav">
+          <div class="banner__logo-wrapper">
+            <img src="assets/image/headers/logotype.svg" alt="Logo" class="promo__logo">
+          </div>
+          <div class="banner__nav-items">
+            <a href="#schedule" class="banner__nav-item">À la carte</a> <a href="#reviews" class="banner__nav-item">Wijnkaart</a> <a href="#dishes" class="banner__nav-item">Lunchmenu</a> <a href="#contacts" class="banner__nav-item">Contact</a>
+          </div><a href="tel:+32 9 282 57 25" class="banner__nav-phone"><img src="assets/image/headers/phone-icon.svg" alt="Phone-icon" class="banner__nav-phone-icon"> +32 9 282 57 25</a>
+        </nav>
+        <div class="banner__schedule">
+          OPEN EVERYDAY 6AM - 9PM
+        </div>
+        <h1 class="banner__title">
+          A bad day with lunch is better than a good day without it.
+        </h1>
+        <div class="banner__buttons">
+          <button class="banner__button">Reserve a table</button>
+          <div class="banner__links">
+            <a href="#" class="banner__link"><img src="assets/image/headers/icon-fb.svg" alt="facebook"></a> 
+            <a href="#" class="banner__link"><img src="assets/image/headers/icon-ig.svg" alt="instagram"></a>
+            <a href="#" class="banner__link"><img src="assets/image/headers/icon-tw.svg" alt="twitter"></a> 
+            <a href="#" class="banner__link"><img src="assets/image/headers/icon-yt.svg" alt="youtube"></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="schedule" class="schedule">
+      <div class="container">
+        <div class="schedule__wrapper">
+          <div class="schedule__date-wrapper">
+            <div class="schedule__date-block">
+              <div class="schedule__date">
+                Woensdag 12/01
+              </div>
+              <div class="schedule__date-dish">
+                Salade met Serrano
+              </div>
+              <div class="schedule__date-dots">
+                &#8226 &#8226 &#8226
+              </div>
+              <div class="schedule__date-dish">
+                Steak Tartaar
+              </div>
+            </div>
+            <div class="schedule__date-block">
+              <div class="schedule__date">
+                Donderdag 13/01
+              </div>
+              <div class="schedule__date-dish">
+                Toast Roquefort
+              </div>
+              <div class="schedule__date-dots">
+                &#8226 &#8226 &#8226
+              </div>
+              <div class="schedule__date-dish">
+                Penne met Kip en Prei
+              </div>
+            </div>
+            <div class="schedule__date-block">
+              <div class="schedule__date">
+                Vrijdag 14/01
+              </div>
+              <div class="schedule__date-dish">
+                Verrassing van de Chef
+              </div>
+              <div class="schedule__date-dots">
+                &#8226 &#8226 &#8226
+              </div>
+              <div class="schedule__date-dish">
+                Penne met Kip en Prei
+              </div>
+            </div>
+            <div class="schedule__date-block">
+              <div class="schedule__date">
+                Vrijdag 15/01
+              </div>
+              <div class="schedule__date-dish">
+                Verrassing van de Chef
+              </div>
+              <div class="schedule__date-dots">
+                &#8226 &#8226 &#8226
+              </div>
+              <div class="schedule__date-dish">
+                Penne met Kip en Prei
+              </div>
+            </div>
+            <div class="schedule__date-block">
+              <div class="schedule__date">
+                Vrijdag 16/01
+              </div>
+              <div class="schedule__date-dish">
+                Verrassing van de Chef
+              </div>
+              <div class="schedule__date-dots">
+                &#8226 &#8226 &#8226
+              </div>
+              <div class="schedule__date-dish">
+                Penne met Kip en Prei
+              </div>
+            </div>
+          </div>
+          <div class="schedule__image-wrapper">
+            <div class="schedule__image-first">
+              <img src="assets/image/schedule/photo1.jpg" alt="photo1">
+            </div>
+            <div class="schedule__image-second">
+              <img src="assets/image/schedule/photo2.jpg" alt="photo2">
+            </div>
+            <div class="schedule__image-rectangel"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="reviews" class="reviews">
+      <div class="container">
+        <div class="reviews__slider swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="reviews__item">
+                <div class="reviews__quotes">
+                  <img src="assets/image/reviews/quotes.svg" alt="quotes">
+                </div>
+                <div class="reviews__title">
+                  Goede service, lekker eten, toffe ambiance
+                </div>
+                <p class="reviews__text">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.
+                </p>
+                <div class="reviews__name">
+                  ALAIN HEYNDRICKX
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="reviews__item">
+                <div class="reviews__quotes">
+                  <img src="assets/image/reviews/quotes.svg" alt="quotes">
+                </div>
+                <div class="reviews__title">
+                  Goede service, lekker eten, toffe ambiance
+                </div>
+                <p class="reviews__text">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.
+                </p>
+                <div class="reviews__name">
+                  ALAIN HEYNDRICKX
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="reviews__item">
+                <div class="reviews__quotes">
+                  <img src="assets/image/reviews/quotes.svg" alt="quotes">
+                </div>
+                <div class="reviews__title">
+                  Goede service, lekker eten, toffe ambiance
+                </div>
+                <p class="reviews__text">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.
+                </p>
+                <div class="reviews__name">
+                  ALAIN HEYNDRICKX
+                </div>
+              </div>
+            </div>
+          </div>
+          <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg" class="swiper-button-prev reviews__swiper-button-prev reviews__arrow">
+                <path d="M43.8958 11.9L24.8791 30.9166C22.6333 33.1625 22.6333 36.8375 24.8791 39.0833L43.8958 58.1" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+         <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg" class="swiper-button-next reviews__swiper-button-next reviews__arrow">
+          <path d="M26.1042 11.9L45.1209 30.9166C47.3667 33.1625 47.3667 36.8375 45.1209 39.0833L26.1042 58.1" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <section id="dishes" class="dishes">
+      <div class="container">
+        <div class="dishes__item">
+          <div class="dishes__item-inner">
+            <div class="dishes__title">
+              LEKKER ETEN
+            </div>
+            <p class="dishes__text">
+              Eten gaat niet over indruk maken op mensen. Het gaat erom dat ze zich op hun gemak voelen. Dat is onze filosofie, goed eten in een goede sfeer.
+            </p>
+          </div>
+          <div class="dishes__photo">
+            <img src="assets/image/dishes/Dishes1.jpg" alt="Dishes">
+          </div>
+        </div>
+        <div class="dishes__item">
+          <div class="dishes__photo">
+            <img src="assets/image/dishes/Dishes2.jpg" alt="Dishes">
+          </div>
+          <div class="dishes__item-inner">
+            <div class="dishes__title">
+              TOFFE AMBIANCE
+            </div>
+            <p class="dishes__text">
+              Het creëren van de juiste sfeer is zeer belangrijk voor ons. We nemen onze tijd om te zorgen dat alle elementen bijdragen aan de juiste setting.
+            </p>
+          </div>
+        </div>
+        <div class="dishes__item">
+          <div class="dishes__item-inner">
+            <div class="dishes__title">
+              LEKKERE COCKTAILS
+            </div>
+            <p class="dishes__text">
+              Ons doel is simpel: een gastvrije plek bieden waar u kunt genieten van een onvergetelijke cocktail, een goed gesprek en lekker eten.
+            </p>
+          </div>
+          <div class="dishes__photo">
+            <img src="assets/image/dishes/Dishes3.jpg" alt="Dishes">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="photos">
+      <div class="photos__background"></div>
+      <div class="container">
+        <div class="photos__wrapper">
+          <div>
+            <div class="photos__title">
+              Sfeerfoto's
+            </div>
+            <p class="photos__text">
+              De beste manier om de sfeer te ervaren is eens langskomen.<br>
+              In tussentijd hebben we hier alvast wat foto’s voor je klaar.
+            </p>
+          </div>
+          <div class="photos__arrow-wrapper">
+            <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg" class="swiper-button-prev photos__swiper-button-prev photos__arrow">
+                <path d="M43.8958 11.9L24.8791 30.9166C22.6333 33.1625 22.6333 36.8375 24.8791 39.0833L43.8958 58.1" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg"class="swiper-button-next photos__swiper-button-next photos__arrow">
+          <path d="M26.1042 11.9L45.1209 30.9166C47.3667 33.1625 47.3667 36.8375 45.1209 39.0833L26.1042 58.1" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        
+          </div>
+        </div>
+      </div>
+      <div class="photos__slider swiper mySwiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="photos__item">
+              <img src="assets/image/gallery/img1.jpg" alt="photo1">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="photos__item">
+              <img src="assets/image/gallery/img2.jpg" alt="photo2">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="photos__item">
+              <img src="assets/image/gallery/img3.jpg" alt="photo3">
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <section id="contacts" class="contacts">
+      <div class="container">
+        <div class="contacts__wrapper">
+          <div class="contacts__info">
+            <div class="contacts__title contacts__info-title">
+              Contacts
+            </div>
+            <div class="contacts__item">
+              <div class="contacts__icon">
+                <img src="assets/image/contacts/icon-phone.svg" alt="phone">
+              </div>
+              <div>
+                <div class="contacts__name">
+                  Phone Number
+                </div><a href="tel:+32 9 282 57 25" class="contacts__value">+32 9 282 57 25</a>
+              </div>
+            </div>
+            <div class="contacts__item">
+              <div class="contacts__icon">
+                <img src="assets/image/contacts/icon-email.svg" alt="email">
+              </div>
+              <div>
+                <div class="contacts__name">
+                  Email
+                </div><a href="mailto: info@email.com" class="contacts__value">info@email.com</a>
+              </div>
+            </div>
+            <div class="contacts__item">
+              <div class="contacts__icon">
+                <img src="assets/image/contacts/icon-watch.svg" alt="watch">
+              </div>
+              <div>
+                <div class="contacts__name">
+                  Opening Hours
+                </div>
+                <div class="contacts__value">
+                  Everyday from 6 AM - 9 PM
+                </div>
+              </div>
+            </div>
+            <div class="contacts__item">
+              <div class="contacts__icon">
+                <img src="assets/image/contacts/icon-map.svg" alt="map">
+              </div>
+              <div>
+                <div class="contacts__name">
+                  Map Street
+                </div>
+                <div class="contacts__value">
+                  Jl. Raya Surabaya 2787
+                </div>
+              </div>
+            </div>
+          </div>
+          <form class="contacts__form" id="contactForm">
+            <div class="contacts__title contacts__form-title">
+              have any questions?
+            </div>
+            <div class="contacts__form-wrapper">
+              <div>
+                <label class="contacts__form-label" for="name">Name</label>
+                 <input class="contacts__form-input contacts__form-input-name" name="name" type="text" placeholder="Input your name">
+              </div>
+              <div>
+                <label class="contacts__form-label" for="email">Email</label> 
+                <input class="contacts__form-input contacts__form-input-email" name="email" type="text" placeholder="Input your email">
+              </div>
+              <div>
+                <label class="contacts__form-label" for="textarea">Speciale Request</label> 
+                <textarea class="contacts__form-textarea" name="textarea" placeholder="Input your special request"></textarea>
+              </div>
+            </div><button type="submit" class="contacts__form-button">Send</button>
+          </form>
+        </div>
+        <div class="contacts__map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80293.42989785869!2d3.6411702880088535!3d51.03148668045886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c36d86000a0d65%3A0x7535eb12a3ad34f9!2zSG9vZ2xhdGVtd2VnIDIsIDk4MzAgU2ludC1NYXJ0ZW5zLUxhdGVtLCDQkdC10LvRjNCz0LjRjw!5e0!3m2!1sru!2sru!4v1675077501558!5m2!1sru!2sru" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+         <div class="container footer__container">
+          <div class="footer__logo">
+            <img src="assets/image/footer/logotype.svg" alt="Logo">
+          </div>
+          <div class="footer__links">
+           <a href="#" class="footer__link"><img src="assets/image/footer/icon-facebook.svg" alt="facebook" ></a>
+           <a href="#" class="footer__link"><img src="assets/image/footer/icon-instagram.svg" class="contacts__link"></a>
+           <a href="#" class="footer__link"><img src="assets/image/footer/icon-twiter.svg" alt="twiter" class="contacts__link"></a>
+           <a href="#"  class="footer__link"><img src="assets/image/footer/icon-youtube.svg" alt="youtube" class="contacts__link"></a>
+          </div>
+          </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/ajax.js"></script>
+  </body>
+</html>
