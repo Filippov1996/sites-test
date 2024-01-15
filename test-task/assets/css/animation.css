@@ -1,0 +1,45 @@
+.header__nav-mobile-btn span.header__nav-btn-line1{
+    transition: opacity .5s;
+}
+.header__nav-mobile-btn span.header__nav-btn-line2{
+    transition: opacity .7s;
+}
+
+.anim-line1,
+.anim-line2{
+    opacity: 0
+}
+
+
+.header__nav-btn-line3,
+.header__nav-btn-line4{
+     transition: opacity .2s, transform .3s ;
+}
+
+.anim-line3{
+    opacity: 1;
+    transform: rotate(47deg)
+}
+.anim-line4{
+    opacity: 1;
+    transform: rotate(133deg)
+}
+
+.header__banner-btn{
+    transition: background-color .3s, border .3s;
+}
+.header__banner-btn:hover{
+    border: 1px solid #8F8FFF;
+    background-color: #A3A3FF;
+}
+.header__banner-btn:focus{
+    border: 1px solid #8F8FFF;
+    background-color: #6464FF;
+}
+
+.header__nav-link-menu{
+    transition: color .3s;
+}
+.header__nav-link-menu:hover{
+    color: #8F8FFF;
+}
