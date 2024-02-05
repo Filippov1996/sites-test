@@ -1,0 +1,235 @@
+:root { 
+  --black-0b0b0b100: #0a0a0a;
+  --black-0b0b0b60: #0a0a0a99;
+  --black-0b0b0b80: #0a0a0acc;
+  --black-282828100: #282828;
+  --black-28282860: #28282899;
+  --black-28282880: #282828cc;
+  --gamboge: #eb9c00;
+  --piggy-pink: #ffe3e8;
+  --radical-red: #ff4a6a;
+  --red-standard: #d03434;
+  --usedblack: #080c0d;
+  --usedblack-00000: #000000;
+  --usedblack-2: #282828;
+  --useddark-gray: #616161;
+  --usedlight-gray: #dbdbdb;
+  --white-ffffff100: #ffffff;
+  --white-ffffff50: #ffffff80;
+  --white-ffffff60: #ffffff99;
+  --white-ffffff80: #ffffffcc;
+  --white-ffffffall-graye6: #e6e6e6;
+  --white-ffffffall-grayf7: #f7f7f7;
+ 
+  --font-size-18px: 18px;
+  --font-size-40px: 40px;
+  --font-size-l: 16px;
+  --font-size-m: 14px;
+  --font-size-s: 12px;
+  --font-size-xl: 17px;
+  --font-size-xs: 10px;
+  --font-size-xxl: 22px;
+  --font-size-xxxl: 24px;
+ 
+  --font-family-gilroy-medium: "Gilroy-Medium", Helvetica;
+  --font-family-gilroy-regular: "Gilroy-Regular", Helvetica;
+  --font-family-gilroy-semibold: "Gilroy-Semibold", Helvetica;
+  --font-family-inter-medium: "Inter-Medium", Helvetica;
+  --font-family-neue_frutiger_world-bold: "Neue Frutiger World-Bold", Helvetica;
+  --font-family-neue_frutiger_world-book: "Neue Frutiger World-Book", Helvetica;
+  --font-family-neue_frutiger_world-medium: "Neue Frutiger World-Medium", Helvetica;
+  --font-family-neue_frutiger_world-regular: "Neue Frutiger World-Regular", Helvetica;
+  --font-family-neuzeit_grotesk-bold: "Neuzeit Grotesk-Bold", Helvetica;
+  --font-family-roboto: "Roboto", Helvetica;
+}
+.robotoh2caps {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.robotoh3 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.robototextprimary1 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.robototextprimary2 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.robototextprimary2accent {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.14px;
+}
+
+.robotobutton1 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.robotobutton2 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.robotocaption {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.robotodescriptor {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.gilroyh2 {
+  font-family: var(--font-family-gilroy-medium);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.gilroyh3 {
+  font-family: var(--font-family-gilroy-medium);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.gilroyh3caps {
+  font-family: var(--font-family-gilroy-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.gilroytextprimary1 {
+  font-family: var(--font-family-gilroy-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.gilroytextprimary2 {
+  font-family: var(--font-family-gilroy-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.gilroybutton1 {
+  font-family: var(--font-family-gilroy-semibold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.gilroybutton2 {
+  font-family: var(--font-family-gilroy-semibold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.gilroyprice1 {
+  font-family: var(--font-family-gilroy-medium);
+  font-size: var(--font-size-40px);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.gilroyoldprice {
+  font-family: var(--font-family-gilroy-medium);
+  font-size: var(--font-size-18px);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.gilroycaption {
+  font-family: var(--font-family-gilroy-regular);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.neuefrutigerworld-book-normal-cod-gray-14px {
+  color: var(--black-0b0b0b80);
+  font-family: var(--font-family-neue_frutiger_world-book);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.neuefrutigerworld-medium-cod-gray-16px {
+  color: var(--black-0b0b0b100);
+  font-family: var(--font-family-neue_frutiger_world-medium);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.neuefrutigerworld-book-normal-cod-gray-12px {
+  color: var(--black-0b0b0b80);
+  font-family: var(--font-family-neue_frutiger_world-book);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.neuzeitgrotesk-bold-shark-16px {
+  color: var(--black-282828100);
+  font-family: var(--font-family-neuzeit_grotesk-bold);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.gilroy-medium-radical-red-20px {
+  color: var(--radical-red);
+  font-family: var(--font-family-gilroy-medium);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
