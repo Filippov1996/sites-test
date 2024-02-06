@@ -8,7 +8,7 @@ var swiper = new Swiper(".slider-header", {
 
 $(document).ready(function(){	
 	var click = false;
-  	$(".footer__btn-text .line-text").on('click',function(){
+  	$(".footer__btn-text").on('click',function(){
 		    
 			if(click==false){
 				$(this).text('Collapse');

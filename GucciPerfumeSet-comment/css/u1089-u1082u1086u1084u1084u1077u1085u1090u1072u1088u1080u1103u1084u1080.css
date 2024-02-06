@@ -54,7 +54,7 @@
 .u1089-u1082u1086u1084u1084u1077u1085u1090u1072u1088u1080u1103u1084u1080 .expires-feb-04-2024 {
   color: var(--black-0b0b0b100);
   font-style: italic;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 15.4px;
   margin-top: -1.00px;
   position: relative;
@@ -88,7 +88,7 @@
 .u1089-u1082u1086u1084u1084u1077u1085u1090u1072u1088u1080u1103u1084u1080 .x000-cost-i-000-shipping {
   color: var(--white-ffffff100);
   font-style: italic;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 15.4px;
   margin-top: -0.50px;
   position: relative;
@@ -296,7 +296,7 @@
   margin-right: -1.00px;
   padding: 20px 15px;
   position: relative;
-  width: 100%;
+  width: 95%;
 }
 
 .u1089-u1082u1086u1084u1084u1077u1085u1090u1072u1088u1080u1103u1084u1080 .txt-2 {
@@ -459,7 +459,6 @@
   line-height: 15.6px;
   position: relative;
   text-align: center;
-  width: 370px;
 }
 
 .u1089-u1082u1086u1084u1084u1077u1085u1090u1072u1088u1080u1103u1084u1080 .footer {
@@ -527,7 +526,7 @@
 }
 
 .u1089-u1082u1086u1084u1084u1077u1085u1090u1072u1088u1080u1103u1084u1080 .sample-text-2 {
-  color: var(--useddark-gray);
+  color: #ffffff;
   line-height: 18.2px;
   margin-top: -1.00px;
 }
@@ -547,9 +546,9 @@
   font-family: var(--font-family-roboto);
   font-size: 17px;
   font-size: 17px;
-	font-style: normal;
-	font-weight: 500;
-	line-height: 130%;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
 }
 
 .u1089-u1082u1086u1084u1084u1077u1085u1090u1072u1088u1080u1103u1084u1080 .frame-3 {
@@ -588,8 +587,7 @@
   margin-right: -1.00px;
   padding: 20px 15px;
   position: relative;
-	
-  width: 100%;
+  width:95%;
 }
 
 .u1089-u1082u1086u1084u1084u1077u1085u1090u1072u1088u1080u1103u1084u1080 .sample-text-3 {

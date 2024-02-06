@@ -103,7 +103,8 @@
 
 
 .wrapp{
-  max-width: 500px;
+  max-width: 490px;
+  width: 100%;
   margin: auto;
 }
 .hide{
@@ -346,7 +347,7 @@ line-height: 130%;
   color: #ffffff;
   font-size: 17px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 130%;
   margin-top: 10px;
   color: #0B0B0B;

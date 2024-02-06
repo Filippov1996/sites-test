@@ -48,7 +48,9 @@
   position: relative;
   width: 100%;
 }
-
+.c-u1082u1086u1084u1084u1077u1085u1090u1072u1088u1080u1103u1084u1080 .product img:nth-child(1){
+	width: 80%;
+}
 .c-u1082u1086u1084u1084u1077u1085u1090u1072u1088u1080u1103u1084u1080 .about-product {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -94,7 +96,7 @@
 .c-u1082u1086u1084u1084u1077u1085u1090u1072u1088u1080u1103u1084u1080 .expires-feb-04-2024 {
   color: var(--white-ffffff100);
   font-style: italic;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 15.4px;
   margin-top: -0.50px;
   position: relative;
@@ -148,7 +150,7 @@
 .c-u1082u1086u1084u1084u1077u1085u1090u1072u1088u1080u1103u1084u1080 .x000-cost-i-000-shipping-1 {
   color: #cc331c;
   font-style: italic;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 15.4px;
   margin-top: -0.50px;
   position: relative;
@@ -214,7 +216,7 @@
 
 .c-u1082u1086u1084u1084u1077u1085u1090u1072u1088u1080u1103u1084u1080 .sample-text {
   color: var(--white-ffffff100);
-  font-weight: 600;
+  font-weight: 500;
   line-height: 22.1px;
   margin-top: -0.50px;
   position: relative;
@@ -412,7 +414,8 @@
   margin-right: -1.00px;
   padding: 20px 0px;
   position: relative;
-  width: 470px;
+  max-width: 470px;
+  width: 90%;
 }
 
 .c-u1082u1086u1084u1084u1077u1085u1090u1072u1088u1080u1103u1084u1080 .txt-2 {
@@ -615,7 +618,7 @@
   text-align: center;
   color: #0B0B0B;
   font-family: var(--font-family-roboto);
-  font-weight: 600;
+  font-weight:500;
 }
 
 .c-u1082u1086u1084u1084u1077u1085u1090u1072u1088u1080u1103u1084u1080 .sample-text-1 {
@@ -652,7 +655,8 @@
   gap: 16px;
   padding: 30px 10px;
   position: relative;
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
 }
 .footer {
   -webkit-box-align: start;
@@ -785,7 +789,7 @@
   padding: 20px 0px;
   position: relative;
   max-width: 472px;
-  width: 100%;
+  width: 90%;
 }
 
 .c-u1082u1086u1084u1084u1077u1085u1090u1072u1088u1080u1103u1084u1080 .sample-text-3 {

@@ -97,7 +97,7 @@ li{
   position: fixed;
   display: none;
   background-color: rgba(000,000,000,.2);
-  z-index: 3;
+  z-index: 33;
 }
 .popup-policy__wrapp{
   max-width: 500px;
@@ -232,7 +232,7 @@ li{
   position: fixed;
   display: none;
   background-color: rgba(000,000,000,.2);
-  z-index: 3;
+  z-index: 33;
 }
 .popup-callback__wrapp{
   max-width: 500px;
@@ -374,8 +374,11 @@ line-height: 130%;
 .slider-header .swiper-pagination-bullet-active{
 	background: #ffffff;
 }
+.footer__btn-text{
+	color: #ffffff !important;
+}
 @media screen and (max-width:420px){
-	.slider-header .swiper-slide>img{
+	.slider-header .swiper-slide>img:nth-child(1){
 		height: 390px !important;
 	}
 	
