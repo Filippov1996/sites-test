@@ -1,0 +1,68 @@
+:root { 
+  --black-0b0b0b100: #0a0a0a;
+  --black-0b0b0b80: #0a0a0acc;
+  --black-28282860: #28282899;
+  --usedblack-00000: #000000;
+  --useddark-gray: #616161;
+  --usedlight-gray: #dbdbdb;
+  --white-ffffff100: #ffffff;
+  --white-ffffff80: #ffffffcc;
+  --white-ffffffall-graye6: #e6e6e6;
+ 
+  --font-size-l: 16px;
+  --font-size-m: 14px;
+  --font-size-s: 12px;
+  --font-size-xl: 17px;
+  --font-size-xs: 10px;
+  --font-size-xxl: 22px;
+ 
+  --font-family-roboto: "Roboto", Helvetica;
+  --font-family-rowdies: "Rowdies", Helvetica;
+}
+.robotoh3 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.robototextprimary1 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.robototextprimary2 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.robototextprimary2accent {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.14px;
+}
+
+.robotobutton2 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.robotocaption {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
