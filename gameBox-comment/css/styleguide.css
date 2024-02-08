@@ -1,0 +1,70 @@
+:root { 
+  --black-0b0b0b100: #0a0a0a;
+  --black-0b0b0b60: #0a0a0a99;
+  --black-282828100: #282828;
+  --black-28282880: #282828cc;
+  --moonstone: #3bb0c7;
+  --usedblack-00000: #000000;
+  --usedblack-2: #282828;
+  --useddark-gray: #616161;
+  --white-ffffff100: #ffffff;
+  --white-ffffff60: #ffffff99;
+  --white-ffffffall-graye6: #e6e6e6;
+ 
+  --font-size-l: 16px;
+  --font-size-m: 14px;
+  --font-size-s: 12px;
+  --font-size-xl: 24px;
+  --font-size-xs: 10px;
+  --font-size-xxl: 27px;
+ 
+  --font-family-bebas_neue: "Bebas Neue", Helvetica;
+  --font-family-roboto: "Roboto", Helvetica;
+}
+.robotoh3 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.robototextprimary1 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.robototextprimary2 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.robotobutton2 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.robotocaption {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.robotodescriptor {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0;
+}
