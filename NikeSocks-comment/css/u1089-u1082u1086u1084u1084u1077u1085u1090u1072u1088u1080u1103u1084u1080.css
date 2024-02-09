@@ -169,7 +169,7 @@
   color: var(--black-282828100);
   font-family: var(--font-family-bebas_neue);
   font-size: var(--font-size-xl);
-  font-weight: 700;
+  font-weight:500;
   letter-spacing: 0;
   line-height: 24px;
   margin-top: -0.50px;
@@ -183,7 +183,7 @@
   color: var(--white-ffffff100);
   font-family: var(--font-family-bebas_neue);
   font-size: var(--font-size-xl);
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 0;
   line-height: 24px;
   margin-top: -0.50px;
@@ -633,3 +633,4 @@
   flex-direction: column;
   position: relative;
 }
+
