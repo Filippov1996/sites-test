@@ -140,9 +140,16 @@
   border-radius: 40px;
   position: relative;
   width: 100%;
+  height: 400px;
   margin: auto;
+  object-fit: cover;
 }
-
+@media screen and (max-width:390px){
+	.u1089-u1082u1086u1084u1084u1077u1085u1090u1072u1088u1080u1103u1084u1080 .img-1{
+		 height: 260px;
+	}
+	
+}
 .u1089-u1082u1086u1084u1084u1077u1085u1090u1072u1088u1080u1103u1084u1080 .question {
   align-items: center;
   align-self: stretch;
