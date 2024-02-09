@@ -13,12 +13,18 @@
       type="text/css"
       href="css/smeg-combo-c-u1082u1086u1084u1084u1077u1085u1090u1072u1088u1080u1103u1084u1080.css"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+     
+    
     <title>Have you received this gift before?</title>
   </head>
   <body style="margin: 0; background: #ffffff">
-       <div class="popup-callback">
+   <div class="popup-callback">
         <div class="popup-callback__wrapp">
         	<div class="popup-callback__form-wrapp">
         		<div class="popup-callback__close-wrapp">
@@ -239,15 +245,29 @@
             <div class="about-product">
               <div class="offer"><div class="expires-feb-04-2024 robotodescriptor header__label-text"></div></div>
               <div class="img">
-                <div class="x000-cost-i-000-shipping">
-                  <p class="x000-cost-i-000-shipping-1 robotodescriptor">0.00$ COST I 0.00$ SHIPPING</p>
-                </div>
-                <img src="img/card-image.png" alt="" class="card-img">
-                <img
-                  class="piri-it-sav-re6-uc-jo0r-j-vxv-bq-1-1"
-                  src="img/piriitsavre6ucjo0rjvxvbq-1-1.png"
-                  alt="PIRIItSavRe6UcJO0rJVxvBQ 1 1"
-                />
+                 <div class="slider-header">
+            	  <div class="swiper-wrapper">
+                  		<div class="swiper-slide slide1">
+							<div class="frame-223 frame-2">
+								 <p class="x000-cost-i-000-shipping robotodescriptor">0.00$ COST I 0.00$ SHIPPING</p>
+							</div>
+        					<img class="slide-img" src="img/offer1.png" alt="slide-img">
+                 	        <img src="img/card-image.png" alt="" class="card-image">
+                  		</div>
+                  		<div class="swiper-slide slide2">
+								<div class="frame-223 frame-2">
+									 <p class="x000-cost-i-000-shipping robotodescriptor">0.00$ COST I 0.00$ SHIPPING</p>
+								</div>
+          					<img class="slide-img" src="img/offer2.png" alt="slide-img"/>
+                 	        <img src="img/card-image.png" alt="" class="card-image">
+                  		</div>
+				    </div>
+                  		<div class="swiper-pagination"></div>
+                 
+             
+				 </div>
+               
+           
               </div>
             </div>
             <div class="question">
@@ -262,8 +282,9 @@
               </div>
             </div>
           </div>
-       
+          
           <div class="get">
+            
             <p class="our-organization-ask robototextprimary1">
               Our organization asks customers about product quality and product categories they prefer, as well as what
               improvements they would like to see. We choose the highest quality surveys among users and give them gifts
@@ -312,82 +333,7 @@
           <script src="https://code.jquery.com/jquery-3.7.1.min.js"
 					  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
 					  crossorigin="anonymous"></script>
-		  <script>
-			$(document).ready(function(){	
-			     
-					var click = false;
-					$(".footer__btn-text").on('click',function(){
-							
-							if(click==false){
-								$(this).text('Collapse');
-								click=true;
-
-							}else if(click==true){
-								$(this).text('Read more');
-								click=false;
-							}
-
-
-							$('footer .hide').toggleClass('show');
-							$(".points").toggleClass('hide');
-					});
-
-
-					$(".footer__link").eq(0).on('click',function(){
-							$('.popup-policy').fadeIn(400);
-
-					});
-					$(".popup-policy .close").on('click',function(){
-							$('.popup-policy').fadeOut(400);
-
-					});
-					$(".footer__link").eq(1).on('click',function(){
-							$('.popup-callback').fadeIn(400);
-
-					});
-					$(".popup-callback .close").on('click',function(){
-							$('.popup-callback').fadeOut(400);
-
-					});
-
-
-
-
-
-
-
-					$(".popup-callback__btn").on("click",function(e){
-							e.preventDefault();
-							var name = $(".input-name").val();
-							var email = $(".input-email").val();
-							var message = $(".popup-callback__form-textarea").val();
-							$.ajax({
-												//url: '#',
-												method: 'post',
-												dataType: 'html',
-												data: {
-													name:name,
-													email:email,
-													message:message
-												},
-												beforeSend : function (){
-
-												},
-												success: function(data){
-
-													   $(".input-name").val('');
-													   $(".input-email").val('');
-													   $(".popup-callback__form-textarea").val('');
-
-												}
-											 }); 		
-
-					});
-
-
-				});
-			
-		  </script>
+		  <script src="js/main.js"></script>
         </div>
       </div>
     </div>
