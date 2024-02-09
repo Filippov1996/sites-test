@@ -7,7 +7,7 @@ var swiper = new Swiper(".slider-header", {
 
 $(document).ready(function(){	
 	var click = false;
-  	$(".footer-custom__btn-text").on('click',function(){
+  	$(".footer__btn-text").on('click',function(){
 		    
 			if(click==false){
 				$(this).text('Collapse');
@@ -19,13 +19,18 @@ $(document).ready(function(){
 			}
 		
 		
-			$('.footer-custom__text .hide').toggleClass('show');
+			$('.footer__btn-text .hide').toggleClass('show');
 			$(".points").toggleClass('hide');
 	});
-	
-	
-	$(".footer-custom__link").eq(0).on('click',function(){
+	$(".footer__link").eq(0).on('click',function(e){
+		    e.preventDefault();
 			$('.popup-policy').fadeIn(400);
+		
+	});
+	
+	$(".footer__link").eq(1).on('click',function(e){
+		    e.preventDefault();
+			$('.popup-callback').fadeIn(400);
 		
 	});
 	$(".popup-policy .close").on('click',function(){

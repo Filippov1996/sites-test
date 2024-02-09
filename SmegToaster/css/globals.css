@@ -474,6 +474,13 @@ margin: auto;
 }
 
 
+@media screen and (min-width:390px){
+	.smeg-combo-c-u1082u1086u1084u1084u1077u1085u1090u1072u1088u1080u1103u1084u1080 .img .piri-it-sav-re6-uc-jo0r-j-vxv-bq-1-1{
+			width:70%;
+	}
+	
+}
+
 @media screen and (max-width:390px){
 	.smeg-combo-c-u1082u1086u1084u1084u1077u1085u1090u1072u1088u1080u1103u1084u1080 .img .piri-it-sav-re6-uc-jo0r-j-vxv-bq-1-1{
 			width: 100%;
