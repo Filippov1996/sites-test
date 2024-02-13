@@ -248,9 +248,6 @@
 
 .tefal-u1089ookware-set .customer-reviews {
   align-items: center;
-  border-color: var(--white-ffffffall-graye6);
-  border-top-style: solid;
-  border-top-width: 1px;
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
@@ -269,10 +266,11 @@
   flex: 0 0 auto;
   flex-direction: column;
   gap: 16px;
-  padding: 20px 10px;
+  padding: 20px 0px;
   position: relative;
   max-width: 480px;
   width: 95%;
+	border-top: 1px solid #E6E6E6;
 }
 
 .tefal-u1089ookware-set .txt {
@@ -352,6 +350,7 @@
   position: relative;
   white-space: nowrap;
   width: fit-content;
+  font-size: 12px;
 }
 
 .tefal-u1089ookware-set .like-dislike {
@@ -379,6 +378,7 @@
   position: relative;
   white-space: nowrap;
   width: fit-content;
+  font-size: 12px;
 }
 
 .tefal-u1089ookware-set .dislike-1 {
