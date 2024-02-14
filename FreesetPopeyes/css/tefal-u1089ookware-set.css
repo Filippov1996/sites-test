@@ -38,7 +38,7 @@
 
 .tefal-u1089ookware-set .offer {
   align-items: center;
-   background: #E0462B;
+   background: #D03434;
   display: flex;
   flex: 0 0 auto;
   gap: 10px;
@@ -46,6 +46,9 @@
   padding: 10px;
   position: relative;
   width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.72);
+
+
 }
 
 .tefal-u1089ookware-set .expires-feb-14-2024 {
@@ -68,16 +71,14 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+ 
   justify-content: space-between;
   padding: 20px 10px;
   position: relative;
   max-width: 500px;
-  height: 460px;
+  height: 490px;
   width: 100%;
   margin: auto;
-  border: 1px solid #E6E6E6;
-  border-top: none;
 }
 .tefal-u1089ookware-set .frame-226 {
   align-items: center;
@@ -193,7 +194,7 @@
   margin-top: -1.00px;
   position: relative;
   text-align: center;
-  width: 400px;
+  width: 100%;
 	
 }
 .tefal-u1089ookware-set .would-you-like-to-ge span{
@@ -207,8 +208,8 @@
   color: var(--black-282828100);
 }
 
-.tefal-u1089ookware-set .would-you-like-to-ge  .span1 {
-  color: #8BBC20;
+.tefal-u1089ookware-set .would-you-like-to-ge .orange{
+  color: #FF7D01;
 }
 
 .tefal-u1089ookware-set .variants {
@@ -225,15 +226,14 @@
 .tefal-u1089ookware-set .buttons-button {
   align-items: center;
   border-radius: 40px;
-  border-radius: 6px;
-  background: #E0462B; 
+   border: 1px solid #DB4414;
   display: flex;
   gap: 10px;
   justify-content: center;
   padding: 14px 25px;
   position: relative;
   width: 120px;
-  color:  #ffffff;
+  color:  #DB4414;
 }
 .tefal-u1089ookware-set .sample-text {
   font-weight: 50;
@@ -256,27 +256,24 @@
   gap: 16px;
   padding: 32px 0px 0px;
   position: relative;
-  max-width: 500px;
-  width: 100%;
+  max-width: 480px;
+  width: 95%;
   margin: auto;
 }
 
 .tefal-u1089ookware-set .review {
   align-items: flex-start;
- 
+  border-radius: 6px;
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
   gap: 16px;
   padding: 20px 0px;
   position: relative;
-  max-width: 480px;
-  width: 95%;
-  border-top:1px solid #E6E6E6;
+  width: 100%;
+	border-top: 1px solid #E6E6E6;
 }
-.last-rew{
-	border-bottom:1px solid #E6E6E6;
-}
+
 .tefal-u1089ookware-set .txt {
   align-items: flex-start;
   align-self: stretch;
@@ -351,10 +348,10 @@
   color: var(--gray);
   font-weight: 400;
   line-height: 13.0px;
-  font-size: 12px;
   position: relative;
   white-space: nowrap;
   width: fit-content;
+  font-size: 12px;
 }
 
 .tefal-u1089ookware-set .like-dislike {
@@ -580,10 +577,12 @@
   padding: 0px 0px;
   position: relative;
   max-width: 480px;
-  width: 95%;
+  width: 100%;
 	margin: auto;
 }
-
+.tefal-u1089ookware-set .get .btn-link{
+	width: 100% !important;
+}
 .tefal-u1089ookware-set .buttons-button-2 {
   align-self: stretch;
   flex: 0 0 auto;
@@ -692,8 +691,9 @@
 
 .tefal-u1089ookware-set .buttons-button-3 {
   align-items: center;
-  border-radius: 6px;
-  background: #8BBC20;
+  border-radius: 40px;
+  background: #DB4414;
+  border: 1px solid #DB4414;
   display: flex;
   gap: 10px;
   justify-content: center;
