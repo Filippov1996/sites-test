@@ -430,10 +430,10 @@ line-height: 130%;
  border-radius: 6px;
  background: #AB2318;
   border: none;
-   padding: 16px 0px;
+   padding: 20px 0px;
   text-align: center;
   color: #ffffff;
- font-size: 17px;
+ font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 130%;
@@ -499,16 +499,15 @@ line-height: 130%;
 	display: block !important;
 	border-radius: 6px;
     background: #AB2318;
-	padding: 14px 0px;
+	padding: 20px 0px;
 	max-width: 480px;
 	width: 95%;
 	margin: auto;
 	text-align: center;
 	color: #ffffff;
-	text-transform: uppercase;
+	font-size: 20px;
 	font-weight: 500;
 }
-
 .last-rew{
 	border-bottom: 1px solid  #E6E6E6;
 }
