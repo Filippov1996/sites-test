@@ -12,7 +12,7 @@
   align-items: flex-start;
   display: inline-flex;
   flex-direction: column;
-  gap: 20px;
+  gap:20px;
   position: relative;
 	width: 100%;
 }
@@ -263,7 +263,7 @@
 
 .tefal-u1089ookware-set .review {
   align-items: flex-start;
-  border-radius: 6px;
+  
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
@@ -577,7 +577,7 @@
   padding: 0px 0px;
   position: relative;
   max-width: 480px;
-  width: 100%;
+  width: 95%;
 	margin: auto;
 }
 .tefal-u1089ookware-set .get .btn-link{
@@ -596,7 +596,7 @@
   position: relative;
   text-align: center;
   width: 100%;
-	padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .tefal-u1089ookware-set .footer {
