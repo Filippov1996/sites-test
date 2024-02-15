@@ -61,7 +61,7 @@
 	border-radius: 12px;
 	border: 1px solid #A92E24;
 	background: #CFBFAE;
-	padding: 20px 0px;
+	padding: 10px 0px;
 }
 .logo{
 	width: 90px;
@@ -529,6 +529,7 @@ line-height: 130%;
 	color: #ffffff;
 	font-size: 17px;
 	font-weight: 500;
+	line-height: 130%; 
 	text-transform: uppercase;
 }
 .last-rew{
