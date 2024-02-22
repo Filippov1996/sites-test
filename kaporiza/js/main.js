@@ -638,18 +638,19 @@ slide4.forEach((item) => {
 var slide1 = document.querySelectorAll(".slide1");
 
 slide1.forEach((item) => {
- item.addEventListener('click',function(){
-	   count=1;
-	   slide =  document.querySelectorAll(".slide");
-	   slide.forEach((item) => {
-		   item.style.display ="none";
-		   
-	   });
-       slide =  document.getElementById('slide'+count);
-       slide.style.display = 'block';
-	   goToPrevSlide.style.display="none";
- });
-})
+		 item.addEventListener('click',function(){
+			   count=1;
+			   slide =  document.querySelectorAll(".slide");
+			   slide.forEach((item) => {
+				   item.style.display ="none";
+
+			   });
+			   slide =  document.getElementById('slide'+count);
+			   slide.style.display = 'block';
+			   goToPrevSlide.style.display="none";
+			   goToNextSlide.style.display="block";
+		 });
+});
 
 
 
