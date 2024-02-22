@@ -425,12 +425,22 @@ var  btn_slide4 = document.getElementById("btn_slide4");
 var  border_slide4 = document.getElementById("border_slide4");
 var  lizzard_slide4 = document.getElementById("lizzard-slide4");
 btn_slide4.addEventListener('click',function(){
+	
+	
+	
 	btn_slide4.classList.toggle('close-oc');
 	border_slide4.classList.toggle('move-border');
 	lizzard_slide4.classList.toggle('move-lizzard');
 })
 
-
+lizzard_slide4.addEventListener('click',function(){
+	
+	
+	
+	btn_slide4.classList.toggle('close-oc');
+	border_slide4.classList.toggle('move-border');
+	lizzard_slide4.classList.toggle('move-lizzard');
+})
 
 //slide5
 var  tongue = document.getElementById("tongue");
@@ -485,6 +495,23 @@ goToNextSlide.addEventListener('click',function(){
          if(count>1){
              goToPrevSlide.style.display="block";
          }
+	     if(count==4){
+			setTimeout(function(){
+			    lizzard_slide4.classList.remove('FADE_IN');
+				lizzard_slide4.classList.remove('DELAY_400');
+				lizzard_slide4.classList.remove('PLAY_500');
+			},1700)	
+		  }
+		   if(count!=4){
+			
+			    lizzard_slide4.classList.add('FADE_IN');
+				lizzard_slide4.classList.add('DELAY_400');
+				lizzard_slide4.classList.add('PLAY_500');
+				btn_slide4.classList.remove('close-oc');
+				border_slide4.classList.remove('move-border');
+				lizzard_slide4.classList.remove('move-lizzard'); 
+		  }
+	
          if(count>=5){
              goToNextSlide.style.display="none";
 			 drag.classList.remove('hide-drag');
@@ -508,7 +535,20 @@ goToPrevSlide.addEventListener('click',function(){
     if(count<5){
 		 goToNextSlide.style.display="block";
 	}
-   
+     if(count!=4){
+			
+			    lizzard_slide4.classList.add('FADE_IN');
+				lizzard_slide4.classList.add('DELAY_400');
+				lizzard_slide4.classList.add('PLAY_500');
+				
+		  }
+	 if(count==4){
+			setTimeout(function(){
+			    lizzard_slide4.classList.remove('FADE_IN');
+				lizzard_slide4.classList.remove('DELAY_400');
+				lizzard_slide4.classList.remove('PLAY_500');
+			},1700)	
+		  }
     if(count==1){
         goToPrevSlide.style.display="none";
 		btn1_win_slide1.classList.remove("close-oc");

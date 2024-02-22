@@ -24,7 +24,7 @@ body {
 	cursor: pointer;
 	width:45px;
 	height:45px;
-	left: 920px;
+	left: 897px;
 	 top: 32px;
 	background-repeat: no-repeat;
 	background-size:45px 45px;
@@ -38,7 +38,7 @@ body {
 	cursor: pointer;		
 	width:45px;
 	height:45px;
-	left: 970px;
+	left: 946px;
 	 top: 32px;
 	background-repeat: no-repeat;
 	background-size:45px 45px;
@@ -230,23 +230,23 @@ body {
 	z-index: 5;
 }
 .menu-line1{
-	width: 189.5px;
+	width: 219.5px;
     height: 2px;
 	background-color: #ffffff;
-	left: 204px;
+	left: 208px;
 	top: 52px;
 		z-index: 5;
 }
 .menu-line2{
-	width: 189.5px;
+	width: 219.5px;
     height: 2px;
 	background-color: #ffffff;
-	left: 591px;
+	left: 607px;
 	top: 52px;
 	z-index: 5;
 }
 .last-slide-line{
-	width: 70px;
+	width: 50px;
 	height: 2px;
 	background-color: #ffffff;
 	left: 784px;
@@ -260,25 +260,25 @@ body {
 .menu-icon1{
 	background: url(../images/shared/icon-header1.png) no-repeat;
 	background-size: 45px;
-	left: 410px;
+	left: 445px;
     top: 32px;
 }
 .menu-icon2{
 	background: url(../images/shared/icon-header2.png) no-repeat;
 	background-size: 45px;
-	left: 470px;
+	left: 495px;
     top: 32px;
 }
 .menu-icon3{
 	background: url(../images/shared/icon-header3.png) no-repeat;
 	background-size: 45px;
-	left: 529px;
+	left: 544px;
     top: 32px;
 }
 .menu-icon4{
 	background: url(../images/shared/icon-header4.png) no-repeat;
 	background-size: 45px;
-    left: 795px;
+    left:845px;
     top: 32px;
 }
 .last-slide-icon1{
@@ -302,7 +302,7 @@ body {
 .last-slide-icon4{
 	background: url(../images/shared/icon-header4.png) no-repeat;
 	background-size: 45px;
-    left: 865px;
+    left: 845px;
     top: 32px;
 }
 

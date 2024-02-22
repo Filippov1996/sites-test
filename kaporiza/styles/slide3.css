@@ -48,22 +48,24 @@
 	background-size: 291px 45px;
 }
 #slide3 .tab1{
-	width: 801px;
-    height: 419px;
-	background: url(../images/slide3/chart1.png) no-repeat;
-	background-size: 801px 419px;
-	left: 64px;
-    top: 100px;
-	
-}
-#slide3 .tab2{
 	width: 756px;
     height: 419px;
 	background: url(../images/slide3/chart2.png) no-repeat;
 	background-size:756px 419px;
 	left: 64px;
     top: 100px;
+	
+	
+	
+}
+#slide3 .tab2{
 	display: none;
+	width: 801px;
+    height: 419px;
+	background: url(../images/slide3/chart1.png) no-repeat;
+	background-size: 801px 419px;
+	left: 64px;
+    top: 100px;
 }
 
 #slide3 .chart-item1-1{

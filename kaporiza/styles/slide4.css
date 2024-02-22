@@ -10,31 +10,31 @@
 	
 }
 #slide4 .menu-icon1{
-	left: 480px;
+	left: 470px;
     top: 32px;
 }
 #slide4 .menu-icon2{
 	
-	left:535px;
+	left:519px;
     top: 32px;
 }
 #slide4 .menu-icon3{
 	
-	left:590px;
+	left:569px;
     top: 32px;
 }
 #slide4 .menu-icon4{
 	
-    left: 865px;
+    left: 845px;
     top: 32px;
 }
 
 
 #slide4 .menu-line2{
-	width: 199.5px;
+	width: 207px;
     height: 2px;
 	background-color: #ffffff;
-	left: 651px;
+	left: 626px;
 	top: 52px;
 	z-index: 5;
 }
@@ -153,12 +153,12 @@
     height: 526px;
 	background: url(../images/slide4/lizzard-img.png) no-repeat;
 	background-size:748px 526px;
-	left: 760.431px;
+	left: 750.431px;
     top:392px;
-	transition: all 0.4s;
+	transition: all 0.4s !important;
 }
 #slide4  .move-lizzard{
-	    transform: translateX(-60%);
+	    transform: translateX(-60%) !important;
 }
 #slide4 .palm2{
 	width:848px;

@@ -54,6 +54,7 @@
 }
 #slide2  .item-char{
 	width: 75px;
+	border-radius: 10px 10px 0px 0px;
 }
 
 #slide2  .char-c1{
@@ -64,6 +65,7 @@
 #slide2  .char-c2{
 	background-color: rgb(208, 211, 214);
 }
+
 #slide2  .item-char1{
 	top: 129px;
 	 left: 139.5px;
