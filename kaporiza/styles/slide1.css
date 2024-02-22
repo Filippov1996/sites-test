@@ -1,0 +1,128 @@
+#slide1{
+	width: 1024px;
+    height:768px;
+
+}
+#slide1 .bg{
+    width: 1024px;
+    height:768px;
+ 
+}
+#slide1 .icon-oc{
+	width: 67px;
+    height: 67px;
+	background: url('../images/slide1/icon-open.png') no-repeat;
+	background-size: 67px;
+	left: 64px;
+    top: 142px;
+	z-index: 4;
+}
+#slide1 .close-oc{
+	background: url('../images/slide1/icon-close.png') no-repeat;
+	background-size: 67px;
+	
+}
+#slide1 .win-move{
+	 position: relative !important;
+	 width: 710px;
+	 height: 400px;
+	 top: 250px;
+	 left: -670px;
+	 transition: all 0.4s;
+}
+#slide1 .show-win-move{
+	    transform: translateX(93%);	
+}
+#slide1 .win-move .desc{
+	width: 710px;
+    height: 247px;
+    background: url('../images/slide1/desc.png')no-repeat;
+	background-size: 710px 247px;
+	
+}
+#slide1 .win-move .btn{
+	width: 265px;
+	height: 45px;
+	background: url(../images/slide1/help-btn.png) no-repeat;
+	background-size: 265px 45px;
+	top: 90%;
+	left: 70px;
+}
+#slide1 .text{
+	width: 565px;
+    height: 53px;
+    background: url('../images/slide1/text.png')no-repeat;
+	background-size:  565px 53px;
+	left: 150px;
+    top: 150px;
+}
+#slide1 .packshoot{
+	width: 505px;
+    height: 505px;
+    background: url('../images/slide1/packshoot.png')no-repeat;
+	background-size:  505px 505px;
+	left: 100px;
+    top: 90px;
+	opacity: 0;
+}
+#slide1 .palma{
+	width: 2000px;
+    height: 919px;
+    background: url('../images/slide1/palm.png')no-repeat;
+	background-size:2000px 919px;
+	left: 370px;
+    top: 310px;
+}
+
+#slide1 .label{
+	width: 959px;
+    height: 151px;
+    background: url('../images/slide1/label.png')no-repeat;
+	background-size:959px 151px;
+	left: 100%;
+    top: 540px;
+	 transition: all 0.4s;
+}
+
+#slide1 .show-label-move{
+	    transform: translateX(-100%);
+}
+#slide1 .woman-sad{
+	width: 369px;
+    height: 671px;
+    background: url('../images/slide1/woman-sad.png')no-repeat;
+	background-size:369px 671px;
+	left: 700px;
+    top: 97px;
+}
+#slide1 .woman-happy{
+	width: 369px;
+    height: 671px;
+    background: url('../images/slide1/woman-happy.png')no-repeat;
+	background-size:369px 671px;
+	left: 700px;
+    top: 97px;
+	opacity: 0;
+}
+
+.hideImg{	
+	animation:customHideImg 500ms forwards;
+}
+@keyframes customHideImg{    
+    100% {
+        opacity: 0;
+        
+    }
+}
+
+.showImg{	
+	animation:customShowImg 500ms 500ms forwards;
+}
+@keyframes customShowImg{    
+    100% {
+        opacity: 1;
+        
+    }
+}
+
+

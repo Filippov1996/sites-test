@@ -1,0 +1,146 @@
+#slide5{
+	width: 1024px;
+    height:768px;
+}
+#slide5 .bg{
+    width: 1024px;
+    height:768px;
+    background: url(../images/slide5/bg.png);
+	background-size:1024px 768px;
+	
+}
+#slide5 .big-logo{
+	width: 339px;
+    height:53px;
+    background: url(../images/slide5/logo-big.png);
+	background-size:339px 53px;
+	top:70px;
+	left: 40px;
+}
+#slide5 .border{
+	width:416px;
+    height:168px;
+    background: url(../images/slide5/border.png);
+	background-size:416px 168px;
+	top:150px;
+	left: 40px;
+}
+#slide5 .packshoot{
+	width:391px;
+    height:226px;
+    background: url(../images/slide5/packshoot.png);
+	background-size:391px 226px;
+	top:190px;
+	left: 571px
+}
+#slide5 .tongue{
+	width:328px;
+    height: 200px;
+	position: relative;
+	left: 214px;
+	top: 471px;
+	transform: rotate(5deg) ;
+}
+#slide5 .tongue .drag{
+	width: 75px;
+	height: 38px;
+	background: url(../images/slide5/drag.png);
+	background-size:75px 38px;
+    top: 21px;
+	left: 36px;
+	
+}
+#slide5 .hide-drag{
+	animation:hideDrag 700ms 1000ms forwards;
+
+}
+
+@keyframes hideDrag{  
+	
+    100% {
+     
+       opacity: 0;
+    }
+}
+#slide5 .tongue .tongue-item{
+	width: 318px;
+	height:  75px;
+	background: url(../images/slide5/tongue.png);
+	background-size:318px 75px;
+	
+}
+#slide5  .move-tongue{
+	animation:moveTongue 2600ms forwards;
+
+}
+
+@keyframes moveTongue{  
+	
+	50%{
+		top: 461px;
+		transform: rotate(10deg) translateX(90px) ;
+	}
+	70%{
+		top: 461px;
+		transform: rotate(10deg) translateX(90px) ;
+	}
+    100% {
+     
+        transform: rotate(5deg) translateX(290px) ;
+    }
+}
+
+#slide5  .palm{
+	width:2711px;
+    height: 1246px;
+	background: url('../images/slide4/palm1.png') no-repeat;
+	background-size:2711px  1246px;
+	left: -260px;
+    top: 252px;
+}
+#slide5 .lizzard{
+	width:601px;
+    height:478px;
+    background: url(../images/slide5/lizzard.png);
+	background-size:601px 478px;
+	top:340px;
+	left: 433px;
+}
+#slide5 .lizzard-opcity{
+	width:601px;
+    height:478px;
+    background: url(../images/slide5/lizzard-opacity.png);
+	background-size:601px 478px;
+	top:340px;
+	left: 433px;
+	opacity: 0;
+}
+
+.showLizzard{	
+	animation:showLizzard 3500ms 1500ms forwards;
+}
+@keyframes showLizzard{    
+    100% {
+        opacity: 1;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

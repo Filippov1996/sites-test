@@ -1,0 +1,217 @@
+#slide3{
+	width: 1024px;
+    height:768px;
+ 
+}
+#slide3 .text{
+	width: 743px;
+    height: 47px;
+	background: url(../images/slide3/text.png) no-repeat;
+	background-size: 743px 47px;
+	left: 64px;
+    top: 100px;
+}
+#slide3 .border{
+	 left: 64px;
+    top: 169px;
+	width: 896px;
+    height: 557px;
+	border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+}
+#slide3 .btn1{
+	width: 291px;
+    height: 45px;
+	background: url(../images/slide3/btn1.png) no-repeat;
+	background-size: 291px 45px;
+	left: 64px;
+    top: 20px;
+}
+#slide3 .btn1-active{
+	width: 291px;
+    height: 45px;
+	background: url(../images/slide3/btn1-active.png) no-repeat;
+	background-size: 291px 45px;
+}
+#slide3 .btn2{
+	width: 291px;
+    height: 45px;
+	background: url(../images/slide3/btn2.png) no-repeat;
+	background-size: 291px 45px;
+	left: 384px;
+    top: 20px;
+}
+#slide3 .btn2-active{
+	width: 291px;
+    height: 45px;
+	background: url(../images/slide3/btn2-active.png) no-repeat;
+	background-size: 291px 45px;
+}
+#slide3 .tab1{
+	width: 801px;
+    height: 419px;
+	background: url(../images/slide3/chart1.png) no-repeat;
+	background-size: 801px 419px;
+	left: 64px;
+    top: 100px;
+	
+}
+#slide3 .tab2{
+	width: 756px;
+    height: 419px;
+	background: url(../images/slide3/chart2.png) no-repeat;
+	background-size:756px 419px;
+	left: 64px;
+    top: 100px;
+	display: none;
+}
+
+#slide3 .chart-item1-1{
+	width: 463px;
+    height:24px;
+	background: url(../images/slide3/item-char1-1.png) no-repeat;
+	background-size:463px 24px;
+	left: 285px;
+    top: 100px;
+	
+}
+#slide3 .chart-item1-2{
+	width: 330px;
+    height:24px;
+	background: url(../images/slide3/item-char1-2.png) no-repeat;
+	background-size:330px 24px;
+	left: 285px;
+    top: 130px;
+	
+}
+#slide3 .chart-item1-3{
+	width: 266px;
+    height:24px;
+	background: url(../images/slide3/item-char1-3.png) no-repeat;
+	background-size:266px 24px;
+	left: 285px;
+    top: 190px;
+	
+}
+#slide3 .chart-item1-4{
+	width: 208px;
+    height:24px;
+	background: url(../images/slide3/item-char1-4.png) no-repeat;
+	background-size:208px 24px;
+	left: 285px;
+    top: 220px;
+	
+}
+
+#slide3 .chart-item1-5{
+	width: 227px;
+    height:24px;
+	background: url(../images/slide3/item-char1-5.png) no-repeat;
+	background-size:227px 24px;
+	left: 285px;
+    top: 270px;
+	
+}
+#slide3 .chart-item1-6{
+	width: 208px;
+    height:24px;
+	background: url(../images/slide3/item-char1-6.png) no-repeat;
+	background-size:208px 24px;
+	left: 285px;
+    top: 299px;
+	
+}
+
+#slide3 .chart-item2-1{
+	width: 475px;
+    height:24px;
+	background: url(../images/slide3/item-char2-1.png) no-repeat;
+	background-size:475px 24px;
+	left: 286px;
+    top: 100px;
+	
+}
+#slide3 .chart-item2-2{
+	width: 338px;
+    height:24px;
+	background: url(../images/slide3/item-char2-2.png) no-repeat;
+	background-size:338px 24px;
+	left: 286px;
+    top: 130px;
+	
+}
+#slide3 .chart-item2-3{
+	width: 244px;
+    height:24px;
+	background: url(../images/slide3/item-char2-3.png) no-repeat;
+	background-size:244px 24px;
+	left: 286px;
+    top: 190px;
+	
+}
+#slide3 .chart-item2-4{
+	width: 190px;
+    height:24px;
+	background: url(../images/slide3/item-char2-4.png) no-repeat;
+	background-size:190px 24px;
+	left: 286px;
+    top: 220px;
+	
+}
+
+#slide3 .chart-item2-5{
+	width: 251px;
+    height:24px;
+	background: url(../images/slide3/item-char2-5.png) no-repeat;
+	background-size:251px 24px;
+	left: 286px;
+    top: 270px;
+	
+}
+#slide3 .chart-item2-6{
+	width: 193px;
+    height:24px;
+	background: url(../images/slide3/item-char2-6.png) no-repeat;
+	background-size:193px 24px;
+	left: 286px;
+    top: 299px;
+	
+}
+#slide3 .teil{
+	width: 482px;
+    height:469px;
+	background: url(../images/slide3/teil-img.png) no-repeat;
+	background-size:482px 469px;
+	left: 620.4px;
+    top: 299px;
+	transform: rotate(0deg);
+	transform-origin: 50%;
+	transition: all 0.4s;
+}
+#slide3 .list-books{
+	width: 1024px;
+    height:768px;
+    background: url(../images/slide3/list-books.png);
+	background-size:1024px 768px;
+	display: none;
+	z-index: 2;
+}
+#slide3 .move-tail{
+	transform: rotate(25deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,135 @@
+#slide2{
+	width: 1024px;
+    height:768px;
+	display: none;
+}
+
+#slide2 .wood{
+	width:810px;
+    height: 439px;
+    background: url(../images/slide2/wood.png);
+	background-size: 810px 439px;
+    left:0px;
+    top: 325px;
+}
+
+#slide2 .text1{
+    width:839px;
+    height: 47px;
+    background: url(../images/slide2/text.png);
+	background-size: 839px 47px;
+    left: 63px;
+    top: 125px;
+}
+
+#slide2 .border{
+	 width:885px;
+    height:469px;
+    background: url(../images/slide2/border-char.png);
+	background-size: 885px 469px;
+    left: 63px;
+    top: 215px;
+}
+#slide2 .plashka1{
+	width: 45px;
+    height: 16px;
+	background-image: -moz-linear-gradient( 0deg, rgb(27,152,199) 0%, rgb(135,194,165) 100%);
+	  background-image: -webkit-linear-gradient( 0deg, rgb(27,152,199) 0%, rgb(135,194,165) 100%);
+	  background-image: -ms-linear-gradient( 0deg, rgb(27,152,199) 0%, rgb(135,194,165) 100%);
+	  box-shadow: 1.563px 3.682px 13px 0px rgba(0, 0, 0, 0.2),inset 0px -2px 4px 0px rgba(0, 0, 0, 0.25),inset 0px 1px 1px 0px rgba(255, 255, 255, 0.25);
+	 border-radius: 8px;
+	 left: 300px;
+     top: 65px;
+}
+#slide2 .plashka2{
+	width: 88px;
+    height: 16px;
+	background-image: -moz-linear-gradient( 0deg, rgb(27,152,199) 0%, rgb(135,194,165) 100%);
+	  background-image: -webkit-linear-gradient( 0deg, rgb(27,152,199) 0%, rgb(135,194,165) 100%);
+	  background-image: -ms-linear-gradient( 0deg, rgb(27,152,199) 0%, rgb(135,194,165) 100%);
+	  box-shadow: 1.563px 3.682px 13px 0px rgba(0, 0, 0, 0.2),inset 0px -2px 4px 0px rgba(0, 0, 0, 0.25),inset 0px 1px 1px 0px rgba(255, 255, 255, 0.25);
+	 border-radius: 8px;
+	 left: 746px;
+     top: 65px;
+}
+#slide2  .item-char{
+	width: 75px;
+}
+
+#slide2  .char-c1{
+	background-image: -moz-linear-gradient( 90deg, rgb(27,152,199) 0%, rgb(135,194,165) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(27,152,199) 0%, rgb(135,194,165) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(27,152,199) 0%, rgb(135,194,165) 100%);
+}
+#slide2  .char-c2{
+	background-color: rgb(208, 211, 214);
+}
+#slide2  .item-char1{
+	top: 129px;
+	 left: 139.5px;
+	height: 219px;
+}
+#slide2  .item-char2{
+	top: 129px;
+	left: 260px;
+	height: 156px;
+	top: 192px;
+}
+#slide2  .item-char3{
+	height: 231px;
+	top: 116px;
+	left: 580px;
+}
+#slide2  .item-char4{
+	height: 160px;
+	top: 188px;
+	left: 700px;
+}
+#slide2 .val1{
+	 width: 44px;
+    height: 19px;
+	background: url(../images/slide2/val1.png) no-repeat;
+	background-size:44px 19px;
+	 left: 155.431px;
+    top:314.4167px;
+}
+#slide2 .val2{
+	 width: 44px;
+    height: 19px;
+	background: url(../images/slide2/val2.png) no-repeat;
+	background-size:44px 19px;
+	 left: 277.431px;
+    top:314.4167px;
+}
+#slide2 .val3{
+	 width: 44px;
+    height: 19px;
+	background: url(../images/slide2/val3.png) no-repeat;
+	background-size:44px 19px;
+	 left: 594.431px;
+    top:314.4167px;
+}
+#slide2 .val4{
+	 width: 44px;
+    height: 19px;
+	background: url(../images/slide2/val4.png) no-repeat;
+	background-size:44px 19px;
+	 left: 715.431px;
+    top:314.4167px;
+}
+#slide2 .lizzard{
+	width: 502px;
+    height: 354px;
+	background: url(../images/slide2/lizzard.png) no-repeat;
+	background-size:502px 354px;
+	left: 690.431px;
+    top:566.4167px;
+}
+#slide2 .list-books{
+	width: 1024px;
+    height:768px;
+    background: url(../images/slide2/list-book.png);
+	background-size:1024px 768px;
+	display: none;
+	z-index: 2;
+}
