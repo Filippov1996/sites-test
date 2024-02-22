@@ -628,9 +628,15 @@ slide4.forEach((item) => {
 		   item.style.display ="none";
 		   
 	   });
+	   
        slide =  document.getElementById('slide'+count);
        slide.style.display = 'block';
 	   goToPrevSlide.style.display="block";
+	  setTimeout(function(){
+			    lizzard_slide4.classList.remove('FADE_IN');
+				lizzard_slide4.classList.remove('DELAY_400');
+				lizzard_slide4.classList.remove('PLAY_500');
+			},1700)	
  });
 })
 
