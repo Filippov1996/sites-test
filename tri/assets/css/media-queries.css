@@ -1,0 +1,161 @@
+@media screen and (max-width:960px){
+	.desctop-elem{
+		display: none;
+	}
+	.mobile-elem{
+		display: block;
+	}
+}
+
+@media screen and (max-width:1200px){
+	.works-level__col-r{
+	width: 30%;
+	padding-right:7%;
+	}
+}
+@media screen and (max-width:1060px){
+	.works-level__col-r{
+	width: 30%;
+	padding-right:0%;
+	}
+}
+@media screen and (max-width:960px){
+
+	.video .container{
+		flex-direction: column;
+		gap:20px;
+	}
+	.video__col-l{
+		width:100%;
+	}
+	.video__col-r{
+		width:100%;
+	}
+}
+@media screen and (max-width:960px){
+	.works-level__title{
+		font-size: 20px;
+	}
+	.works-level__wrapp{
+		flex-direction: column;
+		gap:20px;
+	}
+	.works-level__col-r{
+		width: 100%;
+		padding-right:0%;
+	}
+	.works-level__col-l{
+		width:100%;
+	}
+	
+	.works-level__slider .swiper-slide{
+		width: 29%;
+	    height: 213px;
+	}
+	.testing{
+		padding: 20px 0px;
+	}
+	.testing__col-l{
+		display: none;
+	}
+	.testing__wrapp{
+		flex-direction: column;
+	}
+	.testing__col-r{
+		width:100%;
+	}
+	.testing__title{
+		font-size: 20px;
+		line-height: 19px;
+	}
+	.testing__block-image{
+		    height: 184px;
+	}
+	.format-work__col-l{
+	width:100%;
+	}
+	.format-work__col-r{
+		width:100%;
+	}
+	.format-work__wrapp{
+		flex-direction: column;
+	}
+}
+@media screen and (max-width:690px){
+	.works-level__slider .swiper-slide{
+		width: 31%;
+	    height: 213px;
+	}
+}
+@media screen and (max-width:600px){
+	
+	.works-level__slider .swiper-slide{
+		width: 39%;
+	    height: 213px;
+	}
+	.format-work__items{
+		grid-template-columns: 1fr;
+	}
+	
+}
+@media screen and (max-width:440px){
+	.video__title{
+		font-size: 20px;
+		line-height: 24px;
+		margin-bottom: 20px;
+	}
+	.video__text{
+		font-size: 14px;
+	}
+	.video__block{
+		    height: 233px;
+	}
+	.works-level__items{
+		flex-direction: column;
+	}
+	.works-level__slider .swiper-slide{
+		width: 91%;
+	    height: 253px;
+	}
+	.works-level__item-title{
+		font-size: 16px;
+	}
+	.format-work__items{
+		grid-template-columns: 1fr;
+	}
+	.testing__title{
+		line-height: 19px;
+		font-size: 16px;
+		font-weight: 500;
+	}
+	.testing__text{
+		font-size: 14px;
+		line-height: 19px;
+	}
+	.testing__border{
+		padding:20px
+	}
+	.format-work__wrapp{
+		gap:10px;
+	}
+	.format-work__title{
+		font-size: 20px;
+	}
+	.format-work__text{
+		font-size: 14px;
+	}
+	.format-work__item{
+		padding: 20px;
+	}
+	.format-work__item-title{
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+	.format-work__item-text{
+		font-size: 14px;
+		line-height: 18px;
+	}
+}
+@media screen and (max-width:375px){
+	
+}

@@ -1,0 +1,7 @@
+.flex{
+	display: flex;
+}
+.wrapper{
+	width: 90%;
+	margin: auto;
+}
