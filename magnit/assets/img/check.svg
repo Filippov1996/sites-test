@@ -1,0 +1,18 @@
+<svg width="75.461914" height="77.293015" viewBox="0 0 75.4619 77.293" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<linearGradient x1="61.429482" y1="26.666660" x2="-2.856232" y2="58.095268" id="paint_linear_2_13_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#ACDEB1"/>
+			<stop offset="1.000000" stop-color="#ACDEB1" stop-opacity="0.000000"/>
+		</linearGradient>
+		<linearGradient x1="27.408253" y1="62.933533" x2="9.255245" y2="12.230276" id="paint_linear_2_14_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#2FAC3B"/>
+			<stop offset="1.000000" stop-color="#ACDEB1"/>
+		</linearGradient>
+	</defs>
+	<rect id="Rectangle 3600" y="8.721588" rx="6.428571" width="68.571426" height="68.571426" fill="#EAF7EB" fill-opacity="1.000000"/>
+	<path id="Intersect" d="M0 20.6016L0 60.8416C0 66.3818 0 69.1519 1.69141 70.8971C1.73535 70.9422 1.7793 70.9866 1.82422 71.0303C2.75977 71.9362 3.98828 72.3569 5.7793 72.5522C6.53223 72.5815 7.43066 72.5815 8.5332 72.5815L41.7266 72.5815C46.915 62.2458 49.2793 54.7104 48.5479 47.1968C48.1348 42.9554 47.0244 38.8113 45.2607 34.9316C40.9766 25.5048 31.6289 18.9543 14.2373 8.72159L11.8799 8.72159C6.33984 8.72159 3.56934 8.72159 1.82422 10.4128C1.7793 10.4566 1.73535 10.501 1.69141 10.5461C0 12.2913 0 15.0614 0 20.6016Z" clip-rule="evenodd" fill="url(#paint_linear_2_13_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Intersect" d="M0 44.75L0 25.03C2.26 24.92 4.56 25.73 6.29 27.46L24.85 46.02L60.71 3C63.66 -0.54 68.92 -1.02 72.46 1.93C75.99 4.88 76.47 10.14 73.52 13.68L31.82 63.72C30.32 65.52 28.13 66.6 25.79 66.71C23.45 66.82 21.17 65.93 19.52 64.28L0 44.75Z" fill="url(#paint_linear_2_14_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg width="56.000000" height="56.000000" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip25_217">
+			<rect id="Base / 24 / Outline / Left small corner" rx="-0.500000" width="23.000000" height="23.000000" transform="matrix(-1 0 0 1 40.5 16.5)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip25_216">
+			<rect id="💠 Round Buttons / Primary" rx="27.500000" width="55.000000" height="55.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="💠 Round Buttons / Primary" rx="27.500000" width="55.000000" height="55.000000" transform="translate(0.500000 0.500000)" fill="#ED0E00" fill-opacity="1.000000"/>
+	<g clip-path="url(#clip25_216)">
+		<g clip-path="url(#clip25_217)">
+			<path id="Vector" d="M25.29 33.7C25.68 34.09 26.31 34.09 26.7 33.7L31.7 28.7C32.09 28.31 32.09 27.68 31.7 27.29L26.7 22.29C26.31 21.9 25.68 21.9 25.29 22.29C24.9 22.68 24.9 23.31 25.29 23.7L29.58 28L25.29 32.29C24.9 32.68 24.9 33.31 25.29 33.7Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+		</g>
+	</g>
+</svg>
