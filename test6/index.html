@@ -62,7 +62,7 @@
      
                 
     <div id="map"></div>
-    
+    <div id="text"></div>
         <table>
         <thead>
             <th>
@@ -147,15 +147,18 @@
         $(document).ready(function () {
             
             
-            $.ajax({
+            /*$.ajax({
                     url:'http://web-projects.space/json/data.json',
                     method: 'post',
                     dataType: 'json',
                     success: function(data){
                         console.log(data)
                     }
-                });
-            
+                });*/
+            $.getJSON( "/data.json", function( data ) {
+                    console.log(data);
+                    $("#text").html(data["text"]);
+            });
              console.log('ddd')
            
             
