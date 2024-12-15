@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Marcella Veum",
+    "phoneNumber": "1-496-338-6127",
+    "email": "loberbrunner@oconnell.com",
+    "address": "3032 Joany Forest\nNyaland, ID 71918-0511",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/5340 (KHTML, like Gecko) Chrome/37.0.811.0 Mobile Safari/5340",
+    "hexcolor": "#7704a8"
+  },
+  {
+    "name": "Mr. Charlie Ullrich",
+    "phoneNumber": "1-612-401-3982",
+    "email": "gerhold.jamie@hotmail.com",
+    "address": "72704 Amaya Mount\nKoepptown, FL 65772",
+    "userAgent": "Mozilla/5.0 (Windows CE; en-US; rv:1.9.2.20) Gecko/20190606 Firefox/35.0",
+    "hexcolor": "#3f0598"
+  },
+  {
+    "name": "Hadley Zemlak PhD",
+    "phoneNumber": "(645) 968-6054",
+    "email": "wschiller@kiehn.com",
+    "address": "61577 Karelle Forks\nNew Jesus, AZ 24301-3713",
+    "userAgent": "Opera/9.68 (Windows NT 6.0; en-US) Presto/2.12.290 Version/10.00",
+    "hexcolor": "#1c4f18"
+  },
+  {
+    "name": "Edyth Maggio",
+    "phoneNumber": "540-413-5646",
+    "email": "minerva.white@yahoo.com",
+    "address": "310 Johnson Junction\nLake Deliaborough, MO 40661",
+    "userAgent": "Mozilla/5.0 (Windows; U; Windows NT 5.0) AppleWebKit/534.7.4 (KHTML, like Gecko) Version/5.1 Safari/534.7.4",
+    "hexcolor": "#1cf648"
+  }
+]

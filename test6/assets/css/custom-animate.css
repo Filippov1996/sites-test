@@ -1,0 +1,26 @@
+.btn{
+    transition:all .5s; 
+}
+
+.btn:hover{
+   background-color: #612794;
+   color: #ffffff !important;
+}
+header .menu-list li a.normal{
+     transition:all .5s; 
+}
+
+header .menu-list li a.normal:hover{
+     border-bottom: 1px solid #323232;
+     color: #612794;
+     font-weight: 700;
+}
+
+header .menu-mob .list-menu-mob li a{
+     transition:all .5s; 
+    
+}
+header .menu-mob .list-menu-mob li a:hover{
+    
+    color: #612794;
+}

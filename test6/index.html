@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Поиск света</title>
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="assets/img/favicon/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/custom-animate.css">
+        <link rel="stylesheet" href="assets/css/media-queries.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <script src="https://use.fontawesome.com/89b9f4b175.js"></script>
+        <style>
+            #map{
+                width: 100%;
+                height: 300px;
+                border: 1px solid red;
+            }
+                [class*="ymaps-2"][class*="-ground-pane"] {
+                            filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+                            -webkit-filter: grayscale(100%);
+                }
+                .zoom {
+                        display:inline-block;
+                        position: relative;
+                        width: 100%;
+		        } 
+		
+                /* magnifying glass icon */
+                .zoom:after {
+                    content:'';
+                    display:block; 
+                    width:33px; 
+                    height:33px; 
+                    position:absolute; 
+                    top:0;
+                    right:0;
+                    background:url(assets/img/zoom/icon.png);
+                }
+
+                .zoom img {
+                    display: block;
+                }
+
+		        .zoom img::selection { background-color: transparent; }
+
+                #ex2 img:hover { cursor: url(grab.cur), default; }
+                #ex2 img:active { cursor: url(grabbed.cur), default; }
+        </style>
+        
+        
+		<script src="https://api-maps.yandex.ru/2.1/?apikey=8a6e250d-ca15-4640-9ecb-c5e50714aa40&lang=ru_RU" type="text/javascript"></script>
+       
+    </head>
+    <body>
+    
+     
+                
+    <div id="map"></div>
+    
+        <table>
+        <thead>
+            <th>
+                First Name
+            </th>
+            <th>
+                Last Name
+            </th>
+            <th>
+                Age
+            </th>
+        </thead>
+        <tbody id="employeeContainer">
+        </tbody>
+        </table>
+     <script>
+		        ymaps.ready(init);
+                    var points = [];
+                    function init () {
+                        var myMap = new ymaps.Map('map', {
+                                center: [55.723, 37.57],
+                                zoom: 15,
+                                 controls: []
+                            });
+                                
+                            points[0] = new ymaps.Placemark([55.724941, 37.574087], {
+                                
+                            }, {
+                                iconLayout: 'default#image',
+                                iconImageClipRect: [[0,0], [0, 0]],
+                                iconImageHref: 'assets/img/place.svg',
+                                iconImageSize:[28, 32],
+                                iconImageOffset: [-15, -27],
+                            }),
+
+                            points[1] = new ymaps.Placemark([55.721339, 37.569978], {
+                                
+                            }, {
+                                iconLayout: 'default#image',
+                                iconImageClipRect: [[0,0], [0, 0]],
+                                iconImageHref: 'assets/img/place.svg',
+                                iconImageSize: [28, 32],
+                                iconImageOffset: [-26, -46]
+                            });
+                        myMap.geoObjects.add(points[0]).add(points[1]);
+                      
+                          /*  points[0].events.add('click', function (e) {
+                var clickedPlacemark = e.get('target');
+  // Получаем координаты кликнутой метки
+  var click_coord = clickedPlacemark.geometry.getCoordinates();
+  // Выводим координаты в консоль
+               place  = String(click_coord);
+               
+               if(place == '55.661574,37.573856'){
+                   
+                   $('.location__item1').fadeIn(600);
+                    console.log(place)
+               }
+               
+               console.log(place)
+            })*/
+                        
+                        
+                        
+                        
+                        points.forEach((item, index, array) => {
+                                   item.events.add('click', (e) =>{
+                                       var clickedPlacemark = e.get('target'); 
+                                       var click_coord = clickedPlacemark.geometry.getCoordinates();
+                                       place  = String(click_coord);
+                                       console.log(place) 
+                                        
+                                    });
+                        });                      
+                        
+                    }
+	</script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+     <script src="assets/js/jquery.tmpl.js"></script>
+     <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            
+            
+            $.ajax({
+                    url: 'data/data.json',
+                    method: 'post',
+                    dataType: 'json',
+                    success: function(data){
+                        console.log(data)
+                    }
+                });
+            
+             console.log('ddd')
+           
+            
+            
+            
+            
+            
+            
+            
+            var employeeData = [
+                { FirstName: "Rob", LastName: "Mathews", Age: 26 },
+                { FirstName: "Richie", LastName: "Richards", Age: 32 },
+                { FirstName: "Shawn", LastName: "Clarke", Age: 53 },
+                { FirstName: "Dave", LastName: "Canterburry", Age: 42 }
+            ];
+ 
+            $("#MyTemplate").tmpl(employeeData).appendTo("#employeeContainer");
+        });
+    </script>
+    <script id="MyTemplate" type="text/x-jquery-tmpl">
+        <tr>
+            <td>${FirstName}</td>
+            <td>${LastName}</td>
+            <td>${Age}</td>
+        </tr>
+    </script>
+    </body>
+</html>

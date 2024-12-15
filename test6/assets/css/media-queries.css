@@ -1,0 +1,436 @@
+@media screen and (max-width:1400px){
+    
+    header .banner{
+        padding: 220px 0px;
+    }
+}
+
+@media screen and (max-width:1185px){
+    
+    header .banner{
+        padding: 190px 0px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:1140px){
+    
+    .wrapper{
+        width: 90%;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1140px){
+    
+    header .menu-list li a{
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width:1080px){
+    header .banner{
+        padding: 130px 0px;
+    }
+    #amaurosis .desc-disease .item:nth-child(1) .text p{
+
+            width: 260px;
+    }
+}
+@media screen and (max-width:987px){
+    .diaogram-item h3{
+        font-size: 12px;
+    }
+     #amaurosis .desc-disease .item:nth-child(1) .text p{
+
+            width:190px;
+    }
+}
+@media screen and (max-width:818px){
+    
+    header .menu-list li a{
+        font-size: 14px;
+    }
+    
+}
+@media screen and (max-width:767px){
+    h3{
+        font-size: 16px !important;
+    }
+    h2{
+        font-size: 25px !important;
+        line-height: 170% !important;
+    }
+    
+    p{
+        font-size: 15px;
+    }
+    li{
+        font-size: 15px;
+    }
+    .btn{
+        width: 100% !important;
+    }
+    .item-col48{
+        width: 100%;
+    }
+    .item-col49{
+        width: 100%
+    }
+    .note img{
+        margin: 0px auto 20px auto;
+    }
+    .note{
+        padding: 20px;
+    }
+    
+    header img.logo{
+        width: 80%;
+    }
+    header .desc-menu{
+        display: none
+    }
+     header .menu-mob{
+        display:block;
+    }
+    header .banner{
+        
+        padding: 110px;
+        
+        
+    }
+    
+   section .between-flex,section .flex,section .around-flex{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    #dystrophy .info .item .text{
+        padding-left: 20px;   
+    }
+    section#suspect .block1{
+        width: 100%;
+    }
+    #retina{
+       padding: 20px 0px;
+    }
+    #nds{
+        padding: 20px 0px;
+    }
+    #effects{
+        padding: 20px 0px;
+    }
+    #retina .item1 .block1 img{
+        margin: 0px auto 20px auto;
+        
+    }
+    #retina .item1 .block1 .text{
+        width: 100%; 
+        padding-left: 20px;
+        padding-right: 20px;
+    } 
+    #retina .item1 .block2 {
+        padding: 40px 20px 40px 20px;
+    }
+    #retina .item1 .block2 img{
+        margin: 0px auto 20px auto;
+    }
+    #retina .item1 .block2 .list{
+        width: 100%;
+        padding: 0px;
+    }
+    #retina .item2{
+        margin-top:20px;
+        padding: 40px 20px;
+    }
+    
+  .img-desc{
+        display: none !important;
+    }
+
+    .img-mob{
+        display: block !important;
+    }    
+    
+    
+    #effects .info-desc{
+        display: none;
+    }
+    
+    
+      #effects .info-mob{
+        display: block;
+    }
+    #suspect{
+        padding: 20px 0px;
+    }
+    #suspect .block1 {
+        padding: 32px 20px;
+    }
+    
+    #suspect .block1 .icons .item{
+        width: 100%;
+        margin-top: 20px;
+    }
+    #suspect .block3 .item:nth-child(1){
+        margin-bottom: 20px;
+    }
+    #suspect .block2{
+        padding: 25px 20px 5px 20px;
+    }
+    
+    #suspect .block2 .item{
+        width: 100%;
+    }
+    #suspect .block2 .row{
+        
+    }
+    #suspect .block2 .item img{
+        margin:20px auto 21px auto;
+        display: block;
+        
+    }
+    #suspect .block3 .item{
+        padding: 25px 20px 5px 20px;
+    }
+    #suspect .block3 .item img{
+          margin:20px auto 21px auto;
+        display: block;
+        
+    }
+   
+    #suspect .block4 .item img{
+        margin: 0px auto 21px auto;
+    }
+    
+    #suspect .block4 .item{
+        padding: 25px 20px;
+    }
+    
+    #suspect .block4 .item:nth-child(1){
+        margin-bottom: 20px;
+    }
+    #amaurosis{
+        padding: 20px 0px;
+    }
+    #amaurosis .desc-disease .item{
+       
+    }
+    #amaurosis .desc-disease .item:nth-child(1) .info {
+        padding: 20px 20px
+        
+    }
+    #amaurosis  .desc-disease .item:nth-child(1) img{
+        margin: auto;
+    }
+    #amaurosis  .desc-disease .item:nth-child(2) img{
+        margin-top: 30px;
+    }
+    #amaurosis .desc-disease .item:nth-child(1) .text p{
+
+            width:100%;
+    }
+    #prevalence{
+        padding: 20px 0px;
+    }
+    #prevalence .block1 .item{
+        padding: 25px 20px;
+        margin-bottom: 20px;
+    }
+    
+    #prevalence .block1 .item img{
+        margin: auto;
+    }
+    
+    #possibility{
+        padding: 20px 0px;
+    }
+    #possibility  .diaogram-item{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #possibility  .diaogram-item .num-val{
+    width: 120px;
+    height: 120px;
+    
+    top:31.5%;
+    
+    }
+    #possibility  .diaogram-item h3{
+        font-size: 16px;
+    }
+    #possibility .diograms .item{
+        width: 100%;
+    }
+    
+    #possibility .block-label{
+        background-color: transparent;
+        padding: 20px;
+    }
+    #possibility .block-label img{
+        margin:0px auto 15px auto;
+    }
+    #levels{
+        padding: 20px 0px;
+    }
+    #levels .levels-items .item{
+        padding: 20px;
+    }
+    #levels .levels-items .item img{
+        margin: 0px;
+    }
+    #levels .levels-items .item .text{
+        width: 100%;
+        margin-top: 20px;
+    }
+    #progressive-diseases{
+        padding: 20px 0px
+    }
+    #progressive-diseases img{
+        width: 100%;
+    }
+    #test{
+        padding: 20px 0px 20px 0px;
+    }
+    #test  .test-block .item{
+        padding: 40px 20px;
+    }
+    #test  .test-block .item .text-img img{
+        display: none;
+    }
+    #test  .test-block .item{
+        flex-direction:row;
+        justify-content: space-between !important;
+    }
+    #test  .test-block .item .text-img h3{
+        width: 100%;
+        text-align: left;
+        font-size: 16px;
+    }
+    
+    #clinic{
+        padding: 0px 0px 20px 0px;
+    }
+    
+    #clinic .block .item .num{
+        margin: auto;
+    }
+
+    #clinic .btn{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    
+    #clinic  .shema img.desc-shema{
+        width: 100%;
+        display: none;
+   }
+    
+    #clinic  .shema img.mob-shema{
+        width: 100%;
+        display: block;
+   }
+    #clinic .block .item{
+        padding: 20px 20px;
+    }
+    #clinic .block .item .text{
+        width: 100%;
+    }
+  
+    #molecular-genetic .res-block{
+        padding: 20px;
+    }
+    #molecular-genetic .res-block .item{
+        width: 100%;
+    }
+    #molecular-genetic .res-block .item img{
+        display: block;
+        margin: 20px auto 0px auto;
+    }
+    
+    #molecular-genetic .info-desc .item {
+        width: 100%;
+        padding: 20px 0px 20px 0px;
+    }
+    #molecular-genetic .info-desc .item .text{
+        padding: 28px 20px;
+    }
+    #contact .list-clinic{
+        padding-left: 20px;
+    }
+    
+    #contact #map{
+        height: 322px;
+    }
+    #contact .btn{
+        padding: 20px;
+    }
+    #links{
+        padding: 20px 0px;
+    }
+    footer .docs{
+        flex-direction: column;
+        display: inline-block;
+    }
+    
+    footer .docs a{
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media screen and (max-width:670px){
+    header .banner{
+        padding: 90px 0px;
+    }
+}
+@media screen and (max-width:500px){
+    header .banner{
+        padding: 80px 0px;
+    }
+}
+@media screen and (max-width:446px){
+    header .banner{
+        padding: 71px 0px;
+    }
+}
+@media screen and (max-width:375px){
+    header .banner{
+        padding: 66px 0px;
+    }
+}
+@media screen and (max-width:440px){
+    
+   
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
