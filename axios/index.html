@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vue practic</title>
+	<meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.2/axios.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        #res{
+            
+        }
+    </style>
+
+</head>
+<body>
+    
+    <button id="btn">Add data</button>
+    <div id="res">
+        
+    </div>
+
+    <script type="text/javascript">
+        /*
+        let btn = document.getElementById("btn");
+        let resElement  = document.getElementById("res");
+        let product ;
+        btn.addEventListener('click',function(){
+           axios.get("product.json").then(res =>{
+               
+              //product = res.data.products.filter()
+             product = res.data.products.filter(data=>data.id==1002)[0]; 
+             console.log(product);
+           }); 
+            
+        });
+        
+        */
+        
+        
+        let arr =  [{name:"Phill",id:1001},{name:"Mark",id:1990}];
+        
+        let newArr = arr.filter(data=>data.id ==1001)[0];
+        
+        console.log(newArr);
+        
+        
+        
+        
+    </script>
+</body>
+</html>

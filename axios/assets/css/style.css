@@ -1,0 +1,175 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video,input {
+border:0;
+font-size:100%;
+vertical-align:baseline;
+list-style:none;
+text-decoration:none;
+box-sizing:border-box;
+margin:0;
+padding:0;
+outline: none;
+}
+h1,h2,h3,h4,a,p,input,label,span{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    padding: 20px 50px;
+    width: 90%;
+    margin: auto;
+    background-color: #f2ecda;
+    
+}
+header h1{
+    font-size: 50px;
+}
+header .checkout-wrapp{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+header .checkout-wrapp .checkout{
+	width: 70px;
+	padding: 20px 0px;
+	text-align: center;
+	background-color: #ffffff;
+}
+.warring .wrapp{
+	width: 70%;
+	margin:40px auto 0px;
+    padding: 10px;
+    border: 2px solid red;
+    background-color:#fb8d9f;
+    color: red;
+}
+.single .wrapp{
+	width: 70%;
+	margin:40px auto 0px;
+	display: flex;
+	justify-content: space-between;
+   
+}
+.single .wrapp .col-1 {
+	width: 30%;
+}
+.single .wrapp .col-2{
+	width: 60%;
+}
+.single .wrapp .col-1 img{
+	width: 100%;
+}
+
+.single .wrapp .col-2 h2{
+	font-size: 45px;
+}
+.single .wrapp .col-2 p{
+	margin: 20px 0px
+}
+.single .wrapp .col-2 .count span{
+	display: block;
+}
+.single .wrapp .col-2 .count{
+	width: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 0px;
+}
+.single .wrapp .col-2 .count  .char{
+	width: 20px;
+	background-color: #000000;
+	color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+.single span.inventory-message{
+    width: 300px;
+    display: block;
+    margin: 20px 0px;
+    border: 1px solid #073575;
+    color: #073575;
+    background-color: #8eb3e8;
+    padding: 20px 0px 20px 20px;
+    font-weight: 700;
+}
+.single .rating{
+	width: 100px;
+	display: flex;
+	justify-content: space-between
+}
+
+
+.single .rating span{
+	font-size: 30px;
+    color: orange;
+}
+
+.single .rating-active:before {
+   content: "\2605";
+   position: absolute;
+}
+
+.form-order{
+    width: 90%;
+    margin: auto;
+}
+
+.form-order .wrapp{
+    display: flex;
+     justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+
+.form-order .wrapp .wrapp-input{
+    width: 49%;
+    margin-bottom: 10px;
+    
+}
+.form-order .wrapp .wrapp-input input{
+    width: 100%;
+    border: 1px solid black;
+    font-size: 19px;
+    padding: 5px;
+}
+.form-order .radio-box{
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.form-order .radio-box label{
+    cursor: pointer;
+}
+.form-order .wrapp .wrapp-select{
+    width: 49.5%;
+}
+.form-order .wrapp .wrapp-select select{
+    width: 100%;
+    padding: 5px 0px;
+    font-size: 19px;
+}
+.form-order button{
+	width: 200px;
+	padding: 10px 0px;
+	text-align: center;
+	background-color: #1879e9;
+	display: block;
+	border: none;
+	margin: 20px 0px;
+}
+
+.info{
+    width: 90%;
+    margin: auto;
+}
+.info h2{
+    margin-bottom: 20px;
+}
+
+
+
+
+

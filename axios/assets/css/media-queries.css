@@ -1,0 +1,300 @@
+@media screen and (max-width:750px){
+    .main-wrrap .border-wrrap{
+        width: 600px;
+    }
+    .main-wrrap .border-wrrap .logo-block{
+        width: 510px;
+    }
+    .main-wrrap .border-wrrap .logo-block .image1{
+        width: 250px;
+    }
+    .logo-block .image2{
+         width: 150px;
+    } 
+    
+    .main-header{
+    width: 510px;
+    margin: auto;
+    position: relative;
+    height: 270px;
+    }
+    .main-header .elem-header-1{
+     position:absolute;
+     top: 50px;
+     left:0px;
+    }
+    .main-header .elem-header-1 h1{
+         font-size:37px;
+         color: #ed1d24;
+    }
+    .main-header .elem-header-2{
+        position: absolute;
+        top: 90px;
+        left: 0px;
+        right: 0;
+        margin: auto;
+        width: 125px;
+    }
+    .main-header .elem-header-2 h1{
+         font-size: 80px;
+
+        color: #ed1d24;
+    }
+    .elem-header-3{
+        position:absolute;
+        top:180px;
+        right: 0px;
+    }
+    .elem-header-3 h1{
+       font-size: 34px;
+        color: #ed1d24;
+    }
+    .elem-header-4{
+        position:absolute;
+        top:120px;
+        left:0px;
+    }
+    .elem-header-4 h1{
+       font-size: 16px;
+    }
+    .elem-header-5{
+        position:absolute;
+         top:120px;
+        left: 350px;
+    }
+    .elem-header-5 h1{
+         font-size: 16px;
+    } 
+
+    .desc-wrrap{
+         width: 510px;
+    }
+    
+    .schedule{
+        width: 510px;
+    }
+
+    .schedule .schedule-wrrap .item .desc p{
+        font-weight: bold;
+        font-size: 13px;
+        padding-left: 40px;
+    }
+    .contact{
+            width: 510px;
+            border-top: 1px solid red;
+            margin: 0px auto;
+            padding-top: 10px;
+    }
+    .contact-wrrap{
+        padding-left: 0px;
+    }
+    .contact-wrrap h4{
+        font-size: 13px
+    }
+}
+@media screen and (max-width:612px){
+    
+    .main-wrrap .border-wrrap{
+        width: 500px;
+    }
+    .main-wrrap .border-wrrap .logo-block{
+        width:90%;
+    }
+    .main-wrrap .border-wrrap .logo-block .image1{
+        width: 180px;
+    }
+    .logo-block .image2{
+         width: 140px;
+    } 
+    
+    .main-header{
+    padding: 20px 0px;
+   width:90%;
+    margin: auto;
+    height: inherit;
+    }
+    .main-header .elem-header-1{
+     position:static;
+    }
+    .main-header .elem-header-1 h1{
+         font-size:37px;
+         color: #ed1d24;
+        text-align: center;
+    }
+    .main-header .elem-header-2{
+        position:static;
+        width: 100%;
+        text-align: center;
+
+    }
+    .main-header .elem-header-2 h1{
+         font-size: 80px;
+
+        color: #ed1d24;
+    }
+    .elem-header-3{
+       position:static;
+    
+    }
+    
+    .elem-header-3 h1{
+       font-size: 34px;
+        color: #ed1d24;
+        text-align: center;
+    }
+    .elem-header-4{
+        padding-top: 10px;
+         position:static;
+    }
+    .elem-header-4 h1{
+        
+       font-size: 16px;
+        text-align: center;
+    }
+    .elem-header-5{
+        position:static;
+        padding-top: 10px;
+    }
+    .elem-header-5 h1{
+         font-size: 16px;
+        text-align: center;
+    } 
+
+    .desc-wrrap{
+         width:90%;
+    }
+    
+    .schedule{
+       width:90%;
+    }
+    .schedule h2{
+    
+    font-size: 20px;
+    
+    }
+    .schedule .schedule-wrrap{
+        flex-direction: column;
+    }
+    .schedule .schedule-wrrap .item{
+        width: 100%;
+    } 
+    .schedule .schedule-wrrap .item:nth-child(1){
+        margin-bottom: 20px;
+    }
+    .schedule .schedule-wrrap .item .desc p{
+        font-weight: bold;
+        font-size: 13px;
+        padding-left: 40px;
+    }
+    .schedule .schedule-wrrap .item .autor{
+        width: 100%;
+    }
+    .contact{
+            width:90%;
+            border-top: 1px solid red;
+            margin: 0px auto;
+            padding-top: 10px;
+    }
+    .contact>p{
+        text-align: center;
+    }
+    .contact-wrrap{
+        padding-left: 0px;
+        flex-direction: column;
+    }
+    
+    .contact-wrrap h4{
+        font-size: 13px;
+        text-align: center;
+        
+    }
+    .contact-wrrap h4:nth-child(2){
+        margin: 10px 0px;
+    }
+}
+@media screen and (max-width:510px){
+    
+    .main-wrrap .border-wrrap{
+        width: 400px;
+    }
+    
+}
+@media screen and (max-width:432px){
+    
+    .main-wrrap .border-wrrap{
+        width: 90%;
+    }
+    .main-wrrap .border-wrrap .logo-block{
+        width:90%;
+        flex-direction: column;
+    }
+    .main-wrrap .border-wrrap .logo-block .image1{
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px
+    }
+    .logo-block .image2{
+         width: 80%;
+        display: block;
+        margin: auto;
+        
+    } 
+    
+    .main-header{
+    padding: 20px 0px;
+   width:90%;
+    margin: auto;
+    height: inherit;
+    }
+    .main-header .elem-header-1{
+     position:static;
+    }
+    .main-header .elem-header-1 h1{
+         font-size:37px;
+         color: #ed1d24;
+        text-align: center;
+    }
+    .main-header .elem-header-2{
+        position:static;
+        width: 100%;
+        text-align: center;
+
+    }
+    .main-header .elem-header-2 h1{
+         font-size: 80px;
+
+        color: #ed1d24;
+    }
+    .elem-header-3{
+       position:static;
+    
+    }
+    
+    .elem-header-3 h1{
+       font-size: 28px;
+        color: #ed1d24;
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width:314px){
+    
+   
+   
+    .main-header .elem-header-1 h1{
+         font-size:28px;
+         color: #ed1d24;
+        text-align: center;
+    }
+
+    .elem-header-3 h1{
+       font-size: 21px;
+        color: #ed1d24;
+        text-align: center;
+    }
+    
+}
+
+
+
