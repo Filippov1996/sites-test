@@ -1,0 +1,225 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>test</title>
+
+    <link rel="stylesheet" href="assets/styles/reset.css">
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+    <body>
+           <div class="app">
+                <div class="tabel-top">
+                    <div class="tabel-top__row">
+                        <div class="tabel-top__data name-col color-data">
+                            Показатель 
+                        </div>
+                        <div class="tabel-top__data name-col color-data blue-color">
+                            Текущий день 
+                        </div>
+                        <div class="tabel-top__data name-col color-data">
+                            Вчера 
+                        </div>
+                        <div class="tabel-top__data name-col color-data">
+                            Этот день недели
+                        </div>
+                    </div>
+                    <div class="tabel-top__row">
+                        <div class="tabel-top__data color-data">
+                           Выручка. руб
+                        </div>
+                        <div class="tabel-top__data color-data blue-color">
+                            500 521 
+                        </div>
+                        <div class="tabel-top__data color-data vals green-color">
+                            <span class="data-val">480 521</span>
+                            <span class="data-val green-text">4%</span>
+                        </div>
+                        <div class="tabel-top__data color-data red-color num">
+                            4 805 121
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="table__chart">
+                    <script src="https://code.highcharts.com/highcharts.js"></script>
+                    <script src="https://code.highcharts.com/modules/series-label.js"></script>
+                    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+                    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+                    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+                    <div class="chart chart1 fadeIn">
+                        <div id="chart1"></div>
+                    </div>
+                    <div class="chart fadeOut">
+                        <div id="chart2"></div>
+                    </div>
+                    <div class="chart fadeOut">
+                        <div id="chart3"></div>
+                    </div>
+                    <div class="chart fadeOut" >
+                        <div id="chart4"></div>
+                    </div>
+                    <div class="chart fadeOut">
+                        <div id="chart5"></div>
+                    </div>
+                    
+                    <div class="chart fadeOut">
+                        <div id="chart6"></div>
+                    </div>
+                    <div class="chart fadeOut">
+                        <div id="chart7"></div>
+                    </div>
+                    <div class="chart fadeOut">
+                        <div id="chart8"></div>
+                    </div>
+                    <div class="chart fadeOut">
+                        <div id="chart9"></div>
+                    </div>
+                    
+                </div>
+                 <div class="tabel-bot">
+                    <div class="tabel-top__row switch-chart">
+                        <div class="tabel-top__data color-data">
+                            Наличные 
+                        </div>
+                        <div class="tabel-top__data color-data blue-color num">
+                            300 000 
+                        </div>
+                        <div class="tabel-top__data color-data vals">
+                            <span class="data-val">300 000 </span>
+                            <span class="data-val green-text">4%</span>
+                        </div>
+                        <div class="tabel-top__data color-data num">
+                            300 000
+                        </div>
+                    </div>
+                    <div class="tabel-top__row switch-chart">
+                        <div class="tabel-top__data color-data">
+                          Безналичный расчет
+                        </div>
+                        <div class="tabel-top__data color-data blue-color num">
+                            100 000 
+                        </div>
+                        <div class="tabel-top__data color-data vals">
+                            <span class="data-val">100 000 </span>
+                            <span class="data-val green-text">4%</span>
+                        </div>
+                        <div class="tabel-top__data color-data num">
+                            100 000
+                        </div>
+                    </div>
+                    <div class="tabel-top__row switch-chart">
+                        <div class="tabel-top__data color-data ">
+                          Кредитные карты
+                        </div>
+                        <div class="tabel-top__data color-data blue-color num">
+                            100 521 
+                        </div>
+                        <div class="tabel-top__data color-data  vals">
+                            <span class="data-val">100 521 </span>
+                            <span class="data-val green-text">4%</span>
+                        </div>
+                        <div class="tabel-top__data color-data num">
+                            100 521 
+                        </div>
+                    </div>
+                    <div class="tabel-top__row switch-chart">
+                        <div class="tabel-top__data color-data ">
+                          Cредний чек, руб
+                        </div>
+                        <div class="tabel-top__data color-data blue-color num">
+                            1 300 
+                        </div>
+                        <div class="tabel-top__data color-data green-color vals">
+                            <span class="data-val">900</span>
+                            <span class="data-val green-text">44%</span>
+                        </div>
+                        <div class="tabel-top__data color-data green-color num">
+                           900
+                        </div>
+                    </div>
+                    <div class="tabel-top__row switch-chart">
+                        <div class="tabel-top__data color-data ">
+                          Cредний гость, руб
+                        </div>
+                        <div class="tabel-top__data color-data blue-color num">
+                            1 200 
+                        </div>
+                        <div class="tabel-top__data color-data green-color vals">
+                            <span class="data-val">800</span>
+                            <span class="data-val green-text">50%</span>
+                        </div>
+                        <div class="tabel-top__data  color-data green-color num">
+                             800 
+                        </div>
+                    </div>
+                     <div class="tabel-top__row switch-chart">
+                        <div class="tabel-top__data color-data ">
+                          Удаление из чека( после оплаты), руб
+                        </div>
+                        <div class="tabel-top__data color-data blue-color num">
+                           1 000
+                        </div>
+                        <div class="tabel-top__data color-data red-color vals">
+                            <span class="data-val">1 100 </span>
+                            <span class="data-val red-text">-9%</span>
+                        </div>
+                        <div class="tabel-top__data color-data green-color num">
+                            900
+                        </div>
+                    </div>
+                     <div class="tabel-top__row switch-chart">
+                        <div class="tabel-top__data color-data ">
+                          Удаление из чека(до оплаты), руб
+                        </div>
+                        <div class="tabel-top__data color-data blue-color num">
+                            1 300
+                        </div>
+                        <div class="tabel-top__data color-data  vals">
+                            <span class="data-val">1 300 </span>
+                            <span class="data-val green-text">0%</span>
+                        </div>
+                        <div class="tabel-top__data color-data green-color num">
+                            900
+                        </div>
+                    </div>
+                    <div class="tabel-top__row switch-chart">
+                        <div class="tabel-top__data color-data ">
+                          Количетсво чеков
+                        </div>
+                        <div class="tabel-top__data color-data blue-color num">
+                           34
+                        </div>
+                        <div class="tabel-top__data color-data red-color vals">
+                            <span class="data-val">36</span>
+                            <span class="data-val red-text">-6%</span>
+                        </div>
+                        <div class="tabel-top__data color-data num">
+                            34
+                        </div>
+                    </div>
+                    <div class="tabel-top__row switch-chart">
+                        <div class="tabel-top__data color-data ">
+                          Количетсво гостей
+                        </div>
+                        <div class="tabel-top__data color-data blue-color num">
+                            34
+                        </div>
+                        <div class="tabel-top__data color-data red-color vals">
+                            <span class="data-val">36</span>
+                             <span class="data-val red-text">-6%</span>
+                        </div>
+                        <div class="tabel-top__data color-data green-color num">
+                            32 
+                        </div>
+                    </div>
+                </div>
+           </div>   
+        <script src="assets/scripts/jquery-3.2.0.min.js"></script>
+        <script src="assets/scripts/script.js"></script>
+    </body>
+</html>
