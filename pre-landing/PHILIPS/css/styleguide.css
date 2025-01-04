@@ -1,0 +1,45 @@
+:root { 
+  --black-0b0b0b100: #0a0a0a;
+  --black-0b0b0b80: #0a0a0acc;
+  --gamboge: #eb9c00;
+  --red-standard: #d03434;
+  --usedblack-00000: #000000;
+  --usedlight-gray: #dbdbdb;
+  --white-ffffff100: #ffffff;
+ 
+  --font-size-l: 16px;
+  --font-size-m: 14px;
+  --font-size-s: 12px;
+  --font-size-xl: 17px;
+  --font-size-xxl: 20px;
+  --font-size-xxxl: 24px;
+  --font-size-xxxxl: 30px;
+ 
+  --font-family-neue_frutiger_world-bold: "Neue Frutiger World-Bold", Helvetica;
+  --font-family-neue_frutiger_world-book: "Neue Frutiger World-Book", Helvetica;
+  --font-family-neue_frutiger_world-medium: "Neue Frutiger World-Medium", Helvetica;
+  --font-family-neue_frutiger_world-regular: "Neue Frutiger World-Regular", Helvetica;
+}
+.neuefrutigerworld-book-normal-cod-gray-14px {
+  color: var(--black-0b0b0b80);
+  font-family: var(--font-family-neue_frutiger_world-book);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.neuefrutigerworld-medium-cod-gray-16px {
+  color: var(--black-0b0b0b100);
+  font-family: var(--font-family-neue_frutiger_world-medium);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.neuefrutigerworld-book-normal-cod-gray-12px {
+  color: var(--black-0b0b0b80);
+  font-family: var(--font-family-neue_frutiger_world-book);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}

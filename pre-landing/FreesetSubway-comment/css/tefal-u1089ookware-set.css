@@ -1,0 +1,1097 @@
+/* screen - tefal-u1089ookware-set */
+
+.tefal-u1089ookware-set {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: var(--white-ffffff100);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+ 
+  width: 100%;
+}
+
+.tefal-u1089ookware-set .content {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+  width: 100%;
+}
+
+.tefal-u1089ookware-set .product {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+  width: 100%;
+}
+
+.tefal-u1089ookware-set .about-product {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.tefal-u1089ookware-set .offer {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #FDB203;
+  display: -webkit-box;;
+  display: -ms-flexbox;;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.tefal-u1089ookware-set .expires-feb-14-2024 {
+  color: #0B0B0B;
+  font-weight: 600;
+  line-height: 15.4px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-style: normal;
+}
+
+.tefal-u1089ookware-set .img {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+ 
+  -webkit-box-pack: justify;
+ 
+  -ms-flex-pack: justify;
+ 
+  justify-content: space-between;
+  padding: 0px 0px;
+  position: relative;
+  max-width: 500px;
+  height: 500px;
+  width: 100%;
+  margin: auto;
+}
+.tefal-u1089ookware-set .frame-226 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 8px;
+}
+
+.tefal-u1089ookware-set .frame-228 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 4px;
+}
+
+.tefal-u1089ookware-set .frame-22 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: var(--persian-red);
+  border-radius: 40px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 10px;
+  padding: 4px 6px;
+}
+
+.tefal-u1089ookware-set .price {
+  color: var(--white-ffffff100);
+  font-style: italic;
+  font-weight: 500;
+  line-height: 15.4px;
+  margin-top: -0.50px;
+  position: relative;
+  white-space: nowrap;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.tefal-u1089ookware-set .cost {
+  color: var(--white-ffffff100);
+  font-style: italic;
+  font-weight: 500;
+  line-height: 15.4px;
+  position: relative;
+  white-space: nowrap;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.tefal-u1089ookware-set .frame-229 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 4px;
+}
+
+.tefal-u1089ookware-set .shipping {
+  color: var(--white-ffffff100);
+  font-style: italic;
+  font-weight: 500;
+  line-height: 15.4px;
+  position: relative;
+  white-space: nowrap;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.tefal-u1089ookware-set .group-1 {
+  padding-top: 30px;
+  width: 80%;
+}
+
+.tefal-u1089ookware-set .x-container {
+    width: 100%;
+  margin: auto;
+}
+
+.tefal-u1089ookware-set .image-1-1 {
+  height: 157px;
+  left: 80px;
+  position: absolute;
+  top: 0;
+  width: 229px;
+}
+
+.tefal-u1089ookware-set .x1-1-1 {
+  height: 284px;
+  left: 0;
+  position: absolute;
+  top: 37px;
+  width: 390px;
+}
+
+.tefal-u1089ookware-set .question {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.tefal-u1089ookware-set .have-you-received-this-gift-before {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.tefal-u1089ookware-set .would-you-like-to-ge {
+  color: transparent;
+  font-weight: 500;
+  line-height: 25.3px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 303px;
+}
+
+.tefal-u1089ookware-set .span0 {
+  color: var(--black-282828100);
+}
+
+.tefal-u1089ookware-set .span1 {
+  color: #2293EF;
+}
+
+.tefal-u1089ookware-set .variants {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  gap: 8px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.tefal-u1089ookware-set .buttons-button {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color:#7C85A5;
+  border-radius: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 14px 25px;
+  position: relative;
+  width: 120px;
+}
+
+.tefal-u1089ookware-set .sample-text {
+  color: var(--white-ffffff100);
+  font-weight: 50;
+  line-height: 22.1px;
+  margin-top: -0.50px;
+  position: relative;
+  white-space: nowrap;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.tefal-u1089ookware-set .buttons-button-1 {
+  width: 120px;
+}
+
+.tefal-u1089ookware-set .customer-reviews {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid  #E6E6E6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 16px;
+  padding: 32px 0px 0px;
+  position: relative;
+  max-width: 480px;
+  width: 95%;
+  margin: auto;
+}
+
+.tefal-u1089ookware-set .review {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border-top: 1px solid  #E6E6E6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.tefal-u1089ookware-set .txt {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.tefal-u1089ookware-set .frame-2 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tefal-u1089ookware-set .lorainne-mitchell {
+  color: var(--black-282828100);
+  font-weight: 500;
+  line-height: 17.6px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.tefal-u1089ookware-set .rating {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.tefal-u1089ookware-set .frame {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.tefal-u1089ookware-set .this-is-one-of-the-b {
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  color: var(--black-28282880);
+  font-weight: 400;
+  line-height: 18.2px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.tefal-u1089ookware-set .frame-1 {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 10px;
+}
+
+.tefal-u1089ookware-set .date-like-dislike {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.tefal-u1089ookware-set .date {
+  color: var(--gray);
+  font-weight: 400;
+  line-height: 13.0px;
+	font-size: 12px;
+  position: relative;
+  white-space: nowrap;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.tefal-u1089ookware-set .like-dislike {
+  border-radius: 6px;
+  gap: 8px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 6px 10px;
+}
+
+.tefal-u1089ookware-set .like-1 {
+  gap: 4px;
+}
+
+.tefal-u1089ookware-set .like {
+  height: 14px;
+  position: relative;
+  width: 14px;
+}
+
+.tefal-u1089ookware-set .number {
+  color: var(--gray);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13.0px;
+	padding-top: 2px;
+  position: relative;
+  white-space: nowrap;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.tefal-u1089ookware-set .dislike-1 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+}
+
+.tefal-u1089ookware-set .dislike {
+  height: 14px;
+  position: relative;
+  width: 14px;
+}
+
+.tefal-u1089ookware-set .frame-3 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tefal-u1089ookware-set .name {
+  color: var(--black-282828100);
+  font-weight: 500;
+  line-height: 17.6px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.tefal-u1089ookware-set .this-wok-is-brillian {
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  color: var(--black-28282880);
+  font-weight: 400;
+  line-height: 18.2px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.tefal-u1089ookware-set .like-2 {
+  gap: 4px;
+}
+
+.tefal-u1089ookware-set .dislike-2 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+}
+
+.tefal-u1089ookware-set .frame-4 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tefal-u1089ookware-set .surname {
+  color: var(--black-282828100);
+  font-weight: 500;
+  line-height: 17.6px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.tefal-u1089ookware-set .do-you-have-favourit {
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  color: var(--black-28282880);
+  font-weight: 400;
+  line-height: 18.2px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.tefal-u1089ookware-set .like-3 {
+  gap: 4px;
+}
+
+.tefal-u1089ookware-set .dislike-3 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+}
+
+.tefal-u1089ookware-set .frame-5 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tefal-u1089ookware-set .looks-nice-its-lig {
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  color: var(--black-28282880);
+  font-weight: 400;
+  line-height: 18.2px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.tefal-u1089ookware-set .like-4 {
+  gap: 4px;
+}
+
+.tefal-u1089ookware-set .dislike-4 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+}
+
+.tefal-u1089ookware-set .frame-6 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tefal-u1089ookware-set .very-happy-with-thes {
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  color: var(--black-28282880);
+  font-weight: 400;
+  line-height: 18.2px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.tefal-u1089ookware-set .like-5 {
+  gap: 4px;
+}
+
+.tefal-u1089ookware-set .dislike-5 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+}
+
+.tefal-u1089ookware-set .frame-7 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tefal-u1089ookware-set .this-set-still-looks {
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  color: var(--black-28282880);
+  font-weight: 400;
+  line-height: 18.2px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.tefal-u1089ookware-set .like-6 {
+  gap: 4px;
+}
+
+.tefal-u1089ookware-set .dislike-6 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+}
+
+.tefal-u1089ookware-set .dislike-7 {
+  height: 14px;
+  position: relative;
+  width: 14px;
+}
+
+.tefal-u1089ookware-set .get {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0px 0px;
+  position: relative;
+  max-width: 480px;
+  width: 95%;
+  margin: auto;
+}
+
+.tefal-u1089ookware-set .buttons-button-2 {
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.tefal-u1089ookware-set .our-organization-ask {
+  color: var(--black-0b0b0b60);
+  font-weight: 400;
+  line-height: 15.6px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 0px;
+}
+
+.tefal-u1089ookware-set .footer {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: var(--black-0b0b0b100);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 16px;
+  padding: 30px 10px;
+  position: relative;
+  width: 390px;
+}
+
+.tefal-u1089ookware-set .frame-8 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tefal-u1089ookware-set .privacy-policy {
+  color: var(--white-ffffff60);
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 18.2px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.tefal-u1089ookware-set .contact-us {
+  color: var(--white-ffffff60);
+  font-weight: 400;
+  line-height: 18.2px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.tefal-u1089ookware-set .line {
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  height: 1px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}
+
+.tefal-u1089ookware-set .view {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.tefal-u1089ookware-set .deals-coupons-free {
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  color: var(--useddark-gray);
+  font-weight: 400;
+  line-height: 15.6px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+}
+
+.tefal-u1089ookware-set .buttons-button_-disclaimer {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 3px;
+  position: relative;
+}
+
+.tefal-u1089ookware-set .sample-text-1 {
+  color: var(--useddark-gray);
+  font-weight: 600;
+  line-height: 18.2px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.tefal-u1089ookware-set .buttons-button-3 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 6px;
+  background: #008938; 
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 20px 0px;
+  position: relative;
+	font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%;
+color: #ffffff;
+  font-weight: bold;
+}
+
+.tefal-u1089ookware-set .date-like-dislike-6 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.tefal-u1089ookware-set .frame-9 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.tefal-u1089ookware-set .img-6 {
+  height: 120px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: relative;
+  width: 120px;
+}
+
+.tefal-u1089ookware-set .like-7 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.tefal-u1089ookware-set .name-4 {
+  color: var(--black-282828100);
+  font-weight: 500;
+  line-height: 17.6px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.tefal-u1089ookware-set .txt-6 {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  width: 100%;
+}
