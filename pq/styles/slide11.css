@@ -1,0 +1,87 @@
+
+#slide11{
+	width: 1024px;
+	height: 768px;
+	background:urL('../images/slide11/bg.png') no-repeat;
+	background-size:1024px 768px;
+}
+#slide11 .header{
+	width: 568px;
+	height: 78px;
+	background:urL('../images/slide11/header.png') no-repeat;
+	background-size:568px 78px;
+	left: 100px;
+    top: 76px;
+	opacity: 0;
+	animation:showHeaderSlide11 0.500s forwards;
+	-webkit-animation:showHeaderSlide11 0.500s forwards;
+	-o-animation:showHeaderSlide11 0.500s forwards;
+	-moz-animation:showHeaderSlide11 0.500s forwards;
+}
+#slide11 .text1{
+	width: 571px;
+	height: 65px;
+	background:urL('../images/slide11/item1.png') no-repeat;
+	background-size:571px 65px;
+	left: 332px;
+    top: 222px;
+	opacity: 0;
+	animation:showText1Slide11 0.500s 0.300s forwards;
+	-webkit-animation:showText1Slide11 0.500s 0.300s forwards;
+	-o-animation:showText1Slide11 0.500s 0.300s forwards;
+	-moz-animation:showText1Slide11 0.500s 0.300s forwards;
+}
+#slide11 .text2{
+	width: 579px;
+	 height: 103px;
+	background:urL('../images/slide11/item2.png') no-repeat;
+	background-size:579px 103px;
+	left: 332px;
+    top: 309px;
+	opacity: 0;
+	animation:showText1Slide11 0.500s 0.600s forwards;
+	-webkit-animation:showText1Slide11 0.500s 0.600s forwards;
+	-o-animation:showText1Slide11 0.500s 0.600s forwards;
+	-moz-animation:showText1Slide11 0.500s 0.600s forwards;
+}
+#slide11 .text3{
+	width: 592px;
+	height: 228px;
+	background:urL('../images/slide11/item3.png') no-repeat;
+	background-size:592px 228px;
+	left: 332px;
+    top: 451px;
+	opacity: 0;
+	animation:showText1Slide11 0.500s 0.800s forwards;
+	-webkit-animation:showText1Slide11 0.500s 0.800s forwards;
+	-o-animation:showText1Slide11 0.500s 0.800s forwards;
+	-moz-animation:showText1Slide11 0.500s 0.800s forwards;
+}
+#slide11 .image{
+	width: 292px;
+	height: 509px;
+	background:urL('../images/slide11/hand.png') no-repeat;
+	background-size:292px 509px;
+	top: 200px;
+}
+@keyframes showHeaderSlide11{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		left: 80px;
+		opacity: 1;
+	}
+}
+
+
+
+@keyframes showText1Slide11{
+	0%{
+		
+	}
+	100%{
+		
+		opacity: 1;
+	}
+}

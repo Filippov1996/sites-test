@@ -1,0 +1,114 @@
+#slide10{
+	width: 1024px;
+	height: 768px;
+}
+#slide10 .header{
+	width: 391px;
+	height: 29px;
+	background: url(../images/slide10/header.png) no-repeat; 
+	background-size:391px 29px;
+	left: 0;
+	right: 0;
+	top:110px;
+	margin: auto;
+	opacity: 0;
+	animation:showHeaderSlide10 0.500s forwards;
+	-webkit-animation:showHeaderSlide10 0.500s forwards;
+	-o-animation:showHeaderSlide10 0.500s  forwards;
+	-moz-animation:showHeaderSlide10 0.500s  forwards;
+}
+#slide10 .label{
+	 width: 335px;
+     height: 38px;
+	background: url(../images/slide10/label.png) no-repeat; 
+	background-size:335px 38px;
+	top: 164px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	opacity: 0;
+	animation:showLabelSlide10 0.500s 0.300s forwards;
+	-webkit-animation:showLabelSlide10 0.500s 0.300s forwards;
+	-o-animation:showLabelSlide10 0.500s 0.300s forwards;
+	-moz-animation:showLabelSlide10 0.500s 0.300s  forwards;
+}
+#slide10 .bor1{
+	width: 259px;
+    height: 0px;
+	background: url(../images/slide10/bor1.png) no-repeat; 
+	background-size:259px 300px;
+	left: 111px;
+    top: 270px;
+	animation:showBorderSlide10 0.500s 0.400s forwards;
+	-webkit-animation:showBorderSlide10 0.400s 0.400s forwards;
+	-o-animation:showBorderSlide10 0.500s 0.400s forwards;
+	-moz-animation:showBorderSlide10 0.500s 0.400s  forwards;
+}
+
+
+
+#slide10 .bor2{
+	width: 259px;
+    height: 0px;
+	background: url(../images/slide10/bor2.png) no-repeat; 
+	background-size:259px 300px;
+	left: 656px;
+    top: 270px;
+	animation:showBorderSlide10 0.500s 0.500s forwards;
+	-webkit-animation:showBorderSlide10 0.500s 0.500s forwards;
+	-o-animation:showBorderSlide10 0.500s 0.500s forwards;
+	-moz-animation:showBorderSlide10 0.500s 0.500s  forwards
+}
+
+#slide10 .image{
+	width: 193px;
+	height: 238px;
+	background: url(../images/slide10/woman.png) no-repeat; 
+	background-size:193px 238px;
+	top:338px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+@keyframes showHeaderSlide10{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		top: 90px;
+		opacity: 1;
+	}
+}
+
+@keyframes showLabelSlide10{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		top: 144px;
+		opacity: 1;
+	}
+}
+
+
+
+@keyframes showBorderSlide10{
+	0%{
+		
+	}
+	100%{
+		height: 300px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

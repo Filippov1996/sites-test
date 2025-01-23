@@ -1,0 +1,78 @@
+#slide3{
+	width: 1024px;
+	height: 768px;
+	background: url(../images/slide3/bg.png) no-repeat;
+	background-size: 1024px 768px;
+
+}
+#slide3 .header{
+	width: 211px;
+    height: 80px;
+	background: url(../images/slide3/header.png) no-repeat;
+	background-size:211px 80px;
+	left: 80px;
+    top: 87px;
+	opacity: 0;
+	animation:showHeaderSlide3 0.500s forwards;
+	-webkit-animation:showHeaderSlide3 0.500s forwards;
+	-o-animation:showHeaderSlide3 0.500s  forwards;
+	-moz-animation:showHeaderSlide3 0.500s  forwards;
+}
+#slide3 .item1{
+	width: 0px;
+    height: 163px;
+	background: url(../images/slide3/item1.png) no-repeat;
+	background-size: 864px  163px;
+	left: 80px;
+    top: 219px;
+	animation:moveImage1 0.500s 0.300s forwards;
+	-webkit-animation:moveImage1 0.500s 0.300s forwards;
+	-o-animation:moveImage1 0.500s 0.300s  forwards;
+	-moz-animation:moveImage1 0.500s 0.300s  forwards;
+	
+}
+#slide3 .item2{
+	width: 0px;
+    height: 159px;
+	background: url(../images/slide3/item2.png) no-repeat;
+	background-size: 852px  159px;
+	left: 80px;
+    top: 429px;
+	animation:moveImage2 0.500s 0.700s forwards;
+	-webkit-animation:moveImage2 0.500s 0.700s forwards;
+	-o-animation:moveImage2 0.500s 0.700s  forwards;
+	-moz-animation:moveImage2 0.500s 0.700s  forwards;
+	
+}
+
+@keyframes showHeaderSlide3{
+	
+	0%{
+		opacity: 0;
+	}
+	50%{
+		
+	}
+	100%{
+		top: 67px;
+		opacity: 1;
+	}
+}
+
+
+@keyframes  moveImage1{
+	0%{
+		
+	}
+	100%{
+		width: 864px;
+	}
+}
+@keyframes  moveImage2{
+	0%{
+		
+	}
+	100%{
+		width:  852px;
+	}
+}

@@ -1,0 +1,39 @@
+#slide13{
+	width: 1024px;
+	height: 768px;
+}
+
+#slide13 .header{
+	width: 496px;
+	height:48px;
+	background:url(../images/slide13/header.png) no-repeat;
+	background-size: 496px 48px;
+	top: 360px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	opacity: 0;
+	animation:showHeaderSlide13 0.500s forwards;
+	-webkit-animation:showHeaderSlide13 0.500s forwards;
+	 -o-animation:showHeaderSlide13 0.500s forwards;
+	 -moz-animation:showHeaderSlide13 0.500s forwards;
+}
+
+@keyframes showHeaderSlide13{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		
+		opacity: 1;
+	}
+}
+
+
+
+
+
+
+
+
+

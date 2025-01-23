@@ -1,0 +1,97 @@
+#slide9{
+	width: 1024px;
+	height: 768px;
+	background: url(../images/slide4/bg.png) no-repeat;
+	background-size: 1024px 768px;
+}
+#slide9 .header{
+	width: 474px;
+	height: 93px; 
+	background: url(../images/slide9/header.png) no-repeat;
+	background-size:474px  93px; 
+	left: 154px;
+	top: 258px;
+	opacity: 0;
+	animation:showHeaderSlide9 0.500s forwards;
+	-webkit-animation:showHeaderSlide9 0.500s forwards;
+	-o-animation:showHeaderSlide9 0.500s  forwards;
+	-moz-animation:showHeaderSlide9 0.500s  forwards;
+}
+
+#slide9 .item {
+	 
+	 box-shadow: 0px 0px 11px 0px rgba(189, 179, 220, 0.54);
+}
+
+#slide9  .q1{
+	 width: 390px;
+     height: 58px;
+	 left: 124px;
+     top: 399px;
+	 background: url(../images/slide9/q1.png) no-repeat;
+	 background-size:106px 16px;
+	 background-position: 26px 22px;
+	 opacity: 0;
+	 animation:showItemSlide5 0.500s 0.300s forwards;
+	 -webkit-animation:showItemSlide5 0.500s 0.300s forwards;
+	 -o-animation:showItemSlide5 0.500s 0.300s  forwards;
+	 -moz-animation:showItemSlide5 0.500s 0.300s  forwards;
+}
+
+#slide9  .q2{
+	 width: 390px;
+     height: 58px;
+	 background: url(../images/slide9/q2.png) no-repeat;
+	 background-size: 131px 16px;
+	 background-position: 26px 22px;
+	 left: 124px;
+     top: 479px;
+	 opacity: 0;
+	 animation:showItemSlide5 0.500s 0.400s forwards;
+	 -webkit-animation:showItemSlide5 0.500s 0.400s forwards;
+	 -o-animation:showItemSlide5 0.500s 0.400s  forwards;
+	 -moz-animation:showItemSlide5 0.500s 0.400s  forwards;
+}
+#slide9 .answer{
+	display: none;
+}
+#slide9 .true-answer{
+	width: 286px;
+    height: 135px;
+	background: url(../images/slide9/true-answer.png);
+	background-size: 286px 135px;
+	left: 573px;
+    top: 399px;
+	
+}
+
+#slide9 .false-answer{
+	width: 286px;
+    height: 135px;
+	background: url(../images/slide9/false-answer.png);
+	background-size: 286px 135px;
+	left: 573px;
+    top: 399px;
+}
+
+
+
+
+@keyframes showHeaderSlide9{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		top: 238px;
+		opacity: 1;
+	}
+}
+@keyframes showItemSlide9{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		 left: 154px;
+		opacity: 1;
+	}
+}
