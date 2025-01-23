@@ -1,0 +1,97 @@
+#slide1{
+	width: 1024px;
+    height:768px;
+}
+#slide1 .bg{
+    width: 1024px;
+    height:768px;
+    background: url(../images/slide1/bg.png);
+	background-size:1024px 768px;
+}
+
+#slide1 .header{
+    width: 675px;
+    height: 196px;
+    background: url(../images/slide1/header.png);
+	background-size:675px 196px;
+    left: 10px;
+    top: 9px;
+}
+
+
+
+#slide1 .astonavt1{
+     width: 273px;
+     height: 249px;
+    background: url(../images/slide1/astonavt1.png);
+	background-size:273px 249px;
+    left: 49px;
+    top: 217px;
+    opacity: 0;
+}
+
+#slide1 .astonavt2{
+    width: 241px;
+    height: 183px;
+    background: url(../images/slide1/astonavt2.png);
+	background-size: 241px  183px;
+    left: 361px;
+    top: 241px;
+}
+
+#slide1 .astonavt3{
+     width: 232px;
+    height: 141px;
+    background: url(../images/slide1/astonavt3.png);
+	background-size:232px 141px;
+    left: 648px;
+    top: 212px;
+}
+
+
+#slide1 .astonavt4{
+    width: 205px;
+    height: 162px;
+    background: url(../images/slide1/astonavt4.png);
+	background-size:205px 162px;
+    left: 151px;
+  top: 478px;
+}
+#slide1 .astonavt5{
+    width: 341px;
+    height: 280px;
+    background: url(../images/slide1/astonavt5.png);
+	background-size:341px 280px;
+    left: 688px;
+    top: 441px;
+}
+
+#slide1  .text{
+     width:290px;
+    height:81px;
+    background: url(../images/slide1/text.png);
+	background-size:290px 81px;
+    left: 380px;
+    top: 490px;
+}
+
+
+#slide1  .btn{
+    width: 251px;
+    height: 66px;
+    background: url(../images/slide1/btn.png);
+	background-size: 251px 66px;
+    left: 389px;
+    top: 659px;
+    display: block;
+}
+
+
+
+
+#slide1 .planet{
+    width: 1024px;
+    height:768px;
+    background: url(../images/slide1/earth.png);
+	background-size:1024px 768px;
+}

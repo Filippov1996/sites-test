@@ -1,0 +1,292 @@
+
+* { padding: 0; margin: 0; user-select: none; 
+	-webkit-outline: none;
+	outline: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+	user-select: none;
+	-ms-user-select: none;
+	box-sizing: border-box;
+	-webkit-text-size-adjust: none;
+}
+
+body {
+	font-family: Arial;/*'Open Sans', sans-serif;*/
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	-webkit-text-size-adjust: none;
+}  
+.test-swipe{
+    position: absolute;
+    color: #ffffff;
+    width: 90px;
+    height: 30px;
+    top: 790px;
+    left: 700px;
+    z-index: 11112221;
+}
+#display {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width:1194px;
+    height:834px;
+	overflow: hidden;
+	transform-origin: 0% 0%;
+	transform: scale(1,1);
+    
+}
+#display .cancel{
+    background-image:url(../images/shared/close-app.png);
+    background-size: 23.5px 23.5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    background-color: #00609c;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 11;
+    left:1120px;
+    top: 8px;
+}
+#display .btn-hamburger{
+    width: 50px;
+    height: 50px;
+    background-color: #00609c;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 11;
+    left: 90px;
+    left:14px;
+    top: 8px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding:5px 0px;
+}
+#display .btn-hamburger .line{
+    position: relative;
+    height: 5px;
+    background-color: #ffffff;
+    width: 75%;
+    margin: auto;
+    padding: 0px;
+}
+.list-presents{
+    width: 200px;
+    position: absolute;
+    z-index: 33;
+    background-color: #ffffff;
+    top:57px;
+    left:14px;
+    display: none;
+}
+.list-presents h1{
+    font-size: 18px;
+     padding: 20px 0px 20px 10px;
+    
+}
+.swiper-slide{
+     width:1194px;
+     height:834px;
+    
+}
+.main-present{
+    display: none;
+}
+
+.slide .logo{
+     width:108px;
+     height:78px;
+     background: url(../images/shared/logotype.png) no-repeat;
+     background-size:108px 78px;
+     left: 1014px;
+     top:67px;
+}
+ .btn-popup{
+     width: 81px;
+     height: 112px;
+     background: url(../images/shared/btn.png) no-repeat; 
+     background-size: 81px 112px;
+     left: 1074px;
+     top: 763px;
+}
+.show{
+    display: block !important;
+}
+.slick-current .SLIDE_UP {
+    opacity: 0;
+    transform: scale(1,1) translate(0px, 32px);
+}
+
+.slick-current .SLIDE_DOWN {
+    opacity: 0;
+    transform: scale(1,1) translate(0px, -32px);
+}
+
+.slick-current .SLIDE_LEFT {
+    opacity: 0;
+    transform: scale(1,1) translate(32px, 0px);
+}
+
+.slick-current .SLIDE_RIGHT {
+    opacity: 0;
+    transform: scale(1,1) translate(-232px, 0px);
+}
+
+.slick-current .SCALE_UP {
+    opacity: 0;
+    transform: scale(0,0) translate(0px, 0px);
+}
+
+.slick-current .SCALE_SMOOTH {
+    opacity: 0;
+    transform: scale(1.1,1.1) translate(0px, 0px);
+}
+
+.slick-current .FADE_IN {
+    opacity: 0;
+    transform: scale(1,1) translate(0px, 0px);
+}
+.slick-current .PLAY_500 { animation: PLAY 500ms forwards; }
+.slick-current .PLAY_750 { animation: PLAY 750ms forwards; }
+.slick-current .PLAY_1000 { animation: PLAY 1000ms forwards; }
+.slick-current .PLAY_1250 { animation: PLAY 1250ms forwards; }
+.slick-current .PLAY_1500 { animation: PLAY 1500ms forwards; }
+
+.slick-current .DELAY_50 { animation-delay: 50ms; }
+.slick-current .DELAY_100 { animation-delay: 100ms; }
+.slick-current .DELAY_150 { animation-delay: 150ms; }
+.slick-current.DELAY_200 { animation-delay: 200ms; }
+.slick-current .DELAY_250 { animation-delay: 250ms; }
+.slick-current .DELAY_300 { animation-delay: 300ms; }
+.slick-current .DELAY_350 { animation-delay: 350ms; }
+.slick-current .DELAY_400 { animation-delay: 400ms; }
+.slick-current .DELAY_450 { animation-delay: 450ms; }
+.slick-current .DELAY_500 { animation-delay: 500ms; }
+.slick-current .DELAY_550 { animation-delay: 550ms; }
+.slick-current .DELAY_600 { animation-delay: 600ms; }
+.slick-current .DELAY_650 { animation-delay: 650ms; }
+.slick-current .DELAY_700 { animation-delay: 700ms; }
+.slick-current .DELAY_750 { animation-delay: 750ms; }
+.slick-current  .DELAY_800 { animation-delay: 800ms; }
+.slick-current  .DELAY_850 { animation-delay: 850ms; }
+.slick-current  .DELAY_900 { animation-delay: 900ms; }
+.slick-current  .DELAY_950 { animation-delay: 950ms; }
+.slick-current  .DELAY_1000 { animation-delay: 1000ms; }
+.slick-current  .DELAY_1050 { animation-delay: 1050ms; }
+.slick-current .DELAY_1100 { animation-delay: 1100ms; }
+.slick-current  .DELAY_1150 { animation-delay: 1150ms; }
+.slick-current  .DELAY_1200 { animation-delay: 1200ms; }
+.slick-current  .DELAY_1250 { animation-delay: 1250ms; }
+.slick-current  .DELAY_1300 { animation-delay: 1300ms; }
+.slick-current  .DELAY_1350 { animation-delay: 1350ms; }
+.slick-current  .DELAY_1400 { animation-delay: 1400ms; }
+.slick-current .DELAY_1450 { animation-delay: 1450ms; }
+.slick-current  .DELAY_1500 { animation-delay: 1500ms; }
+.slick-current  .DELAY_1600 { animation-delay: 1600ms; }
+.slick-current  .DELAY_1700 { animation-delay: 1700ms; }
+.slick-current  .DELAY_1800 { animation-delay: 1800ms; }
+.slick-current  .DELAY_1900 { animation-delay: 1900ms; }
+.slick-current  .DELAY_2000 { animation-delay: 2000ms; }
+.slick-current .DELAY_2100 { animation-delay: 2100ms; }
+.slick-current .DELAY_2200 { animation-delay: 2200ms; }
+.slick-current  .DELAY_2300 { animation-delay: 2300ms; }
+.slick-current  .DELAY_2400 { animation-delay: 2400ms; }
+.slick-current  .DELAY_2500 { animation-delay: 2500ms; }
+.slick-current  .DELAY_2600 { animation-delay: 2600ms; }
+.slick-current .DELAY_2700 { animation-delay: 2700ms; }
+.slick-current  .DELAY_2800 { animation-delay: 2800ms; }
+.slick-current  .slick-current .DELAY_2900 { animation-delay: 2900ms; }
+.slick-current .DELAY_2900 { animation-delay: 2900ms; }
+.slick-current .DELAY_3000 { animation-delay: 3000ms; }
+.slick-current .DELAY_3100 { animation-delay: 3100ms; }
+.slick-current .DELAY_3200 { animation-delay: 3200ms; }
+.slick-current .scale_up_bottomcenter {
+	transform-origin: 50% 100%;
+	transform: scale(1,0);
+}
+
+.slick-current .BEZIER {
+    animation-timing-function: cubic-bezier(0.23, 0.34, 0.43, 1.15);
+}
+
+@keyframes PLAY {    
+    100% {
+        opacity: 1;
+        transform: scale(1,1) translate(0px, 0px);
+    }
+}
+/* */
+
+.slide{
+
+    position: relative;
+}
+.slide div{
+    position: absolute;
+    
+}
+
+.slide .cancel{
+    width: 30px;
+    height: 30px;
+    background: url(../images/shared/close.png) no-repeat; 
+    background-size:30px 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+
+.slide .logo{
+     width: 266px;
+     height: 81px;
+     background: url(../images/shared/logotype.png) no-repeat;
+     background-size: 266px 81px;
+     left: 873px;
+     top: 48px;
+}
+.slide .popup{
+    z-index: 22222;
+}
+.slide .btn-popup{
+     width: 49px;
+     height:61px;
+     background: url(../images/shared/btn.png) no-repeat; 
+     background-size:49px 61px;
+     left:1101px;
+     top:743px;
+     z-index: 33;
+}
+
+.bg{
+     width:1194px;
+      height:834px;
+     background: url(../images/shared/bg.png) no-repeat; 
+     background-size:1194px 834px;
+     
+}
+
+.slide1,
+.slide2,
+.slide3,
+.slide4,
+.slide5,
+.slide6,
+.slide7,
+.slideBackup1,
+.slideBackup2,
+.slideBackup3,
+.slideBackup4,
+.slideBackup5{
+    display: none;
+}
+
+/* */
+
+/* */

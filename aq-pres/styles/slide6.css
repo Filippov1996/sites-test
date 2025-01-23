@@ -1,0 +1,83 @@
+#slide6{
+	width: 960px;
+	height: 540px;
+}
+#slide6 .bg{
+    width: 960px;
+	height:  540px;
+    background: url(../images/slide6/bg.png) no-repeat;
+    background-size: 960px  540px;
+}
+#slide6 .header{
+    width: 339px;
+    height: 94px;
+	background: url(../images/slide6/header.png) no-repeat;
+	background-size: 339px  94px;
+	left: 89px;
+    top: 27px;
+}
+
+#slide6 .item{
+    width: 350px;
+    height: 29px;
+    left: 86px;
+    
+}
+#slide6 .item1{
+   top: 184px;
+}
+#slide6 .item2{
+   top: 237px;
+}
+#slide6 .item3{
+    top: 293px;
+}
+
+
+#slide6 .item1 .text{
+    width: 145px;
+    height: 34px;
+	background: url(../images/slide6/text1.png) no-repeat;
+	background-size:145px 34px;
+	left: 29px;
+    top: 2px;
+}
+#slide6 .item2 .text{
+    width: 161px;
+    height: 34px;
+	background: url(../images/slide6/text2.png) no-repeat;
+	background-size:161px  34px;
+	left: 29px;
+    top: 2px;
+}
+#slide6 .item3 .text{
+    width: 102px;
+    height: 14px;
+	background: url(../images/slide6/text3.png) no-repeat;
+	background-size:102px 14px;
+	left: 29px;
+    top: 2px;
+}
+
+#slide6 .item4 .text{
+    width: 253px;
+    height: 16px;
+	background: url(../images/slide6/text4.png) no-repeat;
+	background-size:253px 16px;
+	left: 29px;
+    top: 2px;
+}
+
+#slide6 .btn-reply{
+    left: 86px;
+    top: 410px;
+}
+#slide6 .modal-answer{
+
+     width: 601px;
+     height: 743px;
+     background: url(../images/slide6/modal.png) no-repeat;
+	 background-size: 601px 743px;
+     left: 441px;
+     top: 31px;
+}

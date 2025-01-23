@@ -1,0 +1,36 @@
+#slide2{
+	width: 960px;
+	height: 540px;
+}
+#slide2 .bg{
+    width: 960px;
+	height:  540px;
+    background: url(../images/slide2/bg.png) no-repeat;
+    background-size: 960px  540px;
+}
+
+#slide2 .text1{
+    width: 523px;
+    height: 36px;
+    background: url(../images/slide2/text1.png) no-repeat;
+    background-size: 523px 36px;
+     left: 77px;
+    top: 55px;
+}
+#slide2 .text2{
+    width: 522px;
+    height: 56px;
+    background: url(../images/slide2/text2.png) no-repeat;
+    background-size: 522px  56px;
+    left: 77px;
+    top: 123px;
+}
+
+#slide2 .image{
+     width: 198px;
+     height:374px;
+    background: url(../images/slide2/image.png) no-repeat;
+    background-size: 198px 374px;
+    left: 638px;
+     top: 88px;
+}

@@ -1,0 +1,88 @@
+#slide12{
+	width: 960px;
+	height: 540px;
+
+}
+#slide12 .bg{
+    width: 960px;
+	height:  540px;
+    background: url(../images/slide12/bg.png) no-repeat;
+    background-size: 960px  540px;
+}
+#slide12 .header{
+	width: 289px;
+    height: 77px;
+	background: url(../images/slide12/header.png) no-repeat;
+	background-size:289px 77px;
+	left: 89px;
+    top: 47px;
+}
+#slide12 .item{
+    width: 350px;
+    height: 29px;
+    left: 86px;
+    
+}
+#slide12 .item1{
+  top: 189px;
+}
+#slide12 .item2{
+   top: 228px;
+}
+#slide12 .item3{
+    top: 268px;
+}
+
+#slide12 .item1 .text{
+    width: 137px;
+    height: 15px;
+	background: url(../images/slide12/text1.png) no-repeat;
+	background-size:137px 15px;
+	left: 29px;
+    top: 2px;
+}
+
+#slide12 .item2 .text{
+    width: 79px;
+    height: 16px;
+	background: url(../images/slide12/text2.png) no-repeat;
+	background-size:79px 16px;
+	left: 29px;
+    top: 2px;
+}
+#slide12 .item3 .text{
+     width: 238px;
+     height: 16px;
+	background: url(../images/slide12/text3.png) no-repeat;
+	background-size:238px 16px;
+	left: 29px;
+    top: 2px;
+}
+#slide12 .true-label,
+#slide12 .false-label{
+    top: 150px;
+}
+#slide12 .btn-reply{
+    left: 86px;
+    top: 394px;
+}
+
+#slide12 .modal-answer{
+     width: 601.5px;
+     height: 681px;
+     background: url(../images/slide12/modal.png) no-repeat;
+	 background-size: 601.5px 681px;
+     top:140px;
+     left: 454px;
+
+}
+
+
+
+
+
+
+
+
+
+

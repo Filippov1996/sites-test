@@ -1,0 +1,43 @@
+#slide13{
+     width: 960px;
+	height: 540px;
+}
+
+#slide13 .bg{
+    width: 960px;
+	height: 540px;
+    background: url(../images/slide13/bg.png) no-repeat;
+    background-size: 960px  540px;
+   
+}
+#slide13 .label{
+     left: 91px;
+    top: -157px;
+    width: 197px;
+    height: 290px;
+    z-index: 4;
+    background: url(../images/slide13/label.png) no-repeat;
+    background-size:197px 290px;
+}
+#slide13 .header{
+    left: 136px;
+    top: 168px;
+    width:686px;
+    height:238px;
+    z-index: 4;
+    background: url(../images/slide13/header.png) no-repeat;
+    background-size:686px 238px;
+}
+
+
+#slide13 .logo{
+    left: 37px;
+    top: 492px;
+    width: 126px;
+    height: 22px;
+    z-index: 3;
+
+}
+
+
+

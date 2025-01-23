@@ -1,0 +1,1159 @@
+.slide2{
+	width:1194px;
+    height:834px;
+}
+.slide2 .bg{
+    width:1194px;
+     height:834px;
+    background: url(../images/slide2/bg.png) no-repeat; 
+     background-size: 1194px 834px;
+}
+.slide2  .nerv{
+     width:1194px;
+      height:834px;
+     background: url(../images/slide2/nerv.png) no-repeat; 
+     background-size:1194px 834px;
+}
+
+.slide2  .tooth{
+     width: 481px;
+     height:235px;
+     background: url(../images/slide2/tooth.png) no-repeat; 
+     background-size: 481px 235px;
+     left: 832px;
+     top: 146px;
+}
+
+
+.slide2 .text1{
+    width: 318px;
+    height: 186px;
+    background: url(../images/slide2/text1.png) no-repeat; 
+    background-size:318px 186px;
+    left: 510px;
+    top: 433px;
+    opacity: 0;
+    animation: showModal 6s 4s  linear forwards;
+}
+.slide2 .loop{
+     width: 126px;
+     height: 92px;
+     background: url(../images/slide2/loop.png) no-repeat; 
+     background-size: 126px  92px;
+     left: 834px;
+     top: 172px;
+     animation: zoomNone 1s 2s linear forwards;
+}
+.slide2  .zoom{
+      width: 726px;
+     height: 811px;
+     background: url(../images/slide2/zoom.png) no-repeat; 
+     background-size: 726px  651px;
+     left: 254px;
+     top: 166px;
+     opacity: 0;
+     animation: show 1s  3s linear forwards;
+}
+
+.slide2  .backt{
+    width: 55px;
+    height: 26px;
+    background: url(../images/slide2/bakt.png) no-repeat; 
+    background-size: 55px  26px;
+    opacity: 0;
+}
+.slide2 .b1{
+    top: 390px;
+    left: 850px;
+    animation: moveBakt1 1s  4s linear alternate-reverse infinite;
+}
+.slide2 .b2{
+    top: 320px;
+    left: 830px;
+    transform: rotate(576deg);
+    animation: moveBakt2 1s 4s  linear alternate-reverse infinite;
+    
+}
+.slide2 .b3{
+    top: 360px;
+    left: 770px;
+    transform: rotate(56deg);
+    animation: moveBakt3 1s 4s  linear alternate-reverse infinite;
+}
+.slide2 .b4{
+    top: 320px;
+    left: 650px;
+    transform: rotate(156deg);
+    animation: moveBakt4 1s 4s  linear alternate-reverse infinite;
+}
+.slide2 .b5{
+    top: 394px;
+    left: 578px;
+    transform: rotate(356deg);
+    animation: moveBakt5 1s 4s  linear alternate-reverse infinite;
+}
+.slide2 .b6{
+    top: 334px;
+    left: 528px;
+    transform: rotate(356deg);
+    animation: moveBakt6 1s 4s  linear alternate-reverse infinite;
+}
+.slide2 .text2{
+    width: 403px;
+    height: 185px;
+    background: url(../images/slide2/text2.png) no-repeat; 
+    background-size:403px 185px;
+    left: 331px;
+    top: 432px;
+    opacity: 0;
+    animation: showModal 5s 10s  linear forwards;
+}
+.slide2 .point-y{
+    width: 11px;
+    height: 11px;
+    background-color: #f9b900;
+    border-radius: 120%;
+    position: absolute;
+    opacity: 0;
+}
+
+.slide2 .py1{
+    top: 420px;
+    left: 700px;
+    offset-path:path('M1 1C119.519 224.049 157.049 295.937 161 304');
+    offset-distance:0%;
+    animation: movePoint .8s  10s linear forwards;
+}
+
+.slide2 .py2{
+ 
+     top: 400px;
+    left: 720px;
+    offset-path:path('M1 1C119.519 224.049 157.049 295.937 161 304');
+    offset-distance:0%;
+    animation: movePoint .8s 10.2s linear forwards;
+}
+.slide2 .py3{
+    top: 420px;
+    left: 745px;
+    offset-path:path('M1 1C119.519 224.049 157.049 295.937 161 304');
+    offset-distance:0%;
+    animation: movePoint .8s 10.4s linear forwards;
+}
+
+.slide2 .py4{
+    top: 410px;
+    left: 752px;
+    offset-path:path('M1 1C119.519 224.049 157.049 295.937 161 304');
+    offset-distance:0%;
+    animation: movePoint .8s 10.6s linear forwards;
+}
+
+.slide2 .py5{
+   top: 410px;
+    left: 762px;
+    offset-path:path('M1 1C119.519 224.049 157.049 295.937 161 304');
+    offset-distance:0%;
+    animation: movePoint .8s 10.8s  linear forwards;
+}
+.slide2 .py6{
+    top: 425px;
+    left: 772px;
+    offset-path:path('M1 1C119.519 224.049 157.049 295.937 161 304');
+    offset-distance:0%;
+    animation: movePoint .8s 11s  linear forwards;
+    
+}
+.slide2 .py7{
+    top: 425px;
+    left: 732px;
+    offset-path:path('M1 1C119.519 224.049 157.049 295.937 161 304');
+    offset-distance:0%;
+    animation: movePoint .8s 11.3s linear forwards;
+    
+}
+.slide2 .py8{
+    top: 425px;
+    left: 792px;
+    offset-path:path('M1 1C119.519 224.049 157.049 295.937 161 304');
+    offset-distance:0%;
+    animation: movePoint .8s 11.6s linear forwards;
+    
+}
+.slide2 .py9{
+   top: 425px;
+    left: 762px;
+    offset-path:path('M1 1C119.519 224.049 157.049 295.937 161 304');
+    offset-distance:0%;
+    animation: movePoint .8s 11.9s  linear forwards;
+}
+
+.slide2 .py10{
+    top: 425px;
+    left: 712px;
+    offset-path:path('M1 1C119.519 224.049 157.049 295.937 161 304');
+    offset-distance:0%;
+    animation: movePoint .8s 12.3s linear forwards;
+}
+.slide2 .py11{
+    top: 410px;
+    left: 892px;
+    offset-path:path('M107 1C53.2933 161.367 13.9556 278.486 1 317');
+    offset-distance:0%;
+    animation: movePoint .8s 10s linear forwards;
+}
+
+.slide2 .py12{
+     top: 400px;
+    left: 870px;
+    offset-path:path('M107 1C53.2933 161.367 13.9556 278.486 1 317');
+    offset-distance:0%;
+    animation: movePoint .8s 10.2s linear forwards;
+}
+
+.slide2 .py13{
+     top: 400px;
+     left: 884px;
+     offset-path:path('M107 1C53.2933 161.367 13.9556 278.486 1 317');
+    offset-distance:0%;
+    animation: movePoint .8s 10.5s linear forwards;
+}
+.slide2 .py14{
+    top: 400px;
+     left: 920px;
+    offset-path:path('M107 1C53.2933 161.367 13.9556 278.486 1 317');
+    offset-distance:0%;
+    animation: movePoint .8s 10.8s linear forwards;
+}
+
+.slide2 .py15{
+     top: 420px;
+     left: 880px;
+     offset-path:path('M107 1C53.2933 161.367 13.9556 278.486 1 317');
+    offset-distance:0%;
+    animation: movePoint .8s 11s linear forwards;
+}
+
+.slide2 .py16{
+    top: 420px;
+     left: 860px;
+    offset-path:path('M107 1C53.2933 161.367 13.9556 278.486 1 317');
+    offset-distance:0%;
+    animation: movePoint .8s 11.2s linear forwards;
+}
+
+.slide2 .py17{
+    top: 420px;
+     left: 910px;
+    offset-path:path('M107 1C53.2933 161.367 13.9556 278.486 1 317');
+    offset-distance:0%;
+    animation: movePoint .8s 11.5s linear forwards;
+   
+}
+.slide2 .py18{
+    top: 420px;
+    left: 930px;
+    offset-path:path('M107 1C53.2933 161.367 13.9556 278.486 1 317');
+    offset-distance:0%;
+    animation: movePoint .8s 11.6s linear forwards;
+}
+
+.slide2 .py19{
+   top: 430px;
+    left: 900px;
+    offset-path:path('M107 1C53.2933 161.367 13.9556 278.486 1 317');
+    offset-distance:0%;
+    animation: movePoint .5s 12s linear forwards;
+    
+}
+.slide2 .text3{
+    width: 403px;
+    height: 342px;
+    background: url(../images/slide2/text3.png) no-repeat; 
+    background-size:403px 342px;
+    left: 294px;
+    top: 453px;
+     opacity: 0;
+     z-index: 2;
+    animation: showModal 5s 15s  linear forwards;
+}
+.slide2 .line{
+   width: 1271px;
+    height: 308px;
+    background: url(../images/slide2/line.png) no-repeat; 
+     background-size:1271px 308px;
+    top: 560px;
+    left: -78px;
+    animation: noneLine 4s 14s  linear forwards;
+}
+.slide2 .line2{
+   width: 1271px;
+    height: 303px;
+    background: url(../images/slide2/line2.png) no-repeat; 
+     background-size:1271px 263px;
+    top: 580px;
+    left: -78px;
+    opacity: 0;
+    animation: showLine 4s 14s linear forwards;
+}
+
+.slide2 .text4{
+    width: 424px;
+    height: 187px;
+    background: url(../images/slide2/text4.png) no-repeat; 
+    background-size:424px 187px;
+    left: 580px;
+    top: 292px;
+    opacity: 0;
+    animation: showModal 6s 20s  linear forwards;
+    z-index: 2;
+}
+
+.slide2 .move-sodsud{
+    width: 45px;
+    height: 45px;
+    background-color: #f5804c;
+    border-radius: 120px;
+    opacity: 0;
+
+}
+
+.slide2 .move-sodsud .inner{
+    width: 25px;
+    height: 25px;
+    top: 13px;
+    left: 11px;
+    border-radius: 120px;
+    background-color: #dd703f;
+}
+
+.slide2 .ms1{
+    top:660px;
+    left: 340px;
+    animation:  movesS1 1.5s 20s linear forwards;
+}
+.slide2 .ms2{
+    top: 750px;
+    left:520px;
+    animation:  movesS2 1.5s  20.2s linear forwards;
+}
+
+.slide2 .ms3{
+    top: 740px;
+    left: 480px;
+    animation:  movesS3 1.5s  20.5s linear forwards;
+}
+
+.slide2 .ms4{
+    top: 740px;
+    left: 380px;
+    animation:  movesS4 1.5s  20.8s linear forwards;
+}
+
+
+
+.slide2 .py20{
+   top: 430px;
+left: 300px;
+    offset-path:path('M61 225C34.6 130.6 10 36.3333 1 1');
+    offset-distance:0%;
+    animation: movePoint2 1.5s  20s linear forwards;
+    
+}
+
+.slide2 .py21{
+   top: 470px;
+    left: 360px;
+    offset-path:path('M1 248C27.4 107.2 44 24.6667 49 1');
+    offset-distance:0%;
+    animation: movePoint2 1.5s  20.3s linear forwards;
+    
+}
+
+
+.slide2 .py22{
+   top: 410px;
+    left: 320px;
+    offset-path:path('M1 248C27.4 107.2 44 24.6667 49 1');
+    offset-distance:0%;
+    animation: movePoint2 1.5s  20.6s linear forwards;
+    
+}
+
+
+.slide2 .py23{
+   top: 400px;
+    left: 390px;
+    offset-path:path('M1 248C27.4 107.2 44 24.6667 49 1');
+    offset-distance:0%;
+    animation: movePoint2 1.5s  20.8s linear forwards;
+    
+}
+
+
+
+.slide2 .py24{
+   top: 510px;
+    left: 330px;
+    offset-path:path('M1 248C27.4 107.2 44 24.6667 49 1');
+    offset-distance:0%;
+    animation: movePoint2 1.5s 21s linear forwards;
+    
+}
+
+.slide2 .py25{
+   top: 470px;
+    left: 320px;
+    offset-path:path('M1 248C27.4 107.2 44 24.6667 49 1');
+    offset-distance:0%;
+    animation: movePoint2 1.5s 21.3s linear forwards;
+    
+}
+
+.slide2 .py26{
+   top: 430px;
+    left: 350px;
+    offset-path:path('M1 248C27.4 107.2 44 24.6667 49 1');
+    offset-distance:0%;
+    animation: movePoint2 1.5s 21.5s linear forwards;
+    
+}
+
+
+.slide2 .py27{
+   top: 450px;
+    left: 346px;
+    offset-path:path('M1 248C27.4 107.2 44 24.6667 49 1');
+    offset-distance:0%;
+    animation: movePoint2 1.5s 21.9s linear forwards;
+    
+}
+
+.slide2 .py28{
+   top: 490px;
+    left: 340px;
+    offset-path:path('M1 248C27.4 107.2 44 24.6667 49 1');
+    offset-distance:0%;
+    animation: movePoint2 1.5s 22s linear forwards;
+    
+}
+
+.slide2 .py29{
+   top: 490px;
+    left: 310px;
+    offset-path:path('M1 248C27.4 107.2 44 24.6667 49 1');
+    offset-distance:0%;
+    animation: movePoint2 1.5s 22.2s linear forwards;
+    
+}
+
+
+.slide2 .text5{
+    width: 403px;
+    height: 264px;
+    background: url(../images/slide2/text5.png) no-repeat; 
+    background-size:403px 264px;
+    left: 34px;
+    top: 462px;
+    opacity: 0;
+    animation: showModal 6s 25.1s  linear forwards;
+    z-index: 2;
+    
+}
+.slide2  .n-s{
+     width:555px;
+     height:244px;
+     background: url(../images/slide2/s-n.png) no-repeat; 
+     background-size:555px 244px;
+     top: 280px;
+     opacity: 0;
+     animation: show 2s 25s linear forwards;
+}
+
+
+.slide2 .point-b{
+    width: 11px;
+    height: 11px;
+    background-color: #555555;
+    border-radius: 120%;
+    position: absolute;
+    opacity: 0;
+}
+
+
+.slide2 .pb1{
+    top: 440px;
+    left: 220px;
+    offset-path:path('M211 64C53.3562 15.8909 5.31507 1.95455 1 1');
+    offset-distance:0%;
+    animation: movePoint3 1s  25.2s   linear forwards;
+}
+.slide2 .pb2{
+    top: 445px;
+    left: 140px;
+    offset-path:path('M211 64C53.3562 15.8909 5.31507 1.95455 1 1');
+    offset-distance:0%;
+    animation: movePoint3 1s 25.4s  linear forwards;
+}
+
+.slide2 .pb3{
+    top: 420px;
+    left: 130px;
+    offset-path:path('M211 64C53.3562 15.8909 5.31507 1.95455 1 1');
+    offset-distance:0%;
+    animation: movePoint3 1s 25.6s linear forwards;
+}
+
+.slide2 .pb4{
+    top: 410px;
+    left: 70px;
+    offset-path:path('M211 64C53.3562 15.8909 5.31507 1.95455 1 1');
+    offset-distance:0%;
+    animation: movePoint3 1s 25.7s linear forwards;
+}
+
+.slide2 .pb5{
+    top: 440px;
+    left: 280px;
+    offset-path:path('M211 64C53.3562 15.8909 5.31507 1.95455 1 1');
+    offset-distance:0%;
+    animation: movePoint3 1s 25.9s linear forwards;
+}
+.slide2 .pb6{
+    top: 415px;
+    left: 170px;
+    offset-path:path('M211 64C53.3562 15.8909 5.31507 1.95455 1 1');
+    offset-distance:0%;
+    animation: movePoint3 1s 26s  linear forwards;
+}
+.slide2 .pb7{
+    top: 404px;
+    left: 20px;
+     offset-path:path('M211 64C53.3562 15.8909 5.31507 1.95455 1 1');
+    offset-distance:0%;
+    animation: movePoint3 1s 26.2s linear forwards;
+}
+
+.slide2 .pb8{
+     offset-path:path('M211 64C53.3562 15.8909 5.31507 1.95455 1 1');
+    offset-distance:0%;
+    animation: movePoint3 1s 26.4s linear forwards;
+    top: 361px;
+    left: 220px;
+}
+.slide2 .pb9{
+     offset-path:path('M211 64C53.3562 15.8909 5.31507 1.95455 1 1');
+    offset-distance:0%;
+    animation: movePoint3 1s 26.6s linear forwards;
+    top: 397px;
+    left: 330px;
+}
+.slide2 .pb10{
+     offset-path:path('M211 64C53.3562 15.8909 5.31507 1.95455 1 1');
+    offset-distance:0%;
+    animation: movePoint3 1s 26.8s linear forwards;
+    top: 371px;
+    left: 430px;
+}
+
+.slide2 .pb11{
+     offset-path:path('M211 64C53.3562 15.8909 5.31507 1.95455 1 1');
+    offset-distance:0%;
+    animation: movePoint3 1s 27s linear forwards;
+    top: 351px;
+    left: 130px;
+}
+
+.slide2 .pb12{
+     offset-path:path('M211 64C53.3562 15.8909 5.31507 1.95455 1 1');
+    offset-distance:0%;
+    animation: movePoint3 1s 27.2s linear forwards;
+    top: 350px;
+    left: 330px;
+}
+.slide2 .pb13{
+     offset-path:path('M211 64C53.3562 15.8909 5.31507 1.95455 1 1');
+    offset-distance:0%;
+    animation: movePoint3 1s 27.4s linear forwards;
+    top: 360px;
+    left: 390px;
+}
+
+.slide2 .pb14{
+     offset-path:path('M211 64C53.3562 15.8909 5.31507 1.95455 1 1');
+    offset-distance:0%;
+    animation: movePoint3 1s 27.6s linear forwards;
+    top: 355px;
+    left: 280px;
+}
+.slide2 .pb16{
+     offset-path:path('M211 64C53.3562 15.8909 5.31507 1.95455 1 1');
+    offset-distance:0%;
+    animation: movePoint3 1s 27.8s linear forwards;
+    top: 355px;
+    left: 180px;
+}
+
+
+.slide2 .pb17{
+     offset-path:path('M211 64C53.3562 15.8909 5.31507 1.95455 1 1');
+    offset-distance:0%;
+    animation: movePoint3 1s 28s linear forwards;
+    top: 375px;
+    left: 80px;
+}
+
+
+.slide2 .pb18{
+     offset-path:path('M211 64C53.3562 15.8909 5.31507 1.95455 1 1');
+    offset-distance:0%;
+    animation: movePoint3 1s 28.2s linear forwards;
+    top: 385px;
+    left: 250px;
+}
+.slide2 .pb19{
+     offset-path:path('M211 64C53.3562 15.8909 5.31507 1.95455 1 1');
+    offset-distance:0%;
+    animation: movePoint3 1s 28.4s linear forwards;
+    top: 405px;
+    left: 290px;
+}
+
+.slide2 .text6{
+    width: 1194px;
+    height: 834px;
+    background: url(../images/slide2/use-motrin.png) no-repeat; 
+    background-size:1194px 834px;
+    opacity: 0;
+    animation: showModal 5s 31s  linear forwards;
+     z-index: 2;
+   
+}
+.slide2 .text7{
+    width: 622px;
+    height: 306px;
+    background: url(../images/slide2/text6.png) no-repeat; 
+    background-size:622px 306px;
+    left: 286px;
+    top: 496px;
+    opacity: 0;
+     z-index: 2;
+     animation: showLastModal 4s 36s  linear forwards;
+     z-index: 2;
+}
+
+
+.slide2  .wrapp-sosud1{
+    width: 70px;
+    height: 70px;
+    offset-path:path('M0.5 1.99998C389.494 0.799984 800.328 1.49998 957.121 1.99998H1193.5');
+    offset-distance:0%;
+    top: 694px;
+    left: -30px;
+    animation: move 4s  linear  infinite;
+}
+.slide2  .wrapp-sosud2{
+    width: 70px;
+    height: 70px;
+    offset-path:path('M0.5 1.99998C389.494 0.799984 800.328 1.49998 957.121 1.99998H1193.5');
+    offset-distance:0%;
+    top:  694px;
+    left: -30px;
+    animation: move 4s .4s linear  infinite;
+}
+.slide2  .wrapp-sosud3{
+    width: 70px;
+    height: 70px;
+    offset-path:path('M0.5 1.99998C389.494 0.799984 800.328 1.49998 957.121 1.99998H1193.5');
+    offset-distance:0%;
+    top:  694px;
+    left: -30px;
+    animation: move 4s .8s linear  infinite;
+}
+.slide2  .wrapp-sosud4{
+    width: 70px;
+    height: 70px;
+    offset-path:path('M0.5 1.99998C389.494 0.799984 800.328 1.49998 957.121 1.99998H1193.5');
+    offset-distance:0%;
+    top:  694px;
+    left: -30px;
+    animation: move 4s 1.1s linear  infinite;
+}
+.slide2  .wrapp-sosud5{
+    width: 70px;
+    height: 70px;
+    offset-path:path('M0.5 1.99998C389.494 0.799984 800.328 1.49998 957.121 1.99998H1193.5');
+    offset-distance:0%;
+    top:  694px;
+    left: -30px;
+    animation: move 4s 1.5s linear  infinite;
+}
+.slide2  .wrapp-sosud6{
+    width: 70px;
+    height: 70px;
+    offset-path:path('M0.5 1.99998C389.494 0.799984 800.328 1.49998 957.121 1.99998H1193.5');
+    offset-distance:0%;
+    top:  694px;
+    left: -30px;
+    animation: move 4s 1.9s linear  infinite;
+}
+.slide2  .wrapp-sosud7{
+    width: 70px;
+    height: 70px;
+    offset-path:path('M0.5 1.99998C389.494 0.799984 800.328 1.49998 957.121 1.99998H1193.5');
+    offset-distance:0%;
+    top:  694px;
+    left: -30px;
+    animation: move 4s 2.2s linear  infinite;
+}
+.slide2  .wrapp-sosud8{
+    width: 70px;
+    height: 70px;
+    offset-path:path('M0.5 1.99998C389.494 0.799984 800.328 1.49998 957.121 1.99998H1193.5');
+    offset-distance:0%;
+    top:  694px;
+    left: -30px;
+    animation: move 4s 2.5s linear  infinite;
+}
+.slide2  .wrapp-sosud9{
+    width: 70px;
+    height: 70px;
+    offset-path:path('M0.5 1.99998C389.494 0.799984 800.328 1.49998 957.121 1.99998H1193.5');
+    offset-distance:0%;
+    top:  694px;
+    left: -30px;
+    animation: move 4s 2.9s linear  infinite;
+}
+.slide2  .wrapp-sosud10{
+    width: 70px;
+    height: 70px;
+    offset-path:path('M0.5 1.99998C389.494 0.799984 800.328 1.49998 957.121 1.99998H1193.5');
+    offset-distance:0%;
+    top:  694px;
+    left: -30px;
+    animation: move 4s 3.3s linear  infinite;
+}
+.slide2  .wrapp-sosud11{
+    width: 70px;
+    height: 70px;
+    offset-path:path('M0.5 1.99998C389.494 0.799984 800.328 1.49998 957.121 1.99998H1193.5');
+    offset-distance:0%;
+    top:  694px;
+    left: -30px;
+    animation: move 4s 3.7s linear  infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slide2 .sosud{
+    width: 45px;
+    height: 45px;
+    background-color: #f5804c;
+    position: absolute;
+    border-radius: 120px;
+    
+}
+.slide2 .sosud .inner{
+    width: 25px;
+    height: 25px;
+    top: 13px;
+    left: 11px;
+     border-radius: 120px;
+    background-color: #d56b3b;
+}
+
+.slide2 .s1{
+    position: relative;
+    top: 0px;
+      animation: moveInner .5s  linear  alternate-reverse infinite;
+}
+
+.slide2 .s2{
+    position: relative;
+    top: 0px;
+    animation: moveInner .5s .5s linear  alternate-reverse infinite;
+}
+.slide2 .s3{
+    position: relative;
+    top: 0px;
+    animation: moveInner .5s .10s linear  alternate-reverse infinite;
+}
+.slide2 .s4{
+    position: relative;
+    top: 0px;
+    animation: moveInner .5s .35s linear  alternate-reverse infinite;
+}
+.slide2 .s5{
+    position: relative;
+    top: 0px;
+    animation: moveInner .5s .55s linear alternate-reverse infinite;
+}
+.slide2 .s6{
+    position: relative;
+    top: 0px;
+    animation: moveInner .5s .70s linear alternate-reverse infinite;
+}
+.slide2 .s6{
+    position: relative;
+    top: 0px;
+    animation: moveInner .5s .70s linear alternate-reverse infinite;
+}
+.slide2 .s7{
+    position: relative;
+    top: 0px;
+    animation: moveInner .5s 1.5s linear alternate-reverse infinite;
+}
+.slide2 .s8{
+    position: relative;
+    top: 0px;
+    animation: moveInner .5s 2.1s linear alternate-reverse infinite;
+}
+.slide2 .s9{
+    position: relative;
+    top: 0px;
+    animation: moveInner .5s 2.6s linear alternate-reverse infinite;
+}
+.slide2 .s10{
+    position: relative;
+    top: 0px;
+    animation: moveInner .5s 2.9s linear alternate-reverse infinite;
+}
+.slide2 .s11{
+    position: relative;
+    top: 0px;
+    animation: moveInner .5s 3.5s linear alternate-reverse infinite;
+}
+.slide2 .popup{
+     width:1194px;
+     height:834px;
+     background: url(../images/slide2/popup.png) no-repeat; 
+     background-size:1194px 834px;
+     display: none;
+}
+.slide2 .popup .close-popup{
+    width: 70px;
+    height: 70px;
+    top:160px;
+    left: 1050px;
+    z-index: 333;
+}
+@keyframes moveInner{
+    100%{
+        transform: translateY(90%)
+    }
+}
+
+
+
+@keyframes move{
+    100%{
+        offset-distance:100%;
+    }
+}
+
+
+@keyframes movePoint{
+    0%{
+        opacity: 1;
+    }
+    50%{
+         opacity: 1;
+    }
+    90%{
+         opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        offset-distance:100%;
+        
+    }
+}
+@keyframes movePoint2{
+    80%{
+        opacity: 1;
+    
+    }
+    90%{
+        opacity: 1;
+        offset-distance:100%;
+        
+    }
+    100%{
+        opacity: 0;
+        offset-distance:100%;
+        
+    }
+}
+@keyframes movePoint3{
+    10%{
+        opacity: 0;
+    
+    }
+    20%{
+        opacity: 1;
+        offset-distance:20%;
+        
+    }
+    100%{
+        opacity: 1;
+        offset-distance:100%;
+        
+    }
+}
+@keyframes movesS1{
+    35%{
+         opacity: 1
+    }
+    40%{
+         opacity: 1
+    }
+    100%{
+        top: 420px;
+        opacity: 1
+    }
+}
+
+
+@keyframes movesS2{
+    35%{
+         opacity: 1
+    }
+    40%{
+         opacity: 1
+    }
+    100%{
+       top:370px;
+        opacity: 1 
+    }
+}
+
+@keyframes movesS3{
+     35%{
+         opacity: 1
+    }
+    40%{
+         opacity: 1
+    }
+    100%{
+        top: 450px;
+         opacity: 1
+    }
+}
+
+@keyframes movesS4{
+    35%{
+         opacity: 1
+    }
+    40%{
+         opacity: 1
+    }
+    100%{
+         top: 510px;
+          opacity: 1
+    }
+}
+
+@keyframes moveBakt1{
+    0%{
+        transform: scale(0.5) rotate(30deg);
+        opacity: 1;
+    }
+    100%{
+         transform: scale(1) rotate(0deg);
+        opacity:1;
+        
+    }
+}
+
+
+
+@keyframes moveBakt2{
+    0%{
+        transform: scale(0.5) rotate(70deg);
+         opacity: 1;
+    }
+    100%{
+         transform: scale(1) rotate(120deg);
+         opacity: 1;
+        
+    }
+}
+
+@keyframes moveBakt3{
+    0%{
+        transform: scale(0.5) rotate(0deg);
+         opacity: 1;
+    }
+    100%{
+         transform: scale(1) rotate(80deg);
+         opacity: 1;
+    }
+}
+
+@keyframes moveBakt4{
+    0%{
+        transform: scale(0.5) rotate(100deg);
+         opacity: 1;
+    }
+    100%{
+         transform: scale(1) rotate(200deg);
+         opacity: 1;
+        
+    }
+}
+
+@keyframes moveBakt5{
+    0%{
+        transform: scale(0.5) rotate(230deg);
+         opacity: 1;
+    }
+    100%{
+         transform: scale(1) rotate(180deg);
+         opacity: 1;
+        
+    }
+}
+@keyframes moveBakt6{
+    0%{
+        transform: scale(0.5) rotate(80deg);
+         opacity: 1;
+    }
+    100%{
+         transform: scale(1) rotate(160deg);
+         opacity: 1;
+        
+    }
+}
+
+
+@keyframes zoomNone{
+   
+    100%{
+        
+         opacity:0;
+        
+    }
+}
+@keyframes noneLine{
+   
+    100%{
+          opacity:0;
+    }
+
+}
+@keyframes showLine{
+
+    100%{
+        
+         opacity: 1;
+        
+    }
+}
+@keyframes show{
+    
+    100%{
+        
+         opacity:1;
+        
+    }
+}
+
+
+
+
+@keyframes showModal{
+    0%{
+        
+         opacity:0;
+        
+    }
+    10%{
+        
+         opacity:1;
+        
+    }
+    20%{
+        
+         opacity:1;
+        
+    }
+    30%{
+        
+         opacity:1;
+        
+    }
+    60%{
+        
+         opacity:1;
+        
+    }
+    70%{
+        
+         opacity:1;
+        
+    }
+    80%{
+        
+         opacity:1;
+        
+    }
+    90%{
+        
+         opacity:0;
+        
+    }
+    100%{
+        
+         opacity:0;
+        
+    }
+}
+
+
+
+
+@keyframes showLastModal{
+    0%{
+        
+         opacity:0;
+        
+    }
+    10%{
+        
+         opacity:1;
+        
+    }
+    100%{
+        
+         opacity:1;
+        
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+

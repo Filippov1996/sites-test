@@ -1,0 +1,19 @@
+.slide1{
+	width:1194px;
+    height:834px;
+}
+.slide1 .bg{
+    width:1194px;
+    height:834px;
+    background: url(../images/slide1/bg.png) no-repeat; 
+    background-size:1194px 834px;
+}
+
+.slide1 .plashka{
+     width: 327px;
+    height: 250px;
+     background: url(../images/slide1/plashka.png) no-repeat; 
+     background-size: 327px 250px;
+     left: 845px;
+     top: 749px;
+}

@@ -1,0 +1,156 @@
+#slide7{
+	width: 1024px;
+    height:768px;
+}
+#slide7 .er{
+ width: 422px;
+  height: 749px;
+     background: url(../images/slide7/earth.png);
+	background-size:422px 749px;
+  left: 0px;
+  top: 19px; 
+}
+#slide7 .mo{
+width: 199px;
+  height: 248px;
+     background: url(../images/slide7/moon.png);
+	background-size:199px 248px;
+    left: 854px;
+     top: -28px;
+}
+
+
+#slide7 .header{
+     width: 590px;
+    height: 211px;
+    background: url(../images/slide7/header.png);
+	background-size:590px  211px;
+    left: 10px;
+    top: 10px;
+}
+
+#slide7 .drug{
+   width: 198px;
+    height: 185px;
+    background: url(../images/slide7/drug.png);
+	background-size:  198px 185px;
+    left: 416px;
+     top: 330px;
+}
+
+#slide7  .text1{
+    width:185px;
+    height: 56px;
+    background: url(../images/slide7/text1.png);
+	background-size:185px  56px;
+    left:499px;
+    top: 206px;
+}
+#slide7  .text3{
+    width:184px;
+    height: 56px;
+    background: url(../images/slide7/text3.png);
+	background-size:184px  56px;
+    left:145px;
+    top: 594px;
+}
+#slide7  .text2{
+    width:210px;
+    height: 57px;
+    background: url(../images/slide7/text2.png);
+	background-size:210px  57px;
+    left:745px;
+    top: 534px;
+}
+
+#slide7 .wrapp-line1{
+    width: 364px;
+    height: 20px;
+    position: relative;
+     top: 401px;
+    left: 219px;
+    transform: rotate(116deg);
+}
+#slide7 .line1{
+   width: 364px;
+    border: 1px dashed #ffff;
+     box-shadow: 0 0 10px 1px rgba(221, 221, 221, 1);
+    opacity: 0;
+    transform-origin: 0% 50%;
+    transform: scale(0,1);
+    animation: moveChartElem34 1s 1s forwards;
+}
+#slide7 .wrapp-line2{
+   width: 364px;
+    height: 20px;
+    position: relative;
+    top: 365px;
+    left: 420px;
+    transform: rotate(50deg);
+}
+#slide7 .line2{
+    width: 364px;
+    border:1px dashed #ffff;
+     box-shadow: 0 0 10px 1px rgba(221, 221, 221, 1);
+    opacity: 0;
+    transform-origin: 0% 50%;
+    transform: scale(0,1);
+    animation: moveChartElem34 1s 2s forwards;
+}
+#slide7 .wrapp-line3{
+     width: 402px;
+    height: 20px;
+    position: relative;
+     top: 515px;
+    left: 327px;
+    transform: rotate(-8deg);
+}
+#slide7 .line3{
+   width: 402px;
+    border: 1px dashed #ffff;
+     box-shadow: 0 0 10px 1px rgba(221, 221, 221, 1);
+    opacity: 0;
+    transform-origin: 0% 50%;
+    transform: scale(0,1);
+    animation: moveChartElem34 1s 2.5s  forwards;
+}
+
+
+
+#slide7 .star{
+   width: 80px;
+    height: 98px;
+    background: url(../images/slide5/star.png);
+	background-size:80px 98px;
+}
+
+#slide7  .star1{
+    top: 200px;
+    left: 453px;
+    z-index: 22;
+}
+
+#slide7  .star2{
+    top: 530px;
+    left: 290px;
+    z-index: 22;
+}
+
+#slide7  .star3{
+    top: 480px;
+    left: 684px;
+    z-index: 22;
+}
+
+
+@keyframes moveChartElem34{
+        0% {
+        }
+
+        100% {
+           opacity: 1;
+    transform: scale(1,1) translate(0px, 0px);
+        }
+}
+
+

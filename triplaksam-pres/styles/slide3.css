@@ -1,0 +1,197 @@
+#slide3{
+	width: 1024px;
+    height:768px;
+}
+#slide3 .header{
+    width: 935px;
+    height: 196px;
+    background: url(../images/slide3/header.png);
+	background-size:935px 196px;
+    left: 10px;
+    top: 10px;
+}
+#slide3 .planet{
+   width: 1024px;
+    height:768px;
+    background: url(../images/slide3/earth.png);
+	background-size:1024px 768px;
+    
+}
+
+#slide3 .text-diogram{
+    width: 277px;
+    height: 123px;
+    background: url(../images/slide3/text-diogram.png);
+	background-size:277px 123px;
+    left: 424px;
+    top: 235px;
+}
+
+#slide3 .icon{
+    width: 120px;
+    height: 118px;
+	left: 29px;
+}
+
+#slide3 .icon1{
+    background: url(../images/slide3/icon1.png);
+	background-size:120px 118px;
+     top: 439px;
+}
+#slide3 .icon2{
+    background: url(../images/slide3/icon2.png);
+	background-size:120px 118px;
+     top: 620px;
+}
+
+#slide3 .plashka1{
+    width: 857px;
+    height:195px;
+    background: url(../images/slide3/plahka1.png);
+	background-size:857px   195px;
+     top: 409px;
+     left: 39px;
+}
+#slide3 .plashka2{
+    width: 857px;
+    height:195px;
+    background: url(../images/slide3/plahka1.png);
+	background-size:857px   195px;
+    top: 590px;
+     left: 39px;
+}
+
+#slide3 .text1{
+    width: 315px;
+    height:75px;
+    background: url(../images/slide3/text1.png);
+	background-size:315px   75px;
+    top: 462px;
+     left: 182px;
+}
+#slide3 .text2{
+    width: 261px;
+    height:59px;
+    background: url(../images/slide3/text2.png);
+	background-size:261px 59px;
+    top: 651px;
+     left: 182px;
+}
+#slide3  .btn{
+    width: 251px;
+    height: 66px;
+    background: url(../images/slide3/btn.png);
+	background-size:251px  66px;
+    left: 568px;
+}
+#slide3  .btn1{
+    top: 463px;
+    display: block;
+}
+#slide3  .btn2{
+    top: 645px;
+    display: block;
+}
+
+@property --p{
+  syntax: '<number>';
+  inherits: true;
+  initial-value: 0;
+}
+.wrapp-cirl{
+    width: 150px;
+    height: 150px;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border: 23.6px solid #1cc9a1;
+    border-radius: 100%;
+    top:225px;
+    left: 235px;     
+     box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+
+
+.pie {
+  --p:20;
+  --b:22px;
+  --c:red;
+  --w:150px;
+  width:150px;
+  aspect-ratio:1;
+  position:relative;
+  display:inline-grid;
+  margin:5px;
+  place-content:center;
+  font-size:25px;
+  font-weight:bold;
+  font-family:sans-serif;
+  top:220px;
+  left: 230px;
+  border-radius: 120px;
+  color: #fff
+      
+}
+.pie:before,
+.pie:after {
+  content:"";
+  position:absolute;
+  border-radius:50%;
+}
+.pie .num{
+    font-size: 53px;
+    top: 20px;
+    position: absolute;
+    left: 40px;
+    top: 48px;
+}
+.pie  .s{
+    position: absolute;
+    font-size: 16px;
+    left: 100px;
+    top: 50px;
+}
+
+.pie:before {
+  inset:0;
+  background:
+    radial-gradient(farthest-side,var(--c) 98%,#0000) top/var(--b) var(--b) no-repeat,
+    conic-gradient(var(--c) calc(var(--p)*1%),#0000 0);
+  -webkit-mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+          mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+  
+}
+.pie:after {
+  inset:calc(50% - var(--b)/2);
+  background:var(--c);
+  transform:rotate(calc(var(--p)*3.6deg)) translateY(calc(50% - var(--w)/2));
+}
+.animate {
+  animation:p 1s 2.5s both;
+}
+.no-round:before {
+  background-size:0 0,auto;
+}
+.no-round:after {
+  content:none;
+}
+@keyframes p {
+  from{--p:0}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

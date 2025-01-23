@@ -1,0 +1,44 @@
+.slideBackup4{
+	width:1194px;
+    height:834px;
+}
+
+.slideBackup4 .header{
+    width:646px;
+    height: 119px;
+    background: url(../images/slideBackup4/header.png) no-repeat; 
+    background-size:646px 119px;
+    left:81px;
+    top: 46px;
+}
+.slideBackup4 .chart{
+    width: 1028px;
+   height: 593px;
+    background: url(../images/slideBackup4/chart.png) no-repeat; 
+    background-size: 1028px 593px;
+    left: 82px;
+    top: 148px;
+} 
+
+
+.slideBackup4 .popup{
+    display:none;
+    width:1194px;
+    height:834px;
+    background: url(../images/slideBackup4/popup.png) no-repeat; 
+     background-size: 1194px 834px;
+}
+
+
+.slideBackup4 .popup .close-popup{
+    width: 70px;
+    height: 70px;
+    top:161px;
+    left: 1047px;
+}
+
+
+
+
+
+

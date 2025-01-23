@@ -1,0 +1,116 @@
+#slide4{
+	width: 960px;
+	height: 540px;
+}
+#slide4 .bg{
+    width: 960px;
+	height:  540px;
+    background: url(../images/slide4/bg.png) no-repeat;
+    background-size: 960px  540px;
+}
+#slide4 .header{
+    width: 160px;
+    height: 74px;
+	background: url(../images/slide4/header.png) no-repeat;
+	background-size:160px  74px;
+	left: 89px;
+    top: 47px;
+}
+#slide4 .item{
+    width: 350px;
+    height: 29px;
+    left: 86px;
+    
+}
+#slide4 .item1{
+   top: 153px;
+}
+#slide4 .item2{
+   top: 195px;
+}
+#slide4 .item3{
+    top: 227px;
+}
+#slide4 .item4{
+    top: 257px;
+}
+#slide4 .item5{
+    top: 292px;
+}
+#slide4 .item6{
+    top: 331px;
+}
+
+#slide4 .item1 .text{
+    width: 188px;
+    height: 34px;
+	background: url(../images/slide4/text1.png) no-repeat;
+	background-size:188px 34px;
+	left: 29px;
+    top: 2px;
+}
+
+#slide4 .item2 .text{
+     width: 177px;
+     height: 16px;
+	background: url(../images/slide4/text2.png) no-repeat;
+	background-size: 177px 16px;
+	left: 29px;
+    top: 2px;
+}
+
+#slide4 .item3 .text{
+   width: 207px;
+    height: 16px;
+	background: url(../images/slide4/text3.png) no-repeat;
+	background-size: 207px  16px;
+	left: 29px;
+    top: 2px;
+}
+#slide4 .item4 .text{
+    width: 190px;
+    height:16px;
+	background: url(../images/slide4/text4.png) no-repeat;
+	background-size:190px 16px;
+	left: 29px;
+    top: 2px;
+}
+#slide4 .item5 .text{
+    width: 218px;
+    height:16px;
+	background: url(../images/slide4/text5.png) no-repeat;
+	background-size:218px 16px;
+	left: 29px;
+    top: 2px;
+}
+#slide4 .item6 .text{
+    width: 141px;
+    height: 15px;
+	background: url(../images/slide4/text6.png) no-repeat;
+	background-size:141px 15px;
+	left: 29px;
+    top: 2px;
+}
+
+
+#slide4 .btn-reply{
+    left: 86px;
+    top: 410px;
+}
+#slide4 .true-label{
+     left: 91px;
+     top: 134px;
+}
+#slide4 .false-label{
+     left: 91px;
+     top: 134px;
+}
+
+#slide4 .modal-answer{
+     width: 601px;
+     height: 671px;
+     background: url(../images/slide4/modal.png) no-repeat;
+	 background-size: 601px 671px;
+     left: 441px;
+     top: 131px;
+}

@@ -1,0 +1,62 @@
+#slide6{
+	width: 1024px;
+    height:768px;
+}
+
+#slide6 .header{
+     width: 739px;
+    height: 185px;
+    background: url(../images/slide6/header.png);
+	background-size:739px 185px;
+    left: 10px;
+    top: 10px;
+}
+
+#slide6 .plashka{
+    width: 330px;
+    height: 212px;
+    background: url(../images/slide6/plashka.png);
+	background-size: 330px 212px;
+    left: 694px;
+    top: 268px;
+}
+
+
+#slide6 .drug{
+   width: 388px;
+    height: 387px;
+    background: url(../images/slide6/drug.png);
+	background-size:  388px 387px;
+    left: 373px;
+    top: 167px;
+}
+
+
+#slide6 .hand{
+    width: 774px;
+    height: 335px;
+    background: url(../images/slide6/hand.png);
+	background-size:  774px 335px;;
+    left: 297px;
+    top: 405px;
+}
+
+#slide6 .clock{
+    width: 458px;
+     height: 524px;
+    background: url(../images/slide6/clock.png);
+	background-size:  458px  524px;
+    left: 0px;
+    top: 244px;
+}
+#slide6  .text{
+     width:699px;
+    height: 58px;
+    background: url(../images/slide6/text.png);
+	background-size:699px 58px;
+    left: 330px;
+    top: 700px;
+}
+
+
+

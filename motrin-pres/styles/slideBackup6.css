@@ -1,0 +1,30 @@
+.slideBackup6{
+	width:1194px;
+    height:834px;
+}
+
+.slideBackup6 .header{
+    width:426px;
+    height: 80px;
+    background: url(../images/slideBackup6/header.png) no-repeat; 
+    background-size:429px 80px;
+    left:81px;
+    top: 56px;
+}
+.slideBackup6 .codes{
+    width: 1030px;
+    height: 621px;
+    background: url(../images/slideBackup6/codes.png) no-repeat; 
+    background-size:1030px  621px;
+    left: 83px;
+    top: 178px;
+}
+
+
+
+
+
+
+
+
+

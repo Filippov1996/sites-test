@@ -1,0 +1,96 @@
+#slide2{
+	width: 1024px;
+    height:768px;
+}
+#slide2 .header{
+    width: 691px;
+    height: 189px;
+    background: url(../images/slide2/header.png);
+	background-size:691px 189px;
+    left: 10px;
+    top: 10px;
+}
+
+
+#slide2 .astonavt1{
+    width: 292px;
+    height: 165px;
+    background: url(../images/slide2/astronavt.png);
+	background-size:292px 165px;
+    left: 737px;
+    top: 111px;
+
+}
+#slide2 .text1{
+    width: 231px;
+    height: 186px;
+    background: url(../images/slide2/text1.png);
+	background-size: 231px 186px;
+    left: 42px;
+    top: 345px;
+}
+#slide2 .text2{
+    width: 232px;
+    height: 125px;
+    background: url(../images/slide2/text2.png);
+	background-size:232px 125px;
+    left: 705px;
+    top: 351px;
+}
+
+#slide2 .text3{
+    width: 233px;
+    height: 124px;
+    background: url(../images/slide2/text3.png);
+	background-size:233px 124px;
+    left: 593px;
+    top: 635px;
+}
+
+
+
+
+#slide2  .moon{
+     width: 466px;
+     height: 466px;
+     background: url(../images/slide2/moon.png);
+	 background-size:465px 465px;
+     left: 258px;
+     top: 218px;
+}
+#slide2 .line{
+     width: 289px;
+    height: 368px;
+     background: url(../images/slide2/lines.png);
+	 background-size:289px 368px;
+     left: 368px;
+     top: 242px;
+}
+
+#slide2  .mask-left{
+      width:209px;
+      height: 368px;
+      top: 245px;
+      left: 285px;
+       background: url(../images/slide2/green-side.png);
+	   background-size:209px 368px;
+}
+#slide2  .mask-right{
+      width:203px;
+       height: 322px;
+       top: 245px;
+       left: 494px;
+       background: url(../images/slide2/red-side.png);
+	   background-size:203px 322px;
+}
+
+#slide2  .modal{
+       background: url(../images/slide2/modal.png);
+	   background-size:1024px 768px;
+       display: none;
+}
+
+
+
+
+
