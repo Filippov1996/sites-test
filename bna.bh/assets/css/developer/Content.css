@@ -1,0 +1,24 @@
+.blockquote {
+    overflow: hidden;
+    width: 95%;
+    display: block;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    /* text-indent: 4.2rem; */
+    color: #40454d;
+    opacity: .8;
+    font-weight: 500;
+    padding: 2rem 3rem;
+    background: #f9f9f9;
+    position: relative;
+    border-radius: 22px;
+    margin: 2.6rem 0;
+    border-left: 4px solid #ddd;
+    border-right: 4px solid #ddd;
+}
+
+.social-share .fa-facebook,
+.social-share .fa-google-plus {
+    visibility: hidden;
+    display: none;
+}
