@@ -1,0 +1,115 @@
+@media screen and (max-width:1440px){
+    body,html{
+        font-size: 13px;
+    }
+    .production{
+        padding: 80px 0px 0px 0px;
+    }
+    .production__tabs{
+        margin-top: 58px;
+    }
+    .production__tab-title{
+        line-height: 24.5px;
+    }
+    .production__tab-item{
+        padding: 0px 30px;
+    }
+    .tab-win__txt{
+            line-height: 29px;
+    }
+    .callback{
+        margin-top: 50px;
+    }
+    .callback__wrapp{
+        padding: 76px 40px;
+    }
+    .callback__address-name{
+        line-height: 32px;
+    }
+    .callback__form{
+        padding: 76px 60px;
+        gap: 21px;
+    }
+    .callback__form-form{
+        gap:22px;
+    }
+    .callback__form-input{
+        padding: 11px 0px;
+    }
+    .callback__coll{
+        gap:20px;
+    }
+    .callback__address{
+        gap:20px;
+    }
+    .callback__address-name{
+        font-size:1.3rem;
+        line-height: 21px;
+    }
+    .callback__address-wrapp{
+        gap:10px;
+    }
+}
+@media screen and (max-width:1200px){
+    .production__tabs{
+         width: 1300px;
+    }
+    .production__scroll{
+        -webkit-overflow-scrolling: touch;
+     overflow-x: auto;
+    }
+    .production__scroll::-webkit-scrollbar {
+        display: none;
+      }
+  
+}
+@media screen and (max-width:880px){
+    .wrapper{
+        width: 95%;
+    }
+    .btn{
+        width: 100%;
+        padding: 10px;
+    }
+    .tab-win__wrapp{
+        flex-direction: column;
+        gap:40px;
+    }
+    .tab-win__coll{
+        width: 100%;
+        gap:20px;
+    }
+    .tab-win__colr{
+        width: 100%;
+    }
+    .tab-win__list-group{
+        gap:10px;
+    }
+    .tab-win__slider .swiper-pagination{
+        gap:10px;
+    }
+    .tab-win__slider .swiper-pagination-bullet-active{
+        width: 15px;
+        height: 15px;
+    }
+    .tab-win__slider .swiper-pagination-bullet{
+        width: 10px;
+        height: 10px;
+    }
+    .tab-win__slider-btn{
+        width: 50px;
+        height: 50px;
+    }
+    .callback__wrapp{
+        flex-direction: column;
+        gap:30px;
+        padding: 50px 20px 50px;
+        background-image: none;
+    }
+    .callback__form{
+        padding: 50px 20px;
+    }
+    .callback__coll,.callback__colr{
+        width: 100%;
+    }
+}

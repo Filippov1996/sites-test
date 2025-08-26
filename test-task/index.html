@@ -1,604 +1,403 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>test task</title>
-    
+    <title>test</title>
+
+    <link rel="stylesheet" href="assets/styles/reset.css">
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="assets/styles/media-queries.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css"> 
-    <link rel="stylesheet" href="assets/css/custom-animate.css"> 
-    <link rel="stylesheet" href="assets/css/media-queries.css">  
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
     <body>
-       <div class="app">
-        <div class="mobile-menu">
-           <div class="mobile-menu__scroll">
-            <div class="mobile-menu__wrapp">
-                <div class="mobile-menu__search-wrapp">
-                    <input type="text" class="mobile-menu__search-input">
-                    <button class="mobile-menu__search-btn">
-                        <img src="assets/img/icons/search.png" alt="">
-                    </button>
-                </div>
-                <ul class="mobile-menu__list">
-                    <li class="mobile-menu__list-item">
-                        <a href="#" class="mobile-menu__list-link">Nacionales</a>
-                    </li>
-                    <li class="mobile-menu__list-item">
-                        <a href="#" class="mobile-menu__list-link">Nacionales</a>
-                    </li>
-                    <li class="mobile-menu__list-item">
-                        <a href="#" class="mobile-menu__list-link">Nacionales</a>
-                    </li>
-                    <li class="mobile-menu__list-item">
-                        <a href="#" class="mobile-menu__list-link">Nacionales</a>
-                    </li>
-                    <li class="mobile-menu__list-item">
-                        <a href="#" class="mobile-menu__list-link">Nacionales</a>
-                    </li>
-                    <li class="mobile-menu__list-item">
-                        <a href="#" class="mobile-menu__list-link">Nacionales</a>
-                    </li>
-                    <li class="mobile-menu__list-item">
-                        <a href="#" class="mobile-menu__list-link">Nacionales</a>
-                    </li>
-                    <li class="mobile-menu__list-item">
-                        <a href="#" class="mobile-menu__list-link">Nacionales</a>
-                    </li>
-                    
-                    
-                </ul>
-                <div class="mobile-menu__sn">
-                    <a href="#" class="mobile-menu__sn-link"><img src="assets/img/icons/Facebook.png" alt="" class="mobile-menu__sn-img"></a>
-                    <a href="#" class="mobile-menu__sn-link"><img src="assets/img/icons/Instagram.png" alt="" class="mobile-menu__sn-img"></a>
-                    <a href="#" class="mobile-menu__sn-link"><img src="assets/img/icons/X.png" alt="" class="mobile-menu__sn-img"></a>
-                    <a href="#" class="mobile-menu__sn-link"><img src="assets/img/icons/tiktokw.png" alt="" class="mobile-menu__sn-img"></a>
-                    <a href="#" class="mobile-menu__sn-link"><img src="assets/img/icons/Youtube2.png" alt="" class="mobile-menu__sn-img icon-yt"></a>
-                    <a href="#" class="mobile-menu__sn-link"><img src="assets/img/icons/WhatsApp.png" alt="" class="mobile-menu__sn-img"></a>
-                </div>
-                
+    <div class="popup-done">
+        <div class="popup-done__wrapp">
+            <div class="popup-done__win">
+                <button class="popup-done__close js-popup-close">
+                    <svg>
+                        <use xlink:href="assets/img/icons.svg#i-close"></use>
+                    </svg>
+                </button>
+                <span class="popup-done__title">Ваша заявка принята!</span>
             </div>
-            </div>
-        </div>  
-        <header>
-            <nav class="nav">
-                <div class="nav__row-one">
-                    <div class="nav__sn">
-                        <a href="#" class="nav__sn-link"><img src="assets/img/icons/Facebook.png" alt="" class="nav__sn-img"></a>
-                        <a href="#" class="nav__sn-link"><img src="assets/img/icons/Instagram.png" alt="" class="nav__sn-img"></a>
-                        <a href="#" class="nav__sn-link"><img src="assets/img/icons/X.png" alt="" class="nav__sn-img"></a>
-                        <a href="#" class="nav__sn-link"><img src="assets/img/icons/tiktokw.png" alt="" class="nav__sn-img"></a>
-                         <a href="#" class="nav__sn-link"><img src="assets/img/icons/Youtube2.png" alt="" class="nav__sn-img icon-yt"></a>
-                        <a href="#" class="nav__sn-link"><img src="assets/img/icons/WhatsApp.png" alt="" class="nav__sn-img"></a>
-                    </div>
-                    <div class="nav__menu-one">
-                        <ul class="nav__menu-one-list">
-                            <li class="nav__menu-one-list-item">
-                                <div class="nav__menu-one-list-search">
-                                    <input type="text" placeholder="Buscar" id="demo" name="r" class="nav__menu-one-list-search-input">
-                                    <button class="nav__menu-one-list-btn"><img src="assets/img/icons/search.png" alt=""></button>
-                                </div>
-                            </li>
-                            <li class="nav__menu-one-list-item">
-                                <a href="#" class="nav__menu-one-list-link">
-                                    Últimas
-                                </a>
-                            </li>
-                            <li class="nav__menu-one-list-item">
-                                <a href="#" class="nav__menu-one-list-link">
-                                    Más Leídas
-                                </a>
-                            </li>
-                            <li class="nav__menu-one-list-item active" >
-                                <a href="#" class="nav__menu-one-list-link">
-                                   Recibir Boletín
-                                </a>
-                            </li>
-                            <li class="nav__menu-one-list-item">
-                                <a href="#" class="nav__menu-one-list-link">
-                                   Contáctenos
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="nav__row-two">
-                    <a href="/" class="nav__logo-link">
-                        <img src="assets/img/logo-crhoy1.png" alt="crhoy.com" class="nav__logo-link-img">
-                    </a>
-                    <div class="nav__menu-two-wrapp">
-                    <ul class="nav__menu-two-list">
-                        <li class="nav__menu-two-list-item">
-                                <a href="#" class="nav__menu-two-list-link">
-                                   Nacionales
-                                </a>
-                                <div class="nav__menu-two-list-child-thumbs-wrapp">
-                                <ul class="nav__menu-two-list-child-thumbs">
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                </ul>
-                                </div>
-                        </li>
-                        <li class="nav__menu-two-list-item">
-                                <a href="#" class="nav__menu-two-list-link">
-                                  Deportes
-                                </a>
-                                <div class="nav__menu-two-list-child-thumbs-wrapp">
-                                <ul class="nav__menu-two-list-child-thumbs">
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                </ul>
-                                </div>
-                        </li>
-                        <li class="nav__menu-two-list-item">
-                                <a href="#" class="nav__menu-two-list-link">
-                                   Entretenimiento
-                                </a>
-                                <div class="nav__menu-two-list-child-thumbs-wrapp">
-                                <ul class="nav__menu-two-list-child-thumbs">
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                </ul>
-                                </div>
-                                </li>
-                                <li class="nav__menu-two-list-item">
-                                <a href="#" class="nav__menu-two-list-link">
-                                  Economía
-                                </a>
-                                <div class="nav__menu-two-list-child-thumbs-wrapp">
-                                <ul class="nav__menu-two-list-child-thumbs">
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                </ul>
-                                </div>
-                        </li>
-                        <li class="nav__menu-two-list-item">
-                                <a href="#" class="nav__menu-two-list-link">
-                                 Tecnología
-                                </a>
-                                <div class="nav__menu-two-list-child-thumbs-wrapp">
-                                <ul class="nav__menu-two-list-child-thumbs">
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                </ul>
-                                </div>
-                        </li>
-                         <li class="nav__menu-two-list-item">
-                                <a href="#" class="nav__menu-two-list-link">
-                                Mundo
-                                </a>
-                                <div class="nav__menu-two-list-child-thumbs-wrapp">
-                                <ul class="nav__menu-two-list-child-thumbs">
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                </ul>
-                                </div>
-                        </li>
-                         <li class="nav__menu-two-list-item">
-                                <a href="#" class="nav__menu-two-list-link">
-                                 Opinión
-                                </a>
-                                <div class="nav__menu-two-list-child-thumbs-wrapp">
-                                <ul class="nav__menu-two-list-child-thumbs">
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                </ul>
-                                </div>
-                        </li>
-                         <li class="nav__menu-two-list-item drop-rel">
-                                <a href="#" class="nav__menu-two-list-link">
-                                 Secciones
-                                </a>
-                                <div class="nav__menu-two-list-child-wrapp">
-                                    <ul class="nav__menu-two-list-child">
-                                        <li class="nav__menu-two-list-child-item">
-                                            <a href="#" class="nav__menu-two-list-child-link">
-                                                Nosotros
-                                            </a>
-                                        </li>
-                                        <li class="nav__menu-two-list-child-item">
-                                            <a href="#" class="nav__menu-two-list-child-link">
-                                                Humor
-                                            </a>
-                                        </li>
-                                        <li class="nav__menu-two-list-child-item">
-                                            <a href="#" class="nav__menu-two-list-child-link">
-                                                Entérese
-                                            </a>
-                                        </li>
-                                        <li class="nav__menu-two-list-child-item">
-                                            <a href="#" class="nav__menu-two-list-child-link">
-                                                Ambiente
-                                            </a>
-                                        </li>
-                                        <li class="nav__menu-two-list-child-item">
-                                            <a href="#" class="nav__menu-two-list-child-link">
-                                                Foto del Día
-                                            </a>
-                                        </li>
-                                        <li class="nav__menu-two-list-child-item">
-                                            <a href="#" class="nav__menu-two-list-child-link">
-                                                Frase del Día
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                        </li>
-                        <li class="nav__menu-two-list-item">
-                                <a href="#" class="nav__menu-two-list-link">
-                                 Programas
-                                </a>
-                                <div class="nav__menu-two-list-child-thumbs-wrapp">
-                                <ul class="nav__menu-two-list-child-thumbs">
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                    <li class="nav__menu-two-list-child-thumbs-item">
-                                        <a href="#" class="nav__menu-two-list-child-thumbs-link">
-                                            <img src="assets/img/menu-thumbs/thumb.jpg" alt="">
-                                            
-                                            <span class="nav__menu-two-list-child-thumbs-title">
-                                                 Fallecido en playa de Limón tenía 15 puñaladas y un balazo en el pecho                                                                    
-                                            </span>
-                                        </a>
-                                        
-                                    </li>
-                                </ul>
-                                </div>
-                        </li>
-                    </ul>
-                    </div>
-                </div>
-            </nav>
-            <nav class="nav__mobile">
-               <div class="nav__mobile-wrapp">
-                <a href="/" class="nav__mobile-logo-link">
-                    <img src="assets/img/logo-crhoy2.png" alt="" class="nav__mobile-logo-img">
-                </a>
-                <div class="nav__mobile-btn-wrapp">
-                    <div class="nav__mobile-btn">
-                        <span class="top-line"></span>
-                        <span class="mid-line"></span>
-                        <span class="bottom-line"></span>
-                    </div>
-                </div>
-                </div>
-            </nav>
-        </header>
-        <main class="content">
-            
-            <h1 class="content__title">Hoy no se vota referéndum: Diputados acordaron esperar fallo completo de Sala IV</h1>
-            <p class="content__text">Esta decisión <strong> no fue comunicada a los medios de comunicación, a pesar de que contradice todo lo dicho por la presidenta en ejercicio del Congreso, la diputada de Nueva República, Rosalía Brown</strong> , quien indicó al mediodía de ayer lunes, que el decreto ejecutivo que contiene la petición de la consulta popular se sometería a votación hoy martes en el plenario, aun sin contar con el fallo completo de la Sala.</p>
-            <div class="content__img-wrapp">
-                <img src="assets/img/content/diputados-plenario-junio.jpeg" alt="" class="content__img">
-                <span class="content__img-text">Los jefes de fracción en diálogo este lunes. Foto: CRH.</span>
-            </div>
-            <div class="content_form-wrapp">
-                <form action="#" class="content__form">
-                    <div class="content__form-inputs">
-                        <input type="text" class="content__form-input" placeholder="Имя:" required>
-                        <input type="text" class="content__form-input" placeholder="Фамилия:" required>
-                         <input type="text" class="content__form-input" placeholder="Почта:" required>
-                        <input type="text" class="content__form-input" placeholder="Телефон:" required>
-                         <button class="content__form-btn">Отправить</button>
-                    </div>
-                   
-                </form>
-            </div>
-        </main>
         </div>
-        <footer class="footer">
-           
-            <a href="#" class="footer__link-red">Paute con Nosotros</a>
-            <p class="footer__text">
-            
-            Los comentarios expresados en las columnas de opinión, página de memes, en la opinión de los lectores y comentarios de terceros al final de las notas o en las páginas de redes sociales,<br>son responsabilidad exclusiva de sus autores. CRHoy.com no se responsabiliza por su contenido. CRHoy, crhoy.com y el logo de crhoy.com noticias 24/7<br>son marcas registradas y se prohíbe totalmente su uso o reproducción sin previa autorización por escrito.
-            </p>
-            <p class="footer__text">
-                ©2025 CRHoy.com - Todos los derechos reservados. San José - Costa Rica.
-            </p>
-            <a href="#" class="footer__link-dark">
-                    Terminos y condiciones
-            </a>
-            <p class="footer__text">Desarrollado por: CRHoy.com</p>
-        </footer>
-        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-        <script src="assets/js/main.js"></script>
+    </div>
+     <section class="production">
+         <div class="wrapper">
+            <h2 class="title-h2">Изготовление</h2>
+            <div class="production__scroll">
+             <div class="production__tabs">
+                 <div class="production__tab-item js-tab-item" data-click="true">
+                     
+                     <span class="production__tab-icon">
+                         <img src="assets/img/icons/icon-gallery.svg" alt="">
+                     </span>
+                     <span class="production__tab-title">
+                         Услуги дизайна
+                     </span>
+                     <div class="production__tab-status">
+                         <span class="icon-open hide"></span>
+                         <span class="icon-close"></span>
+                     </div>
+                 </div>
+                 <div class="production__tab-item js-tab-item" data-click="">
+                     
+                     <span class="production__tab-icon">
+                         <img src="assets/img/icons/icon-print.svg" alt="">
+                     </span>
+                     <span class="production__tab-title">
+                        Изготовление рекламной продукции
+                     </span>
+                     <div class="production__tab-status">
+                         <span class="icon-open"></span>
+                         <span class="icon-close hide"></span>
+                     </div>
+                 </div>
+                 <div class="production__tab-item js-tab-item" data-click="">
+                     
+                     <span class="production__tab-icon">
+                         <img src="assets/img/icons/icon-flag.svg" alt="">
+                     </span>
+                     <span class="production__tab-title">
+                        Изготовление вывесок и флагов
+                     </span>
+                     <div class="production__tab-status">
+                         <span class="icon-open"></span>
+                         <span class="icon-close hide"></span>
+                     </div>
+                 </div>
+                 <div class="production__tab-item js-tab-item" data-click="">
+                     
+                     <span class="production__tab-icon">
+                         <img src="assets/img/icons/icon-tool.svg" alt="">
+                     </span>
+                     <span class="production__tab-title">
+                         Прочие услуги
+                     </span>
+                     <div class="production__tab-status">
+                         <span class="icon-open">
+                             
+                         </span>
+                         <span class="icon-close hide"></span>
+                     </div>
+                 </div>
+             </div>
+             </div>
+             <div class="tab-win js-tab-win">
+                 <div class="tab-win__wrapp">
+                     <div class="tab-win__coll">
+                         <p class="tab-win__txt">В штате нашего рекламного агентства трудятся только профессиональные дизайнеры. Макет разрабатывается с учетом индивидуальных особенностей и пожеланий клиента.
+                            Поможем разработать <strong>дизайн баннеров, вывесок, флагов а также фирменный стиля и именную продукцию компании.</strong></p>
+                            
+                            <div class="tab-win__list-group">
+                                <span class="tab-win__label">Предоплата</span>
+                                <ul class="tab-win__list">
+                                    <li class="tab-win__list-item">Согласование стоимости работ</li>
+                                     <li class="tab-win__list-item"><strong>50%</strong> Предоплата</li>
+                                     <li class="tab-win__list-item">Приступаем к работе</li>
+                                </ul>
+                            </div>
+                            <div class="tab-win__list-group">
+                                <span class="tab-win__label">Разработка и правки</span>
+                                <ul class="tab-win__list">
+                                    <li class="tab-win__list-item">Часовая ставка <strong>- 1200 р/час</strong></li>
+                                     <li class="tab-win__list-item">Один макет<strong>- 3000 р.</strong></li>
+                                     <li class="tab-win__list-item"><strong>Одна</strong> итерация правок<strong>- 500 р.</strong></li>
+                                </ul>
+                                
+                                
+                                
+                            </div>
+                            <button class="btn">Заказать</button>
+                     </div>
+                     <div class="tab-win__colr">
+                         <div class="tab-win__slider swiper slider-tab1">
+                             <div class="swiper-wrapper">
+                                 <div class="swiper-slide">
+                                   <img src="assets/img/slider/Fly%20Zone.png" alt="" class="tab-win__slider-img">  
+                                 </div>
+                                 <div class="swiper-slide">
+                                   <img src="assets/img/slider/Fly%20Zone.png" alt="" class="tab-win__slider-img">  
+                                 </div>
+                                 <div class="swiper-slide">
+                                   <img src="assets/img/slider/Fly%20Zone.png" alt="" class="tab-win__slider-img">  
+                                 </div>
+                                 <div class="swiper-slide">
+                                   <img src="assets/img/slider/Fly%20Zone.png" alt="" class="tab-win__slider-img">  
+                                 </div>
+                                 
+                             </div>
+                                 <div class="swiper-pagination"></div>
+                             <button class="tab-win__slider-btn prev">
+                                <svg>
+                                 <use xlink:href="assets/img/icons.svg#i-arrow"></use>
+                                 </svg>
+                             </button>
+                             <button class="tab-win__slider-btn next">
+                                   <svg>
+                                   <use xlink:href="assets/img/icons.svg#i-arrow"></use>
+                                 </svg>
+                             </button>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="tab-win js-tab-win hide">
+                 <div class="tab-win__wrapp">
+                     <div class="tab-win__coll">
+                         <p class="tab-win__txt">В штате нашего рекламного агентства трудятся только профессиональные дизайнеры. Макет разрабатывается с учетом индивидуальных особенностей и пожеланий клиента.
+                            Поможем разработать <strong>дизайн баннеров, вывесок, флагов а также фирменный стиля и именную продукцию компании.</strong></p>
+                            
+                            <div class="tab-win__list-group">
+                                <span class="tab-win__label">Предоплата</span>
+                                <ul class="tab-win__list">
+                                    <li class="tab-win__list-item">Согласование стоимости работ</li>
+                                     <li class="tab-win__list-item"><strong>50%</strong> Предоплата</li>
+                                     <li class="tab-win__list-item">Приступаем к работе</li>
+                                </ul>
+                            </div>
+                            <div class="tab-win__list-group">
+                                <span class="tab-win__label">Разработка и правки</span>
+                                <ul class="tab-win__list">
+                                    <li class="tab-win__list-item">Часовая ставка <strong>- 1200 р/час</strong></li>
+                                     <li class="tab-win__list-item">Один макет<strong>- 3000 р.</strong></li>
+                                     <li class="tab-win__list-item"><strong>Одна</strong> итерация правок<strong>- 500 р.</strong></li>
+                                </ul>
+                                
+                                
+                                
+                            </div>
+                            <button class="btn">Заказать</button>
+                     </div>
+                     <div class="tab-win__colr">
+                         <div class="tab-win__slider swiper slider-tab1">
+                             <div class="swiper-wrapper">
+                                 <div class="swiper-slide">
+                                   <img src="assets/img/slider/Fly%20Zone.png" alt="" class="tab-win__slider-img">  
+                                 </div>
+                                 <div class="swiper-slide">
+                                   <img src="assets/img/slider/Fly%20Zone.png" alt="" class="tab-win__slider-img">  
+                                 </div>
+                                 <div class="swiper-slide">
+                                   <img src="assets/img/slider/Fly%20Zone.png" alt="" class="tab-win__slider-img">  
+                                 </div>
+                                 <div class="swiper-slide">
+                                   <img src="assets/img/slider/Fly%20Zone.png" alt="" class="tab-win__slider-img">  
+                                 </div>
+                                 
+                             </div>
+                                 <div class="swiper-pagination"></div>
+                             <button class="tab-win__slider-btn prev">
+                                <svg>
+                                 <use xlink:href="assets/img/icons.svg#i-arrow"></use>
+                                 </svg>
+                             </button>
+                             <button class="tab-win__slider-btn next">
+                                   <svg>
+                                   <use xlink:href="assets/img/icons.svg#i-arrow"></use>
+                                 </svg>
+                             </button>
+                         </div>
+                     </div>
+                 </div>
+             </div>            
+             <div class="tab-win js-tab-win hide">
+                 <div class="tab-win__wrapp">
+                     <div class="tab-win__coll">
+                         <p class="tab-win__txt">В штате нашего рекламного агентства трудятся только профессиональные дизайнеры. Макет разрабатывается с учетом индивидуальных особенностей и пожеланий клиента.
+                            Поможем разработать <strong>дизайн баннеров, вывесок, флагов а также фирменный стиля и именную продукцию компании.</strong></p>
+                            
+                            <div class="tab-win__list-group">
+                                <span class="tab-win__label">Предоплата</span>
+                                <ul class="tab-win__list">
+                                    <li class="tab-win__list-item">Согласование стоимости работ</li>
+                                     <li class="tab-win__list-item"><strong>50%</strong> Предоплата</li>
+                                     <li class="tab-win__list-item">Приступаем к работе</li>
+                                </ul>
+                            </div>
+                            <div class="tab-win__list-group">
+                                <span class="tab-win__label">Разработка и правки</span>
+                                <ul class="tab-win__list">
+                                    <li class="tab-win__list-item">Часовая ставка <strong>- 1200 р/час</strong></li>
+                                     <li class="tab-win__list-item">Один макет<strong>- 3000 р.</strong></li>
+                                     <li class="tab-win__list-item"><strong>Одна</strong> итерация правок<strong>- 500 р.</strong></li>
+                                </ul>
+                                
+                                
+                                
+                            </div>
+                            <button class="btn">Заказать</button>
+                     </div>
+                     <div class="tab-win__colr">
+                         <div class="tab-win__slider swiper slider-tab1">
+                             <div class="swiper-wrapper">
+                                 <div class="swiper-slide">
+                                   <img src="assets/img/slider/Fly%20Zone.png" alt="" class="tab-win__slider-img">  
+                                 </div>
+                                 <div class="swiper-slide">
+                                   <img src="assets/img/slider/Fly%20Zone.png" alt="" class="tab-win__slider-img">  
+                                 </div>
+                                 <div class="swiper-slide">
+                                   <img src="assets/img/slider/Fly%20Zone.png" alt="" class="tab-win__slider-img">  
+                                 </div>
+                                 <div class="swiper-slide">
+                                   <img src="assets/img/slider/Fly%20Zone.png" alt="" class="tab-win__slider-img">  
+                                 </div>
+                                 
+                             </div>
+                                 <div class="swiper-pagination"></div>
+                             <button class="tab-win__slider-btn prev">
+                                <svg>
+                                 <use xlink:href="assets/img/icons.svg#i-arrow"></use>
+                                 </svg>
+                             </button>
+                             <button class="tab-win__slider-btn next">
+                                   <svg>
+                                   <use xlink:href="assets/img/icons.svg#i-arrow"></use>
+                                 </svg>
+                             </button>
+                         </div>
+                     </div>
+                 </div>
+             </div>  
+             <div class="tab-win js-tab-win hide">
+                 <div class="tab-win__wrapp">
+                     <div class="tab-win__coll">
+                         <p class="tab-win__txt">В штате нашего рекламного агентства трудятся только профессиональные дизайнеры. Макет разрабатывается с учетом индивидуальных особенностей и пожеланий клиента.
+                            Поможем разработать <strong>дизайн баннеров, вывесок, флагов а также фирменный стиля и именную продукцию компании.</strong></p>
+                            
+                            <div class="tab-win__list-group">
+                                <span class="tab-win__label">Предоплата</span>
+                                <ul class="tab-win__list">
+                                    <li class="tab-win__list-item">Согласование стоимости работ</li>
+                                     <li class="tab-win__list-item"><strong>50%</strong> Предоплата</li>
+                                     <li class="tab-win__list-item">Приступаем к работе</li>
+                                </ul>
+                            </div>
+                            <div class="tab-win__list-group">
+                                <span class="tab-win__label">Разработка и правки</span>
+                                <ul class="tab-win__list">
+                                    <li class="tab-win__list-item">Часовая ставка <strong>- 1200 р/час</strong></li>
+                                     <li class="tab-win__list-item">Один макет<strong>- 3000 р.</strong></li>
+                                     <li class="tab-win__list-item"><strong>Одна</strong> итерация правок<strong>- 500 р.</strong></li>
+                                </ul>
+                                
+                                
+                                
+                            </div>
+                            <button class="btn">Заказать</button>
+                     </div>
+                     <div class="tab-win__colr">
+                         <div class="tab-win__slider swiper slider-tab1">
+                             <div class="swiper-wrapper">
+                                 <div class="swiper-slide">
+                                   <img src="assets/img/slider/Fly%20Zone.png" alt="" class="tab-win__slider-img">  
+                                 </div>
+                                 <div class="swiper-slide">
+                                   <img src="assets/img/slider/Fly%20Zone.png" alt="" class="tab-win__slider-img">  
+                                 </div>
+                                 <div class="swiper-slide">
+                                   <img src="assets/img/slider/Fly%20Zone.png" alt="" class="tab-win__slider-img">  
+                                 </div>
+                                 <div class="swiper-slide">
+                                   <img src="assets/img/slider/Fly%20Zone.png" alt="" class="tab-win__slider-img">  
+                                 </div>
+                                 
+                             </div>
+                                 <div class="swiper-pagination"></div>
+                             <button class="tab-win__slider-btn prev">
+                                <svg>
+                                 <use xlink:href="assets/img/icons.svg#i-arrow"></use>
+                                 </svg>
+                             </button>
+                             <button class="tab-win__slider-btn next">
+                                   <svg>
+                                   <use xlink:href="assets/img/icons.svg#i-arrow"></use>
+                                 </svg>
+                             </button>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             
+             
+         </div>
+     </section>
+     <section class="callback">
+         <div class="wrapper">
+             <div class="callback__wrapp">
+                 <div class="callback__coll">
+                     <h2 class="title-h2">Контакты</h2>
+                     
+                     <div class="callback__address">
+                         <div class="callback__address-item">
+                             <span class="callback__address-title">
+                                 Адрес
+                             </span>
+                             <div class="callback__address-wrapp">
+                                 <svg class="callback__address-icon">
+                                        <use xlink:href="assets/img/icons.svg#i-location"></use>
+                                 </svg>
+                                  <span class="callback__address-name">г. Краснодар <br>ул. Бабушкина 110, офис 4</span>
+                             </div>
+                         </div>
+                         <div class="callback__address-item">
+                             <span class="callback__address-title">
+                                 Контакты
+                             </span>
+                             <div class="callback__address-wrapp">
+                                 <svg class="callback__address-icon">
+                                        <use xlink:href="assets/img/icons.svg#i-mail"></use>
+                                 </svg>
+                                  <a class="callback__address-name" href="mailto:ra-matina@mail.ru">ra-matina@mail.ru</a>
+                             </div>
+                             <div class="callback__address-wrapp">
+                                 <svg class="callback__address-icon">
+                                        <use xlink:href="assets/img/icons.svg#i-phone"></use>
+                                 </svg>
+                                   <a class="callback__address-name" href="tel:+78612463336">8 (861) 246-33-36</a>
+                             </div>
+                             <div class="callback__address-wrapp">
+                                 <svg class="callback__address-icon">
+                                        <use xlink:href="assets/img/icons.svg#i-phone"></use>
+                                 </svg>
+                                  <a class="callback__address-name" href="tel:+79014904646">8 (901) 490-46-46</a>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="callback__colr">
+                     <div class="callback__form">
+                         <span class="callback__form-title">
+                             Заказать звонок
+                         </span>
+                         <form action="#" class="callback__form-form" id="callbackForm">
+                             <div class="callback__form-field">
+                                 <input type="text" class="callback__form-input" placeholder="Имя" name="firstname">
+                             </div>
+                             <div class="callback__form-field">
+                                 <input type="text" class="callback__form-input mask-phone" placeholder="+7(___) ___-__-__"  name="phone">
+                             </div>
+                             <div class="callback__form-politic">
+                                 <input type="checkbox" id="politic" class="callback__politic-checkbox">
+                                 <label for="politic" class="callback__politic-notice">Согласие на обработку персональных данных</label>
+                             </div>
+                             <button class="btn">Заказать</button>
+                         </form>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js" ></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="assets/scripts/jquery.validate.min.js"></script>
+      <script src="assets/scripts/jquery.maskedinput.js"></script>
+      <script src="assets/scripts/script.js"></script>
+      <script src="assets/scripts/callback.js"></script>
     </body>
 </html>
