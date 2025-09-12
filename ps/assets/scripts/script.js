@@ -36,7 +36,11 @@ $(document).ready(function() {
     
     
     
-    
+    swiper.on('slideChange', function () {
+    //console.info('*** mySwiper.realIndex', mySwiper.realIndex);
+         $(".js-data .point").removeClass("active");
+         $(".js-data .point").eq(swiper.realIndex).addClass("active");
+    });
     
     
     
