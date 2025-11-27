@@ -1,0 +1,589 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>test tri</title>
+    <script src="assets/js/jquery-3.2.0.min.js"></script>
+    <script src="https://use.fontawesome.com/21c9f57e86.js"></script>
+    <link href="https://use.fontawesome.com/21c9f57e86.css" media="all" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+     <link href="assets/css/chosen.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"> 
+   <link rel="stylesheet" href="assets/css/media-queries.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script type="text/javascript" src="//htmlweb.ru/geo/api.js" async></script>
+</head>
+    <body>
+        <section class="reviews">
+            <div class="container">
+               <div class="reviews__top">
+                    <h1 class="reviews__title">Отзывы о TRI</h1>
+                    <div class="reviews__desc">
+                        <p>Живые истории наших клиентов о том, как продукция TRI помогает им решать производственные задачи, экономить время и ресурсы, повышать надежность
+                         конструкций и достигать результатов</p>
+                         <div class="reviews__data-count">
+                             <div class="reviews__count">
+                                 <span class="grade-val val">4.7</span>
+                                 <span class="val">из 5</span>
+                             </div>
+                             <span class="reviews__data-count-val">средняя оценка</span>
+                         </div>
+                    </div>                
+               </div>
+               <div class="reviews__tabs">
+                   <button class="reviews__tab">
+                       Все отзывы
+                   </button>
+                   <button class="reviews__tab">
+                       Яндекс Карты
+                   </button>
+                   <button class="reviews__tab">
+                       2ГИС
+                   </button>
+                   <button class="reviews__tab">
+                       Партнеры
+                   </button>
+                   
+               </div>
+               <div class="reviews__list">
+                   <div class="reviews__item">
+                       <div class="reviews__item-top">
+                           <img src="assets/img/logo-comp.svg" alt="" class="reviews__item-ava-img">
+                           <div class="reviews__info">
+                               <span class="reviews__info-name">
+                                   «Паркетович»
+                               </span>
+                               <span class="reviews__info-sphere">
+                                   Отзыв от партнеров
+                               </span>
+                           </div>
+                       </div>
+                       <div class="reviews-item__raiting">           
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#868695"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                            </div>
+                        <div class="reviews__item-comment">
+                            <p class="reviews__item-full-text text">Наша компания занимается продажей, изготовлением и покрытием паркета. Мы всегда идём по пути оптимизации затрат для себя и для наших заказчиков и долгое время были в поиске хорошей альтернативы по химии, пока не познакомились с продукцией  TRI u fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</p>
+                            <span class="reviews__item-btn js-btn-switch">
+                                        Читать далее 
+                            </span>
+                        </div>        
+                    
+                   </div>
+                   <div class="reviews__item">
+                       <div class="reviews__item-top">
+                           <img src="assets/img/logo-comp.svg" alt="" class="reviews__item-ava-img">
+                           <div class="reviews__info">
+                               <span class="reviews__info-name">
+                                   «Паркетович»
+                               </span>
+                               <span class="reviews__info-sphere">
+                                   Отзыв от партнеров
+                               </span>
+                           </div>
+                       </div>
+                       <div class="reviews-item__raiting">           
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#868695"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                            </div>
+                        <div class="reviews__item-comment">
+                            <p class="reviews__item-full-text text">Наша компания занимается продажей, изготовлением и покрытием паркета. Мы всегда идём по пути оптимизации затрат для себя и для наших заказчиков и долгое время были в поиске хорошей альтернативы по химии, пока не познакомились с продукцией  TRI u fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</p>
+                            <span class="reviews__item-btn js-btn-switch">
+                                        Читать далее 
+                            </span>
+                        </div>        
+                    
+                   </div>
+                   <div class="reviews__item">
+                       <div class="reviews__item-top">
+                           <img src="assets/img/logo-comp.svg" alt="" class="reviews__item-ava-img">
+                           <div class="reviews__info">
+                               <span class="reviews__info-name">
+                                   «Паркетович»
+                               </span>
+                               <span class="reviews__info-sphere">
+                                   Отзыв от партнеров
+                               </span>
+                           </div>
+                       </div>
+                       <div class="reviews-item__raiting">           
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#868695"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                            </div>
+                        <div class="reviews__item-comment">
+                            <p class="reviews__item-full-text text">Наша компания занимается продажей, изготовлением и покрытием паркета. Мы всегда идём по пути оптимизации затрат для себя и для наших заказчиков и долгое время были в поиске хорошей альтернативы по химии, пока не познакомились с продукцией  TRI u fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</p>
+                            <span class="reviews__item-btn js-btn-switch">
+                                        Читать далее 
+                            </span>
+                        </div>        
+                    
+                   </div>
+                   <div class="reviews__item">
+                       <div class="reviews__item-top">
+                           <img src="assets/img/logo-comp.svg" alt="" class="reviews__item-ava-img">
+                           <div class="reviews__info">
+                               <span class="reviews__info-name">
+                                   «Паркетович»
+                               </span>
+                               <span class="reviews__info-sphere">
+                                   Отзыв от партнеров
+                               </span>
+                           </div>
+                       </div>
+                       <div class="reviews-item__raiting">           
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#868695"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                            </div>
+                        <div class="reviews__item-comment">
+                            <p class="reviews__item-full-text text">Наша компания занимается продажей, изготовлением и покрытием паркета. Мы всегда идём по пути оптимизации затрат для себя и для наших заказчиков и долгое время были в поиске хорошей альтернативы по химии, пока не познакомились с продукцией  TRI u fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</p>
+                            <span class="reviews__item-btn js-btn-switch">
+                                        Читать далее 
+                            </span>
+                        </div>        
+                    
+                   </div>
+                   <div class="reviews__item">
+                       <div class="reviews__item-top">
+                           <img src="assets/img/logo-comp.svg" alt="" class="reviews__item-ava-img">
+                           <div class="reviews__info">
+                               <span class="reviews__info-name">
+                                   «Паркетович»
+                               </span>
+                               <span class="reviews__info-sphere">
+                                   Отзыв от партнеров
+                               </span>
+                           </div>
+                       </div>
+                       <div class="reviews-item__raiting">           
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#868695"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                            </div>
+                        <div class="reviews__item-comment">
+                            <p class="reviews__item-full-text text">Наша компания занимается продажей, изготовлением и покрытием паркета. Мы всегда идём по пути оптимизации затрат для себя и для наших заказчиков и долгое время были в поиске хорошей альтернативы по химии, пока не познакомились с продукцией  TRI u fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</p>
+                            <span class="reviews__item-btn js-btn-switch">
+                                        Читать далее 
+                            </span>
+                        </div>        
+                    
+                   </div>
+                   <div class="reviews__item">
+                       <div class="reviews__item-top">
+                           <img src="assets/img/logo-comp.svg" alt="" class="reviews__item-ava-img">
+                           <div class="reviews__info">
+                               <span class="reviews__info-name">
+                                   «Паркетович»
+                               </span>
+                               <span class="reviews__info-sphere">
+                                   Отзыв от партнеров
+                               </span>
+                           </div>
+                       </div>
+                       <div class="reviews-item__raiting">           
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#868695"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                            </div>
+                        <div class="reviews__item-comment">
+                            <p class="reviews__item-full-text text">Наша компания занимается продажей, изготовлением и покрытием паркета. Мы всегда идём по пути оптимизации затрат для себя и для наших заказчиков и долгое время были в поиске хорошей альтернативы по химии, пока не познакомились с продукцией  TRI u fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</p>
+                            <span class="reviews__item-btn js-btn-switch">
+                                        Читать далее 
+                            </span>
+                        </div>        
+                    
+                   </div>
+                   <div class="reviews__item">
+                       <div class="reviews__item-top">
+                           <img src="assets/img/logo-comp.svg" alt="" class="reviews__item-ava-img">
+                           <div class="reviews__info">
+                               <span class="reviews__info-name">
+                                   «Паркетович»
+                               </span>
+                               <span class="reviews__info-sphere">
+                                   Отзыв от партнеров
+                               </span>
+                           </div>
+                       </div>
+                       <div class="reviews-item__raiting">           
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#E30611"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                                                                  
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="active-stars" data-count="">
+                                  <g clip-path="url(#clip0_373_2166)">
+                                    <path d="M15.4608 6.25338C15.362 5.94965 15.0926 5.73461 14.7752 5.70588L10.4451 5.31277L8.73383 1.30636C8.60748 1.01201 8.32 0.822037 8.00002 0.822037C7.68004 0.822037 7.39244 1.01201 7.2669 1.30636L5.55564 5.31277L1.22489 5.70588C0.907426 5.73518 0.638599 5.95022 0.539263 6.25338C0.440499 6.55711 0.53171 6.89025 0.771811 7.10083L4.04499 9.97094L3.07989 14.2216C3.00928 14.5341 3.13059 14.8573 3.38992 15.0448C3.52931 15.146 3.69308 15.1966 3.85742 15.1966C3.99864 15.1966 4.13998 15.1591 4.26621 15.0836L8.00002 12.851L11.7331 15.0836C12.007 15.2472 12.3514 15.2322 12.6101 15.0448C12.8694 14.8573 12.9908 14.5341 12.9201 14.2216L11.9551 9.97094L15.2282 7.10083C15.4682 6.89025 15.5595 6.5578 15.4608 6.25338Z" fill="#868695"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_373_2166">
+                                      <rect width="15" height="15" fill="white" transform="translate(0.5 0.5)"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg> 
+                            </div>
+                        <div class="reviews__item-comment">
+                            <p class="reviews__item-full-text text">Наша компания занимается продажей, изготовлением и покрытием паркета. Мы всегда идём по пути оптимизации затрат для себя и для наших заказчиков и долгое время были в поиске хорошей альтернативы по химии, пока не познакомились с продукцией  TRI u fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</p>
+                            <span class="reviews__item-btn js-btn-switch">
+                                        Читать далее 
+                            </span>
+                        </div>        
+                    
+                   </div>
+               </div>
+            </div>
+        </section>
+         <script src="assets/js/main.js"></script>
+    </body>
+</html>
