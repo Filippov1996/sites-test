@@ -1,9 +1,0 @@
-#slide13 .popup{
-        width: 1280px;
-        height: 800px;
-        background-image: url(../images/slide10/popup.png);
-        background-size: 1280px 800px;
-        
-        top: 0;
-        cursor: pointer;
-}
