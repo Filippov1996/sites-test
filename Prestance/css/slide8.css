@@ -1,0 +1,62 @@
+
+#slide8 .bg {
+    background-image: url(../images/slide8/bg.png);
+	background-size: 1280px 800px;
+	left:0px;
+	top:0px;
+	width:1280px;
+	height:800px;
+}
+#slide8 .title{
+    width: 460px;
+    height: 67px;
+    background: url(../images/slide8/title.png);
+    background-size:460px  67px;
+    top: 70px;
+    left: 80px;
+}
+#slide8 .item{
+    width: 
+}
+#slide8 .item{
+    width: 670px;
+    left: 80px;
+}
+#slide8 .item1{
+     width: 657px;
+     background: url(../images/slide8/item1.png);
+     background-size:657px 91px;
+     height: 91px;
+     top: 170px;
+}
+#slide8 .item2{
+     width: 657px;
+     background: url(../images/slide8/item2.png);
+     background-size:657px 396px;
+     height: 396px;
+     top: 270px;
+}
+#slide8 .btn-arrow{
+    top:300px;
+    left: 670px;
+}
+#slide8 .menu{
+    top: 740px;
+    left: 599px;
+}
+#slide8 .airplane{
+     width: 784px;
+     height: 349px;
+     background: url(../images/slide8/airplane.png);
+     background-size:784px 349px;
+     top:272px;
+    left: 450px;
+}
+#slide8 .packshoot{
+     width: 339px;
+     height: 131px;
+     background: url(../images/slide8/packshoot.png);
+     background-size:339px 131px;
+    top: 567px;
+    left: 860px;
+}
