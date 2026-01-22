@@ -1,0 +1,74 @@
+
+#slide5 .bg {
+    background-image: url(../images/slide5/bg.png);
+	background-size: 1280px 800px;
+	left:0px;
+	top:0px;
+	width:1280px;
+	height:800px;
+}
+#slide5 .title{
+    width: 459px;
+    height: 66px;
+    background: url(../images/slide5/title.png);
+    background-size:459px 66px;
+    top: 70px;
+    left: 80px;
+}
+#slide5 .item{
+    width: 670px;
+    left: 80px;
+}
+#slide5 .item1{
+     width: 670px;
+     background: url(../images/slide5/item1.png);
+     background-size:670px 180px;
+     height: 180px;
+     top: 170px;
+}
+#slide5 .item2{
+     width: 657px;
+     background: url(../images/slide5/item2.png);
+     background-size:657px 265px;
+     height: 265px;
+     top: 370px;
+}
+#slide5 .menu{
+    top: 740px;
+    left: 599px;
+}
+#slide5 .btn-pos1{
+    left: 680px;
+    top:190px;
+}
+#slide5 .btn-pos2{
+    left: 680px;
+    top:380px;
+}
+#slide5 .btn-arrow.small{
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+     left: 686px;
+    top:300px;
+}
+
+
+
+
+#slide5 .airplane{
+     width: 784px;
+     height: 349px;
+     background: url(../images/slide5/airplane.png);
+     background-size:784px 349px;
+     top:292px;
+    left: 450px;
+}
+#slide5 .packshoot{
+     width: 339px;
+     height: 131px;
+     background: url(../images/slide5/packshoot.png);
+     background-size:339px 131px;
+    top: 567px;
+    left: 860px;
+}

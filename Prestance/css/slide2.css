@@ -1,0 +1,63 @@
+
+#slide2 .bg {
+    background-image: url(../images/slide2/bg.png);
+	background-size: 1280px 800px;
+	left:0px;
+	top:0px;
+	width:1280px;
+	height:800px;
+}
+#slide2 .btn-arrow{
+    top: 100px;
+    left:650px;
+}
+
+#slide2 .item{
+    width:657px;
+	height:84px;
+    background-size: 657px 84px;
+    left:70px;
+}
+#slide2 .item1{
+    background-image: url(../images/slide2/item1.png);
+    top: 80px;
+}
+#slide2 .item2{
+    background-image: url(../images/slide2/item2.png);
+    top: 175px;
+   
+}
+#slide2 .item3{
+    background-image: url(../images/slide2/item3.png);
+     top: 270px;
+}
+#slide2 .item4{
+    background-image: url(../images/slide2/item4.png);
+    top:365px;
+   
+}
+#slide2 .item5{
+    background-image: url(../images/slide2/item5.png);
+    top: 460px;
+    
+}
+#slide2 .item6{
+    background-image: url(../images/slide2/item6.png);
+    top: 555px;
+    
+}
+#slide2 .person{
+    width:470px;
+	height:478px;
+    background-image: url(../images/slide2/person.png);
+    background-size: 470px 478px;
+    top:222px;
+    left: 760px;
+}
+#slide2 .menu{
+    top: 740px;
+    left: 599px;
+}
+
+
+

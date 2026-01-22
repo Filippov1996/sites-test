@@ -1,0 +1,46 @@
+
+#slide4 .bg {
+    background-image: url(../images/slide4/bg.png);
+	background-size: 1280px 800px;
+	left:0px;
+	top:0px;
+	width:1280px;
+	height:800px;
+}
+#slide4 .btn-arrow{
+    top: 100px;
+    left:650px;
+}
+
+#slide4 .item{
+    width:540px;
+	height:429px;
+    background-size: 540px 429px;
+}
+#slide4 .item1{
+    background-image: url(../images/slide4/item1.png);
+    top: 250px;
+     left:76px;
+}
+#slide4 .item2{
+    background-image: url(../images/slide4/item2.png);
+    top: 250px;
+    left:660px;
+}
+
+
+#slide4 .person{
+    width:470px;
+	height:478px;
+    background-image: url(../images/slide4/person.png);
+    background-size: 470px 478px;
+    top:222px;
+    left: 760px;
+}
+#slide4 .menu{
+    top: 740px;
+    left: 599px;
+}
+
+
+

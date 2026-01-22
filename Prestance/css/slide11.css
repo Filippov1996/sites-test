@@ -1,0 +1,109 @@
+
+#slide11 .bg {
+    background-image: url(../images/slide11/bg.png);
+	background-size: 1280px 800px;
+	left:0px;
+	top:0px;
+	width:1280px;
+	height:800px;
+}
+#slide11 .title{
+    width: 1193px;
+    height: 160px;
+    background: url(../images/slide11/title.png);
+    background-size:1193px 160px;
+    top: 40px;
+    left: 80px;
+}
+#slide11 .item{
+    width: 348px;
+    height: 435px;
+    background-size:348px 435px;
+     top: 230px;
+
+}
+#slide11 .btn-data{
+    cursor: pointer;
+}
+
+#slide11 .btn-data1{
+    width: 191px;
+    height: 200px;
+    background: url(../images/slide11/btn1.png);
+    background-size:191px 200px;
+    top: 10px;
+    left: 80px;
+
+}
+
+#slide11 .val{
+    font-size: 80px;
+    font-family: Arial;
+    color: #ffffff;
+     position: absolute;
+    font-weight: 700;
+}
+#slide11 .val1{
+    top:250px;
+    left: 80px;
+}
+#slide11 .val2{
+    top:250px;
+    left: 80px;
+}
+#slide11 .val3{
+    top:250px;
+    left: 80px;
+}
+#slide11 .pulse{
+     animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+}
+
+#slide11 .btn-data2{
+    width: 186px;
+    height: 200px;
+    background: url(../images/slide11/btn2.png);
+    background-size:191px 200px;
+    top: 10px;
+    left: 80px;
+}
+
+#slide11 .btn-data3{
+    width: 193px;
+    height: 200px;
+    background: url(../images/slide11/btn3.png);
+    background-size: 193px 200px;
+    top: 10px;
+    left: 80px;
+}
+#slide11 .item1{
+     width: 348px;
+     background-image: url(../images/slide11/border1.png);
+       left: 80px;
+}
+#slide11 .item2{
+     width: 348px;
+     background-image: url(../images/slide11/border2.png);
+       left: 470px;
+}
+#slide11 .item3{
+     width: 348px;
+     background-image: url(../images/slide11/border3.png);
+     left: 860px;
+}
+#slide11 .menu{
+    top: 740px;
+    left: 599px;
+}
