@@ -1,0 +1,19 @@
+<svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60.000000" height="60.000000" fill="none" customFrame="url(#clipPath_6)">
+	<defs>
+		<linearGradient id="paint_linear_3" x1="11.5384636" x2="50.192318" y1="7.5" y2="54.8076973" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(66,57,100)" offset="0" stop-opacity="1" />
+			<stop stop-color="rgb(20,11,40)" offset="0.771709144" stop-opacity="1" />
+		</linearGradient>
+		<clipPath id="clipPath_6">
+			<rect width="60.000000" height="60.000000" x="0.000000" y="0.000000" rx="30.000000" fill="rgb(255,255,255)" />
+		</clipPath>
+		<clipPath id="clipPath_7">
+			<rect width="28.000000" height="28.000000" x="16.000000" y="16.000000" fill="rgb(255,255,255)" />
+		</clipPath>
+	</defs>
+	<rect id="icon" width="60.000000" height="60.000000" x="0.000000" y="0.000000" rx="30.000000" fill="url(#paint_linear_3)" />
+	<g id="diversity 1" clip-path="url(#clipPath_7)" customFrame="url(#clipPath_7)">
+		<rect id="diversity 1" width="28.000000" height="28.000000" x="16.000000" y="16.000000" />
+		<path id="Vector" d="M22.9579 26.5985C20.3628 26.5985 18.259 24.4947 18.259 21.8995C18.259 19.3044 20.3628 17.2006 22.9579 17.2006C25.5531 17.2006 27.6569 19.3044 27.6569 21.8995C27.6569 24.4947 25.5531 26.5985 22.9579 26.5985ZM43.167 26.7126L31.7446 26.7126L37.4558 16.8203L43.167 26.7126ZM42.2881 32.2093L42.2881 41.8744L32.623 41.8744L32.623 32.2093L42.2881 32.2093ZM16.8333 37.0418L22.9706 43.1796L29.1084 37.0418L22.9706 30.9045L16.8333 37.0418Z" fill-rule="evenodd" stroke="rgb(255,255,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.640625" />
+	</g>
+</svg>
