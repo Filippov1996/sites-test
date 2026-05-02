@@ -1,0 +1,93 @@
+#slide20{
+  width: 100%;
+  height: 100%;
+}
+#slide20 div{
+	position: absolute;
+}
+#slide20 .info-block{
+	width: 794px;
+	height: 540px;
+	background: url(../images/slide20/ellipse.png) no-repeat;
+	background-size:794px 540px;
+	z-index: 2;
+}
+#slide20 .header{
+	width: 546px;
+	height: 28px;
+	background: url(../images/slide20/header.png) no-repeat;
+	background-size: 546px 28px;
+	top: 89px;
+	left: -100%;
+	animation: 	moveSlide20 0.500s 0.300s forwards;
+}
+#slide20 .title{
+	width: 353px;
+	height: 38px;
+	background: url(../images/slide20/title.png) no-repeat;
+	background-size: 353px 38px;
+	top: 125px;
+	left: -100%;
+	animation: 	moveSlide20 0.500s 0.400s forwards;
+}
+
+
+
+#slide20 .item1{
+	width: 370px;
+  	height: 19px;
+	background: url(../images/slide20/list-item1.png) no-repeat;
+	background-size: 370px 19px;
+    top: 186px;
+	left: -100%;
+	animation: 	moveSlide20 0.500s 0.500s forwards;
+	
+}
+
+#slide20 .item2{
+	width: 592px;
+    height: 149px; 
+	background: url(../images/slide20/list-item2.png) no-repeat;
+	background-size: 592px 149px;
+	top: 219px;
+	left: -100%;
+	animation: 	moveSlide13 0.500s 0.600s forwards;
+}
+#slide20 .item3{
+	width: 607px;
+    height: 84px;
+	background: url(../images/slide20/list-item3.png) no-repeat;
+	background-size: 607px 84px;
+	top: 384px;
+	left: -100%;
+	animation: 	moveSlide13 0.500s 0.700s forwards;
+}
+
+
+#slide20 .disc{
+	top: 506px;
+	left: 26px;
+	width: 575px;
+	height: 12px;
+	background: url(../images/slide20/disc.png) no-repeat;
+	background-size: 575px 12px;
+	z-index: 3;
+}
+
+#slide20 .image-block{
+	width: 334px;
+	height: 540px;
+	background: url(../images/slide20/leg-doc.png) no-repeat;
+	background-size: 334px 540px;
+	left: 628px;
+}
+@keyframes moveSlide20{
+	0%{
+		
+		
+	}
+	100%{
+		left: 90px;
+	}
+	
+}

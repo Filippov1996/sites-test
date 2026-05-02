@@ -1,0 +1,28 @@
+.slide3{
+	width:1194px;
+    height:834px;
+}
+.slide3 .bg{
+    width:1194px;
+     height:834px;
+    background: url(../images/slide3/bg.png) no-repeat; 
+     background-size: 1194px 834px;
+}
+
+.slide3 .popup{
+    display: none;
+    width:1194px;
+    height:834px;
+    background: url(../images/slide3/popup.png) no-repeat; 
+     background-size: 1194px 834px;
+}
+
+.slide3 .popup .close-popup{
+    width: 70px;
+    height: 70px;
+    top:160px;
+    left: 1050px;
+}
+
+
+

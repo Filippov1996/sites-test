@@ -1,0 +1,126 @@
+#slide5{
+	width: 960px;
+	height: 540px;
+}
+#slide5 .header{
+    top: 35px;
+    left: 47px;
+    width: 414px;
+    height: 65px;
+    background: url(../images/slide5/header.png) no-repeat;
+    background-size: 414px 65px;
+}
+
+#slide5 .border{
+    background-color: rgba(255, 255, 255, 0.569);
+    box-shadow: 0px 0px 6px 0px rgba(3, 0, 58, 0.1);
+    position: absolute;
+    left: 47px;
+    top: 134px;
+    width: 865px;
+    height: 320px;
+    border-radius: 20px;
+  }
+#slide5 .bullit{
+    left: 84px;
+}
+#slide5 .b1{
+    top: 162px;
+}
+#slide5 .b2{
+    top: 193px;
+}
+#slide5 .b3{
+    top: 223px;
+}
+#slide5 .b4{
+    top: 254px;
+}
+#slide5 .b5{
+    top: 284px;
+}
+#slide5 .b6{
+    top: 315px;
+}
+#slide5 .b7{
+    top: 346px;
+}
+#slide5 .b8{
+    top: 376px;
+}
+#slide5 .b9{
+    top: 407px
+}
+#slide5 .text-block{
+    left: 120px;
+}
+#slide5 .text1{
+    background: url(../images/slide5/text1.png) no-repeat;
+    background-size: 345px 26px;
+    width: 345px;
+    height: 26px;
+    top: 162px;
+}
+#slide5 .text2{
+    background: url(../images/slide5/text2.png) no-repeat;
+    background-size: 640px 30px;
+    top: 193px;
+    width: 640px;
+    height: 30px;
+}
+
+#slide5 .text3{
+    background: url(../images/slide5/text3.png) no-repeat;
+    background-size: 640px 30px;
+    top: 223px;
+    width: 640px;
+    height: 30px;
+}
+
+#slide5 .text4{
+    background: url(../images/slide5/text4.png) no-repeat;
+    background-size: 640px 30px;
+    top: 254px;
+    width: 640px;
+    height: 30px;
+}
+#slide5 .text5{
+    background: url(../images/slide5/text5.png) no-repeat;
+    background-size: 640px 30px;
+    top: 284px;
+    width: 640px;
+    height: 30px;
+}
+
+#slide5 .text6{
+    background: url(../images/slide5/text6.png) no-repeat;
+    background-size: 640px 30px;
+    top: 315px;
+    width: 640px;
+    height: 30px;
+}
+
+#slide5 .text7{
+    background: url(../images/slide5/text7.png) no-repeat;
+    background-size: 640px 30px;
+    top: 345px;
+    width: 640px;
+    height: 30px;
+}
+#slide5 .text8{
+    background: url(../images/slide5/text8.png) no-repeat;
+    background-size: 640px 30px;
+    top: 373px;
+    width: 640px;
+    height: 30px;
+}
+#slide5 .text9{
+    background: url(../images/slide5/text9.png) no-repeat;
+    background-size: 640px 30px;
+    top: 407px;
+    width: 640px;
+    height: 30px;
+}
+
+
+

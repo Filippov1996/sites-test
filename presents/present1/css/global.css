@@ -1,0 +1,279 @@
+* { padding: 0; margin: 0; user-select: none; 
+	-webkit-outline: none;
+	outline: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+	user-select: none;
+	-ms-user-select: none;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}  
+
+#slide1,#slide2,#slide3,#slide4,#slide5,#slide6,#slide7,#slide8,#slide9,#slide10,#slide11,#slide12,#slide13,#slide14,#slide15,#slide16,#slide17,#slide18,#slide19,#slide20,#slide21,#slide22,#slide23,#slide24{
+	display: none;
+}
+#slide5,#slide7,#slide8,#slide12,#slide14,#slide16,#slide18,#slide19,#slide20,#slide21{
+	background: url(../images/circle2.png) no-repeat;
+	background-position-x:500px;
+	background-position-y:-200px;
+	background-size: 1000px 1000px;
+}
+
+#display {		
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 960px;
+    height: 540px;
+	overflow: hidden;
+	transform-origin: 0% 0%;
+	transform: scale(1,1);
+}
+
+#display>div>div {
+	
+}
+#display #goToPrevSlide{  
+    position: absolute;
+	background-repeat: no-repeat;   
+}
+#display #goToNextSlide{  
+    position: absolute;
+	background-repeat: no-repeat;   
+}
+#display #home{  
+    position: absolute;
+	background-repeat: no-repeat;   
+}
+
+
+
+
+
+
+
+
+#goToPrevSlide {
+	cursor: pointer;		
+	background-repeat: no-repeat;	
+	z-index: 100000;	
+}
+
+#goToNextSlide {
+	cursor: pointer;
+	background-repeat: no-repeat;	
+	z-index: 100000;	
+}
+
+#home {
+	cursor: pointer;		
+	background-repeat: no-repeat;	
+	background-image: url(../images/home.png);
+	z-index: 100000;
+	background-size: 123.5px 59.5px;
+	left:0px;
+	top:0px;
+	width:123.5px;
+	height:59.5px;
+}
+.fin{
+	cursor: pointer;
+}
+.next_desk {
+	background-image: url(../images/next_desk.png);
+	background-size:70px 130px;
+	left:92.7%;
+	top:210px;
+	width:70px;
+	height:130px;
+}
+
+.prev_desk {
+	background-image: url(../images/prev_desk.png);
+	background-size:70px 130px;
+	left:0px;
+	top:210px;
+	width:70px;
+	height:120px;
+}
+
+@media only screen and (max-width: 1024px) {
+	.next_desk {
+		background-image: url(../images/next_mob.png);
+		background-size:50px 128px;
+		top: 220px;
+		left:94.8%;
+		width: 50px;
+		height:  128px;
+	}
+	.prev_desk {
+		background-image: url(../images/prev_mob.png);
+		background-size: 50px 128px;
+		top: 220px;
+		left:0%;
+		width: 50px;
+		height:  128px;
+	}
+}
+
+.question1, .question2, .question3, .question4, .question5 {
+	background-image: none !important;
+}
+
+.check_marker_yellow {	
+	background-color: rgba(255,0,0,0);
+	border-top-right-radius: 18px;
+	border-bottom-right-radius: 18px;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.check_marker_yellow_active {
+	background-color: rgba(0, 204, 255, 0.5);
+}
+
+.check_marker_yellow_correct {	
+	background-color: rgba(72, 255, 0, 0.5);
+}
+
+.check_marker_yellow_wrong {	
+	background-color: rgba(255,0,0,0.5);
+}
+
+/* */
+
+.animatable {	
+	animation: animation 750ms forwards;
+	animation-play-state: running;
+}
+
+.delay_50 {  animation-delay: 50ms; }
+.delay_100 { animation-delay: 100ms; }
+.delay_150 { animation-delay: 150ms; }
+.delay_200 { animation-delay: 200ms; }
+.delay_250 { animation-delay: 250ms; }
+.delay_300 { animation-delay: 300ms; }
+.delay_350 { animation-delay: 350ms; }
+.delay_400 { animation-delay: 400ms; }
+.delay_450 { animation-delay: 450ms; }
+.delay_500 { animation-delay: 500ms; }
+.delay_550 { animation-delay: 550ms; }
+.delay_600 { animation-delay: 600ms; }
+.delay_650 { animation-delay: 650ms; }
+.delay_700 { animation-delay: 700ms; }
+.delay_750 { animation-delay: 750ms; }
+.delay_800 { animation-delay: 800ms; }
+.delay_850 { animation-delay: 850ms; }
+.delay_900 { animation-delay: 900ms; }
+.delay_950 { animation-delay: 950ms; }
+.delay_1000 { animation-delay: 1000ms; }
+.delay_1050 { animation-delay: 1050ms; }
+.delay_1100 { animation-delay: 1100ms; }
+.delay_1150 { animation-delay: 1150ms; }
+.delay_1200 { animation-delay: 1200ms; }
+.delay_1250 { animation-delay: 1250ms; }
+.delay_1300 { animation-delay: 1300ms; }
+.delay_1400 { animation-delay: 1400ms; }
+.delay_1500 { animation-delay: 1500ms; }
+.delay_1600 { animation-delay: 1600ms; }
+.delay_1700 { animation-delay: 1700ms; }
+.delay_1800 { animation-delay: 1800ms; }
+
+@keyframes animation { 100% { opacity: 1; transform: scale(1,1) translate(0px, 0px); } }
+
+.slide_up {
+	opacity: 0;	
+	transform: scale(1.0,1.0) translate(0px, 30px);
+}
+
+.slide_down {
+	opacity: 0;	
+	transform: scale(1.0,1.0) translate(0px, -30px);
+}
+
+.slide_left {
+	opacity: 0;	
+	transform: scale(1.0,1.0) translate(30px, 0px);
+}
+
+.slide_right {
+	opacity: 0;	
+	transform: scale(1.0,1.0) translate(-30px, 0px);
+}
+
+.scale_up {
+	opacity: 0;	
+	transform: scale(0.5,0.5) translate(0px, 0px);
+}
+
+.scale_right {
+	opacity: 1;
+	transform-origin: 0% 50%;	
+	transform: scale(0, 1) translate(0px, 0px);
+}
+
+.scale_left {
+	opacity: 1;
+	transform-origin: 100% 50%;	
+	transform: scale(0, 1) translate(0px, 0px);
+}
+
+.scale_double {
+	opacity: 0;	
+	transform: scale(2.0, 2.0) translate(0px, 0px);
+}
+
+.scale_slimup {
+	opacity: 1;
+	transform-origin: 50% 100%;	
+	transform: scale(1, 0) translate(0px, 0px);
+}
+
+.scale_down {
+	opacity: 1;
+	transform-origin: 50% 0%;	
+	transform: scale(1, 0) translate(0px, 0px);
+}
+
+.fade_in {
+	opacity: 0;
+	transform-origin: 50% 5%;	
+	transform: scale(1, 1) translate(0px, 0px);
+}
+
+.flashing_finger {
+	background-image: url(../images/finger.png);
+	background-size: 75px 107.5px;	
+	left: 850px;
+	top: 410px;
+    width: 75px;
+    height: 107.5px;
+	opacity: 0;	
+	
+	animation: flashing_block 1000ms 1500ms infinite;
+}
+
+@keyframes flashing_block {
+	0% { opacity: 0;}
+	20% { opacity: 1;}	
+	100% { opacity: 0;}
+}
+
+
+
+.show{
+    display: block;
+}
+
+
+.hide{
+    display: none;
+}

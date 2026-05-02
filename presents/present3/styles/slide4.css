@@ -1,0 +1,96 @@
+#slide4{
+	width: 960px;
+	height: 540px;
+}
+#slide4 .bg{
+    width: 960px;
+	height:  540px;
+    background: url(../images/slide4/bg.png) no-repeat;
+    background-size: 960px  540px;
+}
+#slide4 .header{
+    width: 320px;
+    height: 74px;
+	background: url(../images/slide4/header.png) no-repeat;
+	background-size:320px  74px;
+	left: 89px;
+    top: 47px;
+}
+
+#slide4 .item{
+    width: 350px;
+    height: 29px;
+    left: 86px;
+    
+}
+#slide4 .item1{
+   top: 153px;
+}
+#slide4 .item2{
+   top: 195px;
+}
+#slide4 .item3{
+    top: 277px;
+}
+#slide4 .item4{
+    top: 314px;
+}
+
+#slide4 .item1 .text{
+    width: 327px;
+    height: 32px;
+	background: url(../images/slide4/text1.png) no-repeat;
+	background-size:327px 32px;
+	left: 29px;
+    top: 2px;
+}
+#slide4 .item2 .text{
+    width: 290px;
+    height: 72px;
+	background: url(../images/slide4/text2.png) no-repeat;
+	background-size: 290px  72px;
+	left: 29px;
+    top: 2px;
+}
+
+#slide4 .item3 .text{
+    width: 271px;
+    height: 16px;
+	background: url(../images/slide4/text3.png) no-repeat;
+	background-size: 271px  16px;
+	left: 29px;
+    top: 2px;
+}
+
+#slide4 .item4 .text{
+    width: 273px;
+    height: 31px;
+	background: url(../images/slide4/text4.png) no-repeat;
+	background-size:273px 31px;
+	left: 29px;
+    top: 2px;
+}
+
+
+
+#slide4 .btn-reply{
+    left: 86px;
+    top: 410px;
+}
+#slide4 .true-label{
+     left: 91px;
+     top: 134px;
+}
+#slide4 .false-label{
+     left: 91px;
+     top: 134px;
+}
+
+#slide4 .modal-answer{
+     width: 601px;
+     height: 743px;
+     background: url(../images/slide4/modal.png) no-repeat;
+	 background-size: 601px 743px;
+     left: 441px;
+     top: 71px;
+}

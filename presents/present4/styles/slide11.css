@@ -1,0 +1,153 @@
+#slide11{
+	width: 960px;
+	height: 540px; 
+}
+
+#slide11 .header{
+	width: 542px;
+    height: 65px;
+	background: url(../images/slide11/header.png) no-repeat;
+	background-size:542px 65px;
+	left: 64px;
+    top: 47px;
+}
+
+#slide11 .line{
+    width: 160px;
+    left: 64px;
+    top: 126px;
+}
+#slide11 .border{
+ background-color: rgba(255, 255, 255, 0.569);
+  box-shadow: 0px 0px 6px 0px rgba(3, 0, 58, 0.1);
+  left: 64px;
+  top: 155px;
+  width: 829px;
+  height: 331px;
+}
+
+#slide11 .bullit{
+    left: 82px;
+}
+#slide11 .b1{
+  top: 174px;
+}
+#slide11 .text1{
+   width: 331px;
+    height: 15px;
+    background: url(../images/slide11/text1.png) no-repeat;
+    background-size:331px 15px;
+    left: 113px;
+    top: 174px;
+}
+
+#slide11 .b2{
+  top: 199px;
+}
+#slide11 .text2{
+    width: 752px;
+    height: 32px;
+    background: url(../images/slide11/text2.png) no-repeat;
+    background-size:752px 32px;
+    left: 113px;
+   top: 199px;
+}
+
+#slide11 .b3{
+   top: 236px;
+}
+#slide11 .text3{
+    width: 743px;
+    height: 33px;
+    background: url(../images/slide11/text3.png) no-repeat;
+    background-size:743px 33px;
+    left: 113px;
+    top: 236px;
+}
+
+
+#slide11 .b4{
+  top: 275px;
+}
+#slide11 .text4{
+    width: 749px;
+    height: 51px;
+    background: url(../images/slide11/text4.png) no-repeat;
+    background-size:749px 51px;
+    left: 113px;
+     top: 275px;
+}
+
+#slide11 .b5{
+ top: 333px;
+}
+#slide11 .text5{
+   width: 677px;
+    height: 15px;
+    background: url(../images/slide11/text5.png) no-repeat;
+    background-size:677px 15px;
+    left: 113px;
+   top: 333px;
+}
+
+
+#slide11 .b6{
+  top: 354px;
+}
+#slide11 .text6{
+    width: 448px;
+    height: 15px;
+    background: url(../images/slide11/text6.png) no-repeat;
+    background-size:448px 15px;
+    left: 113px;
+    top: 354px;
+}
+
+
+#slide11 .b7{
+ top: 378px;
+}
+#slide11 .text7{
+    width: 770px;
+    height: 51px;
+    background: url(../images/slide11/text7.png) no-repeat;
+    background-size:770px 51px;
+    left: 113px;
+    top: 378px;
+}
+#slide11 .b8{
+    top: 437px;
+}
+#slide11 .text8{
+    width: 558px;
+    height: 15px;
+    background: url(../images/slide11/text8.png) no-repeat;
+    background-size:558px 15px;
+    left: 113px;
+    top: 437px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

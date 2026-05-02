@@ -1,0 +1,29 @@
+#slide24{
+	width: 960px;
+	height: 540px;
+}
+#slide24 .bg{
+    width: 960px;
+	height: 540px;
+    background: url(../images/slide24/bg.png) no-repeat;
+    background-size:960px 540px;
+}
+#slide24  .header{
+    width:783.5px;
+    height:74.5px;
+    background: url(../images/slide24/header.png) no-repeat;
+    background-size:783.5px 74.5px;
+    left:43px;
+    top: 19px;
+}   
+#slide24  .table{
+    width:1002px;
+    height:326px;
+    background: url(../images/slide24/table.png) no-repeat;
+    background-size:1002px 326px;
+    left:43px;
+    top: 119px;
+}   
+
+
+

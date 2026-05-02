@@ -1,0 +1,59 @@
+#slide26{
+	width: 960px;
+	height: 540px;
+}
+#slide26 .bg-top{
+	width: 960px;
+	height: 226px;
+    background-color: #ffffff;
+}
+#slide26 .bg-bottom{
+	width:960px;
+    height:314px;
+    background: url(../images/slide26/bg.png) no-repeat;
+    background-size:960px 314px;
+    top: 226px;
+}
+#slide26  .header{
+    width:610.5px;
+    height:75px;
+    background: url(../images/slide26/header.png) no-repeat;
+    background-size:610.5px 75px;
+    left:43px;
+    top: 69px;
+}   
+#slide26 .plashka{
+    width:150px;
+    height: 22px;
+    border-radius: 4px;
+    background-color:#007FFF;  
+    left:43px;
+    top: 216px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

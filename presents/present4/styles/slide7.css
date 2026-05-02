@@ -1,0 +1,141 @@
+#slide7{
+	width: 960px;
+	height: 540px; 
+}
+
+#slide7 .header{
+	width: 599px;
+    height: 98px;
+	background: url(../images/slide7/header.png) no-repeat;
+	background-size:599px  98px;
+	left: 64px;
+    top: 47px;
+}
+
+#slide7 .line{
+    width: 160px;
+     left: 64px;
+     top: 156px;
+}
+#slide7 .border{
+ background-color: rgba(255, 255, 255, 0.569);
+  box-shadow: 0px 0px 6px 0px rgba(3, 0, 58, 0.1);
+  left: 64px;
+  top: 185px;
+  width: 759px;
+  height: 331px;
+}
+
+#slide7 .item{
+    width: 756px;
+    height: 29px;
+    left: 112px;
+}
+#slide7 .item1{
+    top: 205px;
+}
+#slide7 .item2{
+  top: 236px;
+}
+#slide7 .item3{
+    top: 264px;
+}
+#slide7 .item4{
+    top: 294px;
+}
+#slide7 .item5{
+    top: 323px;
+}
+#slide7 .item6{
+   top: 353px;
+}
+#slide7 .item7{
+    top: 384px;
+}
+#slide7 .item8{
+     top: 415px;
+}
+#slide7 .item1 .text{
+    width: 456px;
+    height: 17px;
+	background: url(../images/slide7/text1.png) no-repeat;
+	background-size:456px  17px;
+	left: 29px;
+    top: 2px;
+}
+
+#slide7 .item2 .text{
+    width: 228px;
+    height: 16px;
+	background: url(../images/slide7/text2.png) no-repeat;
+	background-size:228px 16px;
+	left: 29px;
+    top: 2px;
+}
+
+#slide7 .item3 .text{
+    width: 364px;
+    height: 17px;
+	background: url(../images/slide7/text3.png) no-repeat;
+	background-size: 364px 17px;
+	left: 29px;
+    top: 2px;
+}
+#slide7 .item4 .text{
+    width: 333px;
+    height: 17px;
+	background: url(../images/slide7/text4.png) no-repeat;
+	background-size: 333px 17px;
+	left: 29px;
+    top: 2px;
+}
+#slide7 .item5 .text{
+     width: 166px;
+    height: 17px;
+	background: url(../images/slide7/text5.png) no-repeat;
+	background-size:166px 17px;
+	left: 29px;
+    top: 2px;
+}
+
+#slide7 .item6 .text{
+   width: 247px;
+    height: 17px;
+	background: url(../images/slide7/text6.png) no-repeat;
+	background-size: 247px 17px;
+	left: 29px;
+    top: 2px;
+}
+
+#slide7 .item7 .text{
+    width: 598px;
+    height: 17px;
+	background: url(../images/slide7/text7.png) no-repeat;
+	background-size:598px 17px;
+	left: 29px;
+    top: 2px;
+}
+#slide7 .item8 .text{
+   width: 209px;
+   height: 16px;
+	background: url(../images/slide7/text8.png) no-repeat;
+	background-size:209px 16px;
+	left: 29px;
+    top: 2px;
+}
+#slide7 .btn-reply{
+    top:455px;
+    left: 371px;
+}
+
+#slide7 .modal-answer{
+     width: 769px;
+    height: 341px;
+     background: url(../images/slide7/answer.png) no-repeat;
+	 background-size:769px 341px;
+     left: 59px;
+      top: 182px;
+    
+}
+
+

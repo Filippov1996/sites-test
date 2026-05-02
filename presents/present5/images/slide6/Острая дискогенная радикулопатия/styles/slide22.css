@@ -1,0 +1,133 @@
+#slide22{
+	width: 960px;
+	height: 540px;
+}
+
+#slide22 .header{
+	width:689px;
+    height:95.5px;
+	background: url(../images/slide22/header.png) no-repeat;
+	background-size:689px 95.5px;
+	left:81px;
+    top: 49px;
+}
+
+
+#slide22 .item{
+    width: 756px;
+    height: 29px;
+    left:81px;
+}
+
+#slide22 .item1{
+   top: 188px;
+}
+#slide22 .item2{
+  top: 230px;
+}
+#slide22 .item3{
+  top: 274px;
+}
+
+#slide22 .item4{
+  top: 313px;
+}
+#slide22 .item5{
+ top: 352px;
+}
+
+#slide22 .item1 .text{
+    width: 635px;
+    height:38px;
+	background: url(../images/slide22/text1.png) no-repeat;
+	background-size:635px 38px;
+	left: 29px;
+    top: 2px;
+}
+#slide22 .false_answer1 .text-block{
+    width: 635px;
+    height:38px;
+	background: url(../images/slide22/text1-false.png) no-repeat;
+	background-size:635px 38px;
+	left: 29px;
+    top: 2px;
+}
+
+#slide22 .item2 .text{
+   width: 635px;
+    height:38px;
+	background: url(../images/slide22/text2.png) no-repeat;
+	background-size:635px 38px;
+	left: 29px;
+    top: 2px;
+}
+#slide22 .false_answer2 .text-block{
+    width: 635px;
+    height:38px;
+	background: url(../images/slide22/text2-false.png) no-repeat;
+	background-size:635px 38px;
+	left: 29px;
+    top: 2px;
+}
+#slide22 .item3 .text{
+    width: 635px;
+    height:38px;
+	background: url(../images/slide22/text3.png) no-repeat;
+	background-size:635px 38px;
+	left: 29px;
+    top: 2px;
+}
+#slide22 .false_answer3 .text-block{
+    width: 635px;
+    height:38px;
+	background: url(../images/slide22/text3-false.png) no-repeat;
+	background-size:635px 38px;
+	left: 29px;
+    top: 2px;
+}
+#slide22 .item4 .text{
+    width: 529.5px;
+    height:22px;
+	background: url(../images/slide22/text4.png) no-repeat;
+	background-size:529.5px 22px;
+	left: 29px;
+    top: 2px;
+}
+#slide22 .true_answer4 .text-block{
+    width: 635px;
+    height:38px;
+	background: url(../images/slide22/text4-true.png) no-repeat;
+	background-size:635px 38px;
+	left: 29px;
+    top: 2px;
+}
+#slide22 .item5 .text{
+    width: 635px;
+    height:38px;
+	background: url(../images/slide22/text5.png) no-repeat;
+	background-size:635px 38px;
+	left: 29px;
+    top: 2px;
+}
+#slide22 .false_answer5 .text-block{
+    width: 635px;
+    height:38px;
+	background: url(../images/slide22/text5-false.png) no-repeat;
+	background-size:635px 38px;
+	left: 29px;
+    top: 2px;
+}
+
+#slide22 .btn-reply{
+    top:425px;
+    left: 371px;
+}
+
+#slide22 .modal-answer{
+     width: 769px;
+    height: 341px;
+     background: url(../images/slide15/answer.png) no-repeat;
+	 background-size:769px 341px;
+     left: 59px;
+     top: 182px;
+}

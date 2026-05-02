@@ -1,0 +1,162 @@
+#slide16{
+  width: 100%;
+  height: 100%;
+	
+}
+#slide16 div{
+	position: absolute;
+}
+#slide16 .bg{
+	width: 100%;
+	height: 100%;
+	background: url(../images/slide16/bg.png) no-repeat;
+	background-size: 960px 540px;
+}
+#slide16 .label{
+	 width: 158px;
+  	 height: 51px;
+	top: 31px;
+     left:0;
+	right: 0;
+	margin: auto; background:url(../images/slide16/label.png) no-repeat;
+	background-size: 158px 51px;
+	opacity: 0;
+	animation: showSlide14 0.500s 0.300s forwards;
+}
+#slide16 .header{
+	width: 553px;
+     height:64px;
+	background:url(../images/slide16/header.png) no-repeat;
+	background-size: 553px 64px;
+	top: 120px;
+	left:202px;
+	opacity: 0;
+	animation: showSlide14 0.500s 0.400s forwards;
+}
+
+
+#slide16 .question-filed{
+	width: 479px;
+	height: 50%;
+	top: 220px;
+	left: 0px;
+	right: 0;
+	margin: auto;
+}
+#slide16 .item1{
+     width: 479px;
+     height:45px;
+ 	 background:url(../images/slide16/question1.png) no-repeat 16px 8px;
+	 background-size: 410px 25px;
+	 box-shadow: 0 0 8px 6px #eadbcd;
+	 border-radius: 2px;
+	animation: showSlide14 0.500s 0.500s forwards;
+	opacity: 0;
+}
+#slide16 .item2{
+     width: 479px;
+     height:45px;
+ 	background:url(../images/slide16/question2.png) no-repeat 16px 9px;
+	 background-size: 400px 25px;
+	 box-shadow: 0 0 8px 6px #eadbcd;
+	 border-radius: 2px;
+	animation: showSlide14 0.500s 0.600s forwards;
+	opacity: 0;
+	top:55px;
+}
+#slide16 .item3{
+     width: 479px;
+     height:45px;
+ 	background:url(../images/slide16/question3.png) no-repeat 16px 9px;
+	 background-size: 453px 25px;
+	 box-shadow: 0 0 8px 6px #eadbcd;
+	 border-radius: 2px;
+	animation: showSlide14 0.500s 0.700s forwards;
+	opacity: 0;
+	top:108px;
+}
+#slide16 .item4{
+     width: 479px;
+     height:45px;
+ 	background:url(../images/slide16/question4.png) no-repeat 16px 9px;
+	 background-size: 431px 25px;
+	 box-shadow: 0 0 8px 6px #eadbcd;
+	 border-radius: 2px;
+	animation: showSlide14 0.500s 0.800s forwards;
+	opacity: 0;
+	top:165px;
+}
+#slide16 .dot{
+	width: 26px;
+	height: 26px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #9b9b9b;
+	border-radius: 120px;
+}
+#slide16 .item1  .dot{
+	top: 9px;
+	left: 14px;
+}
+
+#slide16 .item2  .dot{
+	top: 7px;
+	left: 14px;
+}
+#slide16 .item3  .dot{
+	top: 7px;
+	left: 14px;
+}
+#slide16 .item4  .dot{
+	top: 7px;
+	left: 14px;
+}
+#slide16 .dot .bullit{
+	width: 18px;
+	height: 18px;
+	position: inherit;
+	background-color: #ff6f00;
+	border-radius: 120px;
+}
+#slide16 .no-active>.dot>.bullit{
+	
+	background-color: transparent;
+	
+}
+
+
+#slide16 .disc{
+	top: 506px;
+	left: 26px;
+	width: 575px;
+	height: 12px;
+	background: url(../images/slide14/disc.png) no-repeat;
+	background-size: 575px 12px;
+	z-index: 3;
+}
+#slide16 .true_answer{
+	 background:url(../images/slide16/question-true.png) no-repeat 61px 13px;
+	 background-size: 365px 17px;
+	box-shadow: 0 0 8px 6px #deefd9;
+}
+#slide16 .false_answer{
+	
+	box-shadow: 0 0 8px 6px #edd3d3;
+}
+
+
+
+
+
+
+@keyframes showSlide14{
+	0%{
+		
+		
+	}
+	100%{
+		opacity: 1;
+	}
+	
+}

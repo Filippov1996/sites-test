@@ -1,0 +1,48 @@
+#slide18{
+	width: 960px;
+	height: 540px; 
+}
+
+#slide18 .header{
+	width:365.5px;
+    height:65px;
+	background: url(../images/slide18/header.png) no-repeat;
+	background-size:365.5px 65px;
+	left: 64px;
+    top: 32px;
+}
+
+#slide18 .border{
+ background-color: rgba(255, 255, 255, 0.569);
+  box-shadow: 0px 0px 6px 0px rgba(3, 0, 58, 0.1);
+  left: 64px;
+   top:122px;
+  width: 759px;
+   height:308px;
+}
+   
+
+
+#slide18 .bullit{
+    left: 102px;
+}
+#slide18 .b1{
+   top:185px;
+}
+#slide18 .text1{
+    width:405px;
+    height:184.5px;
+    background: url(../images/slide18/text1.png) no-repeat;
+    background-size:405px 184.5px;
+    left: 134px;
+     top:182px;
+}
+#slide18 .photo{
+    width:335px;
+    height:308px;
+    background: url(../images/slide18/photo.png) no-repeat;
+    background-size:335px 308px;
+    left: 554px;
+     top:122px;
+}
+

@@ -1,0 +1,113 @@
+#slide9{
+	width: 960px;
+	height: 540px;
+}
+
+#slide9 .header{
+    top: 35px;
+    left: 47px;
+    width: 800px;
+    height: 124px;
+    background: url(../images/slide9/header.png) no-repeat;
+    background-size: 800px 124px;
+}
+#slide9 .border{
+    background-color: rgba(255, 255, 255, 0.569);
+    box-shadow: 0px 0px 6px 0px rgba(3, 0, 58, 0.1);
+    position: absolute;
+    left: 47px;
+    top: 174px;
+    width: 865px;
+    height: 280px;
+    border-radius: 20px;
+}
+#slide9 .item{
+    left: 76px;
+    position: relative;
+}
+#slide9 .item1{
+    top: 200px;
+}
+#slide9 .item2{
+    top: 235px;
+}
+#slide9 .item3{
+    top: 271px;
+}
+#slide9 .item4{
+    top: 305px;
+}
+#slide9 .item1 .text{
+    background: url(../images/slide9/text1.png) no-repeat;
+    background-size: 182px 40px;
+    width: 182px;
+    height: 40px;
+    left: 41px;
+    top: 2px;
+}
+#slide9 .true_answer1 .text-block {
+    width: 190px;
+    height: 34.5px;
+    background: url(../images/slide9/text1-true.png) no-repeat;
+    background-size:190px 34.5px;
+    left: 41px;
+    top: 2px;
+}
+#slide9 .item2 .text{
+    background: url(../images/slide9/text2.png) no-repeat;
+    background-size: 182px 40px;
+    width: 182px;
+    height: 40px;
+    left: 41px;
+    top: 2px;
+}
+#slide9 .false_answer2 .text-block {
+    width: 141px;
+    height: 41px;
+    background: url(../images/slide9/text2-false.png) no-repeat;
+    background-size: 141px 41px;
+    left: 41px;
+    top: 2px;
+}
+#slide9 .item3 .text{
+    background: url(../images/slide9/text3.png) no-repeat;
+    background-size: 182px 40px;
+    width: 182px;
+    height: 40px;
+    left: 41px;
+    top: 2px;
+}
+#slide9 .false_answer3 .text-block {
+    width: 114.5px;
+    height: 40px;
+    background: url(../images/slide9/text3-false.png) no-repeat;
+    background-size: 114.5px 40px;
+    left: 41px;
+    top: 2px;
+}
+#slide9 .item4 .text{
+    background: url(../images/slide9/text4.png) no-repeat;
+    background-size: 182px 40px;
+    width: 182px;
+    height: 40px;
+    left: 41px;
+    top: 2px;
+}
+#slide9 .false_answer4 .text-block {
+    width: 210.5px;
+    height: 40px;
+    background: url(../images/slide9/text4-false.png) no-repeat;
+    background-size:210.5px 40px;
+    left: 41px;
+    top: 2px;
+}
+#slide9 .btn-reply{
+    position: absolute;
+    left: 400px;
+    top: 410px;
+}
+
+
+
+
+

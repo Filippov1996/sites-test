@@ -1,0 +1,58 @@
+.slide6{
+	width:1194px;
+    height:834px;
+}
+.slide6 .bg{
+    width:1194px;
+    height:834px;
+    background: url(../images/slide6/bg.png) no-repeat; 
+     background-size: 1194px 834px;
+}
+.slide6 .header{
+    width:670px;
+    height:80px;
+    background: url(../images/slide6/header.png) no-repeat; 
+    background-size:670px 80px;
+    left: 93px;
+    top: 84px;
+}
+.slide6 .lines{
+    width: 484px;
+    height: 640px;
+    background: url(../images/slide6/lines.png) no-repeat; 
+    background-size:484px  640px;
+    left: 405px;
+    top: 174px;
+}
+.slide6 .label1{
+    width: 288px;
+    height: 115px;
+    background: url(../images/slide6/label1.png) no-repeat; 
+    background-size:288px 115px;
+    left: 875px;
+    top: 134px;
+}
+
+.slide6 .label2{
+    width: 288px;
+    height: 115px;
+    background: url(../images/slide6/label2.png) no-repeat; 
+    background-size:288px 115px;
+    left: 875px;
+    top: 384px;
+}
+.slide6 .label3{
+    width: 288px;
+    height: 115px;
+    background: url(../images/slide6/label3.png) no-repeat; 
+    background-size:288px 115px;
+    left: 875px;
+    top: 664px;
+}
+
+
+
+
+
+
+

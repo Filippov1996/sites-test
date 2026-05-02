@@ -1,0 +1,73 @@
+#slide3{
+  width: 100%;
+  height: 100%;
+}
+#slide3 div{
+	position: absolute;
+}
+#slide3 .info-block{
+	width: 756px;
+	height: 540px;
+	background: url(../images/slide3/ellipse.png) no-repeat;
+	background-size:756px 540px;
+	z-index: 2;
+}
+
+#slide3 .image-block{
+	width: 407px;
+	height: 540px;
+	background: url(../images/slide3/leg.png) no-repeat;
+	background-size:  407px 540px;
+	 left: 553px;
+}
+
+#slide3  .header{
+	width: 166px;
+	height: 23px;
+	background: url(../images/slide3/header.png) no-repeat;
+	background-size: 166px 23px;
+	top: 76px;
+	left: -100%;
+	animation: 	moveTextSlide3 0.500s forwards;
+}
+#slide3 .item1{
+	background: url(../images/slide3/list-item1.png) no-repeat;
+	background-size: 584px 105px;
+	width: 584px;
+	height: 105px;
+	left: -100%;
+	 top: 141px;
+	animation: 	moveTextSlide3 0.500s 0.200s forwards;
+}
+#slide3 .item2{
+	background: url(../images/slide3/list-item2.png) no-repeat;
+	background-size: 600px 216px;
+	width: 600px;
+	height: 216px;
+	left: -100%;
+	top: 270px;
+	animation: 	moveTextSlide3 0.500s 0.300s forwards;
+}
+
+#slide3 .disc{
+	top: 506px;
+	left: 26px;
+	width: 575px;
+	height: 12px;
+	background: url(../images/slide3/disc.png) no-repeat;
+	background-size: 575px 12px;
+	z-index: 3;
+}
+
+@keyframes moveTextSlide3{
+	0%{
+		
+	}
+	100%{
+		left: 90px;
+	}
+	
+	
+}
+
+

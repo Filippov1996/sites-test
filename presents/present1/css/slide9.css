@@ -1,0 +1,128 @@
+#slide9{
+	width: 100%;
+	height: 100%;
+	
+}
+#slide9 div{
+	position: absolute;
+}
+#slide9 .bg{
+	width: 960px;
+	height: 540px;
+	background: url(../images/slide9/bg.png);
+	background-size: 960px 540px;
+}
+
+
+#slide9 .label{
+	width: 158px;
+	 height: 51px;
+	left: 0;
+	right: 0;
+	top: 66px;
+	margin: auto;
+	background:url(../images/slide9/label.png);
+	background-size: 158px 51px;
+	opacity: 0;
+	animation: 	showSlide9 0.500s 0.300s forwards;
+}
+#slide9 .header{
+	width: 247px;
+	 height: 28px;
+	left: 0;
+	right: 0;
+	top: 156px;
+	margin: auto;
+	background:url(../images/slide9/header.png);
+	background-size: 247px 28px;
+	opacity: 0;
+	animation: 	showSlide9 0.500s 0.400s forwards;
+	
+}
+#slide9 .dot{
+	width: 26px;
+	height: 26px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #9b9b9b;
+	border-radius: 120px;
+}
+#slide9 .item1  .dot{
+	top: 16px;
+	left: 14px;
+}
+
+#slide9 .item2  .dot{
+	top: 7px;
+	left: 14px;
+}
+#slide9 .dot .bullit{
+	width: 18px;
+	height: 18px;
+	position: inherit;
+	background-color: #ff6f00;
+	border-radius: 120px;
+}
+#slide9 .no-active>.dot>.bullit{
+	
+	background-color: transparent;
+	
+}
+
+
+#slide9 .question-filed{
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	width: 632px;
+	height: 50%;
+	top: 224px;
+}
+#slide9 .item1{
+	width: 632px;
+	 height: 92px;
+	 box-shadow: 0 0 8px 6px #eadbcd;background:url(../images/slide9/question1.png) no-repeat 20px 16px;
+	background-size: 552px 63px;
+	opacity: 0;
+	animation: 	showSlide9 0.500s 0.500s forwards;
+} 
+#slide9 .item2{
+    top:102px;
+	width: 632px;
+	height: 52px;
+	box-shadow: 0 0 8px 6px #eadbcd;background:url(../images/slide9/question2.png) no-repeat 20px 6px;
+	background-size: 509px 40px;
+	opacity: 0;
+	animation: 	showSlide9 0.500s 0.600s forwards;
+} 
+#slide9 .disc{
+	top: 506px;
+	left: 26px;
+	width: 575px;
+	height: 12px;
+	background: url(../images/slide9/disc.png) no-repeat;
+	background-size: 575px 12px;
+	z-index: 3;
+}
+
+#slide9 .true_answer{
+	background:url(../images/slide9/question-true.png) no-repeat 62px 16px;
+	background-size: 552px 63px;
+	box-shadow: 0 0 8px 6px #deefd9;
+}
+#slide9 .false_answer{
+	
+	box-shadow: 0 0 8px 6px #edd3d3;
+}
+@keyframes showSlide9{
+	
+	0%{
+		
+	}
+	100%{
+		opacity: 1;
+	}
+	
+	
+}

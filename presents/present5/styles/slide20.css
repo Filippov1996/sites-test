@@ -1,0 +1,70 @@
+#slide20{
+	width: 960px;
+	height: 540px; 
+}
+
+#slide20 .header{
+	width:689px;
+    height:95.5px;
+	background: url(../images/slide20/header.png) no-repeat;
+	background-size:689px 95.5px;
+	left:81px;
+    top: 49px;
+}
+
+#slide20 .item{
+    width: 756px;
+    height: 29px;
+   left:81px;
+}
+
+#slide20 .item1{
+   top: 188px;
+}
+#slide20 .item2{
+  top: 230px;
+}
+
+#slide20 .item1 .text{
+    width: 141.5px;
+    height:40px;
+	background: url(../images/slide20/text1.png) no-repeat;
+	background-size:141.5px 40px;
+	left: 29px;
+    top: 2px;
+}
+#slide20 .false_answer1 .text-block{
+    width:126.5px;
+    height:40px;
+	background: url(../images/slide20/text1-false.png) no-repeat;
+	background-size:126.5px 40px;
+	left: 29px;
+    top: 2px;
+}
+
+#slide20 .item2 .text{
+    width: 77.5px;
+    height:43px;
+	background: url(../images/slide20/text2.png) no-repeat;
+	background-size:77.5px 43px;
+	left: 29px;
+    top: 2px;
+}
+#slide20 .true_answer2 .text-block{
+    width: 77.5px;
+    height:43px;
+	background: url(../images/slide20/text2-true.png) no-repeat;
+	background-size:77.5px 43px;
+	left: 29px;
+    top: 2px;
+}
+
+
+#slide20 .btn-reply{
+    top:425px;
+    left: 371px;
+}
+
+#slide20 .modal-answer{
+
+}

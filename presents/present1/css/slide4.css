@@ -1,0 +1,89 @@
+#slide4{
+  width: 100%;
+  height: 100%;
+}
+#slide4 div{
+	position: absolute;
+}
+#slide4 .info-block{
+	width: 763px;
+	height:  540px;
+	background: url(../images/slide4/ellipse.png) no-repeat;
+	background-size:763px 540px;
+	z-index: 2;
+}
+#slide4 .image-block{
+	width: 480px;
+	height: 540px;
+	background: url(../images/slide4/thermometer.png) no-repeat;
+	background-size:  480px 540px;
+	left:480px;
+}
+#slide4 .header{
+	width: 166px;
+	height: 23px;
+	background: url(../images/slide4/header.png) no-repeat;
+	background-size: 166px 23px;
+	top: 76px;
+	left: -100%;
+	animation: 	moveTextSlide4 0.500s 0.300s forwards;
+}
+
+#slide4 .item-list1{
+	left: -100%;
+    top: 133px;
+	width: 598px;
+  	height: 106px;
+	background: url(../images/slide4/list-item1.png) no-repeat;
+	background-size: 598px 106px;
+	animation: 	moveTextSlide4 0.500s 0.400s forwards;
+}
+#slide4 .item-list2{
+	left: -100%;
+    top: 245px;
+	width: 622px;
+    height: 84px;
+	background: url(../images/slide4/list-item2.png) no-repeat;
+	background-size: 622px 84px;
+	animation: 	moveTextSlide4 0.500s 0.500s forwards;
+}
+
+#slide4 .item-list3{
+	left: -100%;
+    top: 332px;
+	width: 579px;
+    height: 84px;
+	background: url(../images/slide4/list-item3.png) no-repeat;
+	background-size: 579px 84px;
+	animation: 	moveTextSlide4 0.500s 0.600s forwards;
+}
+
+#slide4 .item-list4{
+	left: -100%;
+    top: 423px;
+	width: 593px;
+    height: 41px;
+	background: url(../images/slide4/list-item4.png) no-repeat;
+	background-size: 593px 41px;
+	animation: 	moveTextSlide4 0.500s 0.7600s forwards;
+}
+
+#slide4 .disc{
+	top: 506px;
+	left: 26px;
+	width: 575px;
+	height: 12px;
+	background: url(../images/slide3/disc.png) no-repeat;
+	background-size: 575px 12px;
+	z-index: 3;
+}
+@keyframes moveTextSlide4{
+	0%{
+		
+	}
+	100%{
+		left: 90px;
+	}
+	
+	
+}

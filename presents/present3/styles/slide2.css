@@ -1,0 +1,53 @@
+#slide2{
+	width: 960px;
+	height: 540px;
+}
+#slide2 .bg{
+    width: 960px;
+	height:  540px;
+    background: url(../images/slide2/bg.png) no-repeat;
+    background-size: 960px  540px;
+}
+
+#slide2 .text1{
+    width: 492px;
+    height: 116px;
+    background: url(../images/slide2/text1.png) no-repeat;
+    background-size: 492px 116px;
+     left: 77px;
+    top: 42px;
+}
+#slide2 .text2{
+   width: 520px;
+    height: 156px;
+    background: url(../images/slide2/text2.png) no-repeat;
+    background-size: 520px  156px;
+    left: 77px;
+    top: 173px;
+}
+#slide2 .text3{
+    width: 516px;
+    height: 36px;
+    background: url(../images/slide2/text3.png) no-repeat;
+    background-size: 516px  36px;
+    left: 77px;
+    top: 348px;
+}
+
+#slide2 .image{
+     width: 198px;
+     height:374px;
+    background: url(../images/slide2/image.png) no-repeat;
+    background-size: 198px 374px;
+    left: 638px;
+     top: 88px;
+}
+
+#slide2 .disc{
+      width: 573px;
+     height: 21px;
+     background: url(../images/slide2/disc.png) no-repeat;
+     background-size:573px 21px;
+     left: 77px;
+      top: 498px;
+}

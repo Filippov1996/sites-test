@@ -1,0 +1,55 @@
+#slide18{
+  width: 100%;
+  height: 100%;
+}
+#slide18 div{
+	position: absolute;
+}
+#slide18 .bg{
+	width: 960px;
+	height: 540px;
+	background: url(../images/slide18/bg.png);
+	background-size: 960px 540px;
+}
+#slide18 .header{
+	width: 564px;
+	height: 65px;
+	background: url(../images/slide18/header.png);
+	background-size: 564px 65px;
+	left: 196px;
+	top: 70px;
+	opacity: 0;
+	animation: showSlide18 0.500s 0.300s forwards;
+}
+#slide18 .table{
+	width: 616px;
+	height: 327px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 157px;
+	background: url(../images/slide18/table-drugs.png);
+	background-size: 616px 327px;
+	opacity: 0;
+	animation: showSlide18 0.500s 0.400s forwards;
+}
+#slide18 .disc{
+	top: 506px;
+	left: 26px;
+	width: 819px;
+	height: 26px;
+	background: url(../images/slide18/disc.png) no-repeat;
+	background-size: 819px 26px;
+	z-index: 3;
+}
+
+
+@keyframes showSlide18{
+	
+	0%{
+		
+	}
+	100%{
+		opacity: 1;
+	}
+}

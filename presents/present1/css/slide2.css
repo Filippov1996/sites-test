@@ -1,0 +1,112 @@
+#slide2{
+  width: 100%;
+  height: 100%;
+}
+#slide2 div{
+	position: absolute;
+}
+#slide2 .info-block{
+	width: 701px;
+	height: 540px;
+	background: url(../images/slide2/ellipse.png) no-repeat;
+	background-size: 701px 540px;
+	z-index: 2;
+}
+
+#slide2 .image-block{
+	width: 693px;
+	height: 540px;
+	background: url(../images/slide2/man.png) no-repeat;
+	background-size:  693px 540px;
+	left: 267px;
+}
+
+#slide2  .header{
+	width: 340px;
+	height: 28px;
+	background: url(../images/slide2/header.png) no-repeat;
+	background-size: 340px 28px;
+	top: 76px;
+	left: -100%;
+	animation: 	moveTextSlide2 0.500s forwards;
+}
+#slide2 .title{
+	left: -100%;
+  	top: 140px;
+  	width: 135px;
+  	height: 19px;
+	background: url(../images/slide2/title.png) no-repeat;
+	background-size: 135px 19px;
+	animation: 	moveTextSlide2 0.500s 0.200s forwards;
+}
+
+#slide2 .item1{
+	background: url(../images/slide2/list-item1.png) no-repeat;
+	width: 462px;
+ 	height: 62px;
+	background-size: 462px 62px;
+	top: 199px;
+	left: -100%;
+	animation: 	moveTextSlide2 0.500s 0.300s forwards;
+}
+#slide2 .item2{
+	background: url(../images/slide2/list-item2.png) no-repeat;
+	width: 488px;
+ 	height: 40px;
+	background-size: 488px 40px;
+	top: 285px;
+	left: -100%;
+	animation: 	moveTextSlide2 0.500s 0.400s  forwards;
+}
+#slide2 .item3{
+	left: -100%;
+  	top: 352px;
+  	width: 482px;
+    height: 62px;
+	background: url(../images/slide2/list-item3.png) no-repeat;
+	background-size: 482px  62px;
+	animation: 	moveTextSlide2 0.500s 0.500s forwards;
+}
+#slide2 .item4{
+	left: -100%;
+  	top: 440px;
+  	width: 301px;
+    height: 18px;
+	background: url(../images/slide2/list-item4.png) no-repeat;
+	background-size: 301px 18px;
+	animation: 	moveTextSlide2 0.500s  0.600s forwards;
+}
+
+#slide2 .disc{
+	top: 506px;
+	left: 26px;
+	width: 575px;
+	height: 12px;
+	background: url(../images/slide2/disc.png) no-repeat;
+	background-size: 575px 12px;
+	z-index: 3;
+}
+
+
+
+@keyframes moveTextSlide2{
+	0%{
+		
+	}
+	100%{
+		left: 90px;
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+

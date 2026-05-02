@@ -1,0 +1,1 @@
+dir /s /b *.png, *.jpg > list2.txt

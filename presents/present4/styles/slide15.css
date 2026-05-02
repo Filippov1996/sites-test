@@ -1,0 +1,124 @@
+#slide15{
+	width: 960px;
+	height: 540px; 
+}
+#slide15 .header{
+	width: 589px;
+     height: 65px;
+	background: url(../images/slide15/header.png) no-repeat;
+	background-size:589px 65px;
+	 left: 59px;
+    top: 47px;
+}
+
+
+#slide15 .line{
+    width: 160px;
+     left: 59px;
+    top: 126px;
+}
+
+#slide15 .border{
+  background-color: rgba(255, 255, 255, 0.569);
+  box-shadow: 0px 0px 6px 0px rgba(3, 0, 58, 0.1);
+  left: 59px;
+  top: 152px;
+   width: 769px;
+  height: 301px;
+}
+#slide15 .bullit{
+    left: 82px;
+}
+#slide15 .text1{
+     width: 488px;
+    height: 15px;
+    background: url(../images/slide15/text1.png) no-repeat;
+    background-size:488px 15px;
+    left: 113px;
+    top: 172px;
+}
+#slide15 .b1{
+  top: 172px;
+}
+
+#slide15 .text2{
+     width: 389px;
+    height: 16px;
+    background: url(../images/slide15/text2.png) no-repeat;
+    background-size:389px 16px;
+    left: 113px;
+    top: 210px;
+}
+#slide15 .b2{
+   top: 210px;
+}
+
+#slide15 .text3{
+    width: 678px;
+    height: 33px;
+    background: url(../images/slide15/text3.png) no-repeat;
+    background-size:678px 33px;
+    left: 113px;
+    top: 248px;
+}
+#slide15 .b3{
+   top: 248px;
+}
+
+#slide15 .text4{
+    width: 271px;
+    height: 15px;
+    background: url(../images/slide15/text4.png) no-repeat;
+    background-size:271px 15px;
+    left: 113px;
+     top: 303px;
+}
+#slide15 .b4{
+     top: 303px;
+}
+
+
+#slide15 .text5{
+     width: 515px;
+    height: 15px;
+    background: url(../images/slide15/text5.png) no-repeat;
+    background-size:515px 15px;
+    left: 113px;
+      top: 342px;
+}
+#slide15 .b5{
+     top: 342px;
+}
+
+
+#slide15 .text6{
+    width: 453px;
+    height: 15px;
+    background: url(../images/slide15/text6.png) no-repeat;
+    background-size:453px 15px;
+    left: 113px;
+    top: 378px;
+}
+#slide15 .b6{
+     top: 378px;
+}
+#slide15 .text7{
+     width: 222px;
+    height: 15px;
+    background: url(../images/slide15/text7.png) no-repeat;
+    background-size:222px 15px;
+    left: 113px;
+    top: 415px;
+}
+#slide15 .b7{
+    top: 415px;
+}
+#slide15 .disc{
+    width: 724px;
+    height: 9px;
+    background: url(../images/slide15/disc.png) no-repeat;
+    background-size: 724px 9px;
+     left: 59px;
+    top: 513px;
+}
+
