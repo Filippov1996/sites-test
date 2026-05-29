@@ -6,3 +6,17 @@
   width: 100%;
   display: block;
 }
+.rating-wrapp{
+  display: flex;
+  gap:10px;
+  padding-left:20px;
+}
+.rating-wrapp .active{
+  color: #ffca00;
+}
+.rating-wrapp .star{
+  color: #ffeeb0;
+}
+.card{
+  text-decoration: none;
+}
