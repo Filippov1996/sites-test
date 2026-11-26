@@ -3,8 +3,6 @@ import { createRoutesFromElements, createBrowserRouter,Route } from 'react-route
 import App from './App.js';
 import TodoList from './TodoList.js';
 import TodoAdd from './TodoAdd.js';
-
-
 import todos from './todos.js';
 
 const router = createBrowserRouter(
