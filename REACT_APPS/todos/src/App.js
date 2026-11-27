@@ -31,7 +31,7 @@ function App() {
         <nav className="navbar is-light">
           <div className="navbar-brand">
               <NavLink to='/' className={({isActive})=>'navbar-item is-uppercase'+(isActive ? ' is-active':'')}>Todos</NavLink>
-              <a className={showMenu ? "navbar-burger is-active":"navbar-burger"} onClick={()=>{getHandleBurger(evt)}}>
+              <a className={showMenu ? "navbar-burger is-active":"navbar-burger"} onClick={getHandleBurger}>
                 <span></span>
                 <span></span>
                 <span></span>
